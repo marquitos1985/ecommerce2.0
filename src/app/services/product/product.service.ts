@@ -21,7 +21,7 @@ import { ScreenTechnology } from '../../models/products/characteristics/screen-t
   providedIn: 'root',
 })
 export class ProductService {
-  private _productsApiUrl = 'http://localhost:3010/_products';
+  private productsApiUrl = 'http://localhost:3010/products';
 
  
   private airTypesList: string[] = Object.values(AirType).sort();
@@ -48,7 +48,7 @@ export class ProductService {
 
 
   public getAllProductsListInterface2(): Observable<ProductInterface2[]> {
-    return this.asyncService.getAll(this._productsApiUrl);
+    return this.asyncService.getAll(this.productsApiUrl);
     
   }
   
@@ -65,7 +65,7 @@ export class ProductService {
         return;
       }
   
-      this.http.patch(`${this._productsApiUrl}/${productId}`, { stock: updatedStock }).subscribe(
+      this.http.patch(`${this.productsApiUrl}/${productId}`, { stock: updatedStock }).subscribe(
         () => console.log(`Stock actualizado para el producto ${productId}`),
         (error) => console.error(`Error al actualizar el stock para ${productId}`, error)
       );
@@ -113,16 +113,16 @@ export class ProductService {
 
 
   getAllProducts(): Observable<ProductInterface2[]> {
-      return this.asyncService.getAll(this._productsApiUrl); 
+      return this.asyncService.getAll(this.productsApiUrl); 
     }
   
   
     addProduct(product: ProductInterface2): Observable<ProductInterface2> {
-      return this.asyncService.addProduct(product, this._productsApiUrl);
+      return this.asyncService.addProduct(product, this.productsApiUrl);
     }
   
     _getProductById(productId: string): Observable<ProductInterface2> {
-      return this.asyncService.getProductById(productId, this._productsApiUrl);
+      return this.asyncService.getProductById(productId, this.productsApiUrl);
     }
 
   
@@ -185,11 +185,11 @@ export class ProductService {
     }
 
     public _deleteProduct(product: ProductInterface2): Observable<ProductInterface2>{
-      return this.asyncService._deleteProduct(product.id, this._productsApiUrl);
+      return this.asyncService._deleteProduct(product.id, this.productsApiUrl);
     }
 
     public _updateProduct(product: ProductInterface2): Observable<ProductInterface2>{
-      return this.asyncService._updateProduct(product.id, product, this._productsApiUrl);
+      return this.asyncService._updateProduct(product.id, product, this.productsApiUrl);
     }
 
 

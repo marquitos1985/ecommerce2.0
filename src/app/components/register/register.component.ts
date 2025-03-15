@@ -3,14 +3,14 @@ import {  FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {
   RegisterService,
   User,
-} from '../services/register-service/register.service';
+} from '../../services/register-service/register.service';
 import { Router } from '@angular/router';
-import { AuthService } from '../services/login/auth.service';
-import { CustomValidators } from '../common/custom-validators';
-import { BsasCity } from '../models/bsas-city';
-import { Province } from '../models/province';
-import { Usuario } from '../models/users/user';
-import { Role } from '../models/users/role';
+import { AuthService } from '../../services/login/auth.service';
+import { CustomValidators } from '../../common/custom-validators';
+import { BsasCity } from '../../models/bsas-city';
+import { Province } from '../../models/province';
+import { Usuario } from '../../models/users/user';
+import { Role } from '../../models/users/role';
 
 @Component({
   selector: 'app-register',

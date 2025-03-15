@@ -5,8 +5,8 @@ import {
 } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './components/home/home.component';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { AirConditioningCharacteristicsComponent } from './components/characteristics/air-conditioning-characteristics/air-conditioning-characteristics.component';
 import { TvCharacteristicsComponent } from './components/characteristics/tv-characteristics/tv-characteristics.component';
@@ -28,15 +28,15 @@ import { AuthInterceptor } from './services/login/auth.interceptor';
 import { CartComponent } from './components/cart/cart.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 import { BuyFormComponent } from './components/buy-form/buy-form.component';
-import { FooterComponent } from './footer/footer.component';
 import { ProductEditComponent } from './components/products/product-edit/product-edit.component';
 import { CreateProductComponent } from './components/products/create-product/create-product.component';
 import { GeneralChracteristicsComponent } from './components/characteristics/general-chracteristics/general-chracteristics.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,

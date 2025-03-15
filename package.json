@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ecommere": "node dist/ecommere/server/server.mjs",
-    "start:json-servers": "concurrently \"json-server src\\app\\data\\cards.json -p 3000\" \"json-server src\\app\\data\\users.json -p 3001\"  \"json-server src\\app\\data\\purchases.json -p 3002\" \"json-server src\\app\\data\\_products.json -p 3010\" \"json-server src\\app\\data\\discountCoupons.json -p 3004\"",
+    "start:json-servers": "concurrently \"json-server src\\app\\data\\cards.json -p 3000\" \"json-server src\\app\\data\\users.json -p 3001\"  \"json-server src\\app\\data\\purchases.json -p 3002\" \"json-server src\\app\\data\\products.json -p 3010\" \"json-server src\\app\\data\\discountCoupons.json -p 3004\"",
     "start:all": "concurrently \"npm run start\" \"npm run start:json-servers\""
   },
   "private": true,
