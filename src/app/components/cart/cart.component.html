@@ -1,0 +1,86 @@
+<h3>Carrito de Compras</h3>
+
+<button class="button" (click)="goBack()">
+  <img src="/arrow-left.svg" alt="volver" width="25px" />
+</button>
+<!-- Verifica si hay productos en el carrito -->
+<div class="items" *ngIf="carrito.length > 0; else noProducts">
+  <!-- Recorre el carrito y muestra los productos -->
+  <div *ngFor="let product of carrito">
+    <div class="product-item">
+      <!-- Muestra la información del producto -->
+      <img
+        class="product-img"
+        src="{{ product.urlImage }}"
+        alt="Imagen {{ product.model }}"
+      />
+      <div class="item-text">
+        <p>
+          <strong class="marca">{{ product.brand }} {{ product.model }}</strong>
+        </p>
+        <p>Precio: ${{ product.price | number : "1.0" }}</p>
+        <!-- Muestra el stock disponible -->
+        <div class="flex-buttons">
+          <div class="controls">
+            <button
+              class="button-controls"
+              (click)="decreaseQuantity(product.id)"
+            >
+              -
+            </button>
+            <div class="qty">{{ product.quantity }}</div>
+            <button class="button-controls" (click)="addToCart(product)">
+              +
+            </button>
+          </div>
+          <button
+            class="button"
+            type="button"
+            [routerLink]="['/productDetails', product.id]"
+          >
+            Ver detalle
+          </button>
+
+
+          <button
+            class="button"
+            type="button"
+            (click)="removeItem(product.id)"
+          >
+            Eliminar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="total">
+    <div class="flex">
+      <button
+        class="clear-cart-button"
+        *ngIf="carrito.length > 0"
+        (click)="clearCart()"
+      >
+        Vaciar carrito
+      </button>
+      <button
+        class="button"
+        *ngIf="carrito.length > 0"
+        [routerLink]="['/buyForm']"
+      >
+        Comprar carrito
+      </button>
+    </div>
+    <div>Total: {{ getTotalPrice() | number : "1.0-0" }}</div>
+  </div>
+</div>
+
+<!-- Si no hay productos, muestra un mensaje -->
+
+<ng-template #noProducts>
+  <div class="no-products">
+    <div class="alert alert-info" role="alert">
+      Carrito vacio.
+    </div>
+  </div>
+</ng-template>

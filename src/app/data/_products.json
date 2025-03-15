@@ -1,0 +1,4141 @@
+{
+  "_products": [
+    {
+      "brand": "Electra",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-179769-01.png?context=bWFzdGVyfGltYWdlc3w3NTIyMHxpbWFnZS9wbmd8YUdaakwyaGtNeTh4TURZek9EYzFOamt3TkRrNU1DOXphWHBsTlRFMVh6RTNPVGMyT1Y4d01TNXdibWN8NzliMzM5N2M4OGMwOWQyMzJjOGJmNWVjYzZiYTk3YjBkZmUyYzRhZDM4ODIzZjAwOTc0NmYzYjE5MGNhZTcyOA",
+      "description": "AIRE ACONDICIONADO SPLIT FRIO/CALOR. POTENCIA DE 3200 W. FRIGORIAS: 2752 FG/H. CALORIAS: 2752. KCAL/H. EFICIENCIA ENERGETICA A. TIPO DE GAS REFRIGERANTE R410A. FUNCIONES: TIMER. FUNCION SLEEP. DESHUMIDIFICACION. REINICIO AUTOMATICO. DUAL CONEXION DRENAJE. BAJO NIVEL SONORO. DISPLAY. EL NUEVO EQUIPO TREND A (ON/OFF) COMBINA DISENO Y FUNCIONES PARA UN CLIMA PERFECTO. SU FUNCION TURBO PERMITE CLIMATIZAR EL AMBIENTE DE MANERA RAPIDA AL COMBINAR MAYOR POTENCIA Y DISTANCIA DEL FLUJO DE AIRE.",
+      "price": 749999,
+      "stock": 13,
+      "model": "ENTRDO32TC ",
+      "quantity": 0,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 25,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 77.7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 20.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 8,
+          "unit": "Kg"
+        }
+      },
+      "id": "5"
+    },
+    {
+      "brand": "JBL",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150560-01.jpg?context=bWFzdGVyfGltYWdlc3w4Nzc3fGltYWdlL2pwZWd8YUdFeEwyaGtZeTh4TURZek56WXhOamszTVRnd05pOXphWHBsTlRFMVh6RTFNRFUyTUY4d01TNXFjR2N8ODNlNWEyYTYzZWRjOTM0NTE2M2Q3ZWZlNzQwNTkzZmFlN2Y1YjhkMGU1NTIwZjkwMjc2OTRiMDRlZDMwNzY2ZA",
+      "description": "Auricular tipo vincha over ear. Inalambrico. Tamano del driver: tipo dinamico de 40 mm. Bluetooth 5.3. Control de volumen. Microfono. Sensibilidad del microfono: -40 dBV/Pa a 1 kHz. Llamadas manos libres con VoiceAware. Conexion multipunto. Cancelacion de ruido adaptativa con Smart Ambient. Sonido JBL Pure Bass. Fuente de alimentacion: 5 V 1 A. Respuesta de frecuencia: 20 Hz-20 kHz. Impedancia: 32. Sensibilidad: 100 dB SPL a 1 kHz. SPL maxima: 94 dB. Temperatura maxima de funcionamiento: 45 C. Tipo de bateria: Bateria de ion de litio (3,7 V/690 mAh). Tiempo de carga: 2 horas. Tiempo de reproduccion de musica con Bluetooth y sin ANC: hasta 70 horas. Tiempo de reproduccion de musica con Bluetooth y ANC: hasta 44 horas. Tiempo de reproduccion de musica sin Bluetooth y con ANC: hasta 30 horas. Tiempo de conversacion con Bluetooth activado: hasta 30 horas. Tiempo de conversacion con ANC desactivado: hasta 39 horas. Diseno ligero, comodo y plegable. Incluye: cable de carga USB-C y cable de audio extraible.\n",
+      "price": 129999,
+      "stock": 10,
+      "model": "TUNE 770 WH",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Bluetooth",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "68cb"
+    },
+    {
+      "id": "2959",
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150915-01.jpg?context=bWFzdGVyfGltYWdlc3wyNDI5MXxpbWFnZS9qcGVnfGFHUXpMMmd3TUM4eE1EWXpOems1TkRrNE16UTFOQzl6YVhwbE5URTFYekUxTURreE5WOHdNUzVxY0djfGMzOGQzM2Y2NDMyZTJlMmUzMjhlMzE2YTY3NmM2ZTRiNTU0OTdkZTAxNTU5ZTE1ZTQ1M2E2M2I3YTNmMTcxMzg",
+      "description": "Celular. Pantalla de 6.8\" (3120x1440) Quad HD+. Frecuencia 120 Hz. Dynamic AMOLED 2X. Procesador Snapdragon 8 Gen 3, Octa core (3.39GHz, 3.1GHz, 2.9GHz, 2.2GHz). Capacidad 256 Gb. RAM 12 Gb. Camara principal 200 + 50 + 12 + 10 Mp. F1.7, F3.4, F2.2, F2.4. Camara frontal 12mp f2.2 dual pixel AF. Conexiones: Wi FI 802.11a/b/g/n/ac/ax/be 2.4GHz+5GHz+6GHz, EHT320, MIMO, 4096-QAM. Bluetooth 5.3. NFC. UWB (Ultra-wideband). USB 3.2 gen1 tipo C. Sistema operativo Android. Bateria de 5000 mAh. GPS, Glonass, Beidou, Galileo, QZSS. Dual SIM. Sensores: acelerometro, barometro, huella dactilar, gyro sensor, geomagnetico, hall sensor, sensor de luz y proximidad. Incluye lapiz.",
+      "price": 2599999,
+      "stock": 9,
+      "model": "GALAXY S24 ULTRA - SM-S928BZKMARO",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.8,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 12,
+          "unit": "GB"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.23,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.9,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.86,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 232,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "id": "fe30",
+      "brand": "Exo",
+      "category": "Computadoras de Escritorio",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152854-01.jpg?context=bWFzdGVyfGltYWdlc3wyMTg4MHxpbWFnZS9qcGVnfGFEZzRMMmhoWkM4eE1EWXpPVGM0TkRnMk9Ua3hPQzl6YVhwbE5URTFYekUxTWpnMU5GOHdNUzVxY0djfGE0MjdmMzEwZGRlZjAyODA0NzBiN2UxMjY3ZjNiMWY5YTRlNDM3NGEzMGZkYmQ4N2IzNGFhYTkwZjkxMjMyOTA",
+      "description": "PC. Procesador intel Core i7-12700 (1.60 hasta 4.90 GHz). Capacidad 480 Gb SSD. Memoria 8 GB. Placa de video UHD Intel. 8 Entradas USB. 1 Entrada HDMI. Sistema operativo windows 11. Incluye: Teclado, mouse optico y parlantes potenciados.",
+      "price": 1799999,
+      "stock": 11,
+      "model": "D6-S7785",
+      "quantity": 0,
+      "characteristics": {
+        "country": "Argentina",
+        "color": "Gris",
+        "dimension": {
+          "height": {
+            "value": 32.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 13.3,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 39.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 3.5,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Samsung",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-153327-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTAzNHxpbWFnZS9qcGVnfGFHSmpMMmczWlM4eE1EWTBOakUwT0RNME9UazRNaTl6YVhwbE5URTFYekUxTXpNeU4xOHdNUzVxY0djfDg4NTEwNGZiZjU3MWRiNTAxZjJiNGY5NjRkMjI1MzZlN2NiMDdmZTVkNmFiNzM3M2M2ODFjMGI4OTY2Y2QwODI",
+      "description": "Heladera Side by side. Volumen Bruto: 853L / Volumen Neto: 677L. Sistema de enfriamiento: No Frost All Around Cooling. Ubicacion del freezer: inferior. Display: pantalla externa. Eficiencia energetica A. Crisper multiuso. Tipo de estantes: Vidrio templado. Fabricadora de cubitos. Dispenser externo: agua y hielo. Pies regulables. Compresor Digital Inverter.",
+      "price": 7999999,
+      "stock": 6,
+      "model": "RF32CG5910B1",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "No frost",
+        "color": "Negro",
+        "country": "México",
+        "dimension": {
+          "height": {
+            "value": 177.8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 90.8,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 86.1,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 151,
+          "unit": "Kg"
+        }
+      },
+      "id": "bd65"
+    },
+    {
+      "brand": "BGH",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-178033-01.png?context=bWFzdGVyfGltYWdlc3wxNTExNTd8aW1hZ2UvcG5nfGFHUmtMMmhsTkM4eE1EWXpOVFl6TWpBMU1ESXdOaTl6YVhwbE5URTFYekUzT0RBek0xOHdNUzV3Ym1jfGQ3MzE0ZjE1YzQzYzBlNGM0NWE1MmIyMTZmYmI5YmE3NWJiNzY2MThiNDViMWU2ZDFhOGQxZTVmNDdkYTM5NWI",
+      "description": "Aire acondicionado Split frio / calor. Frigorias 5590 fg/h / Calorias 5590 Kcal/h Control remoto. Display LED. Timer programable 24Hs. Funcion sleep. Eficiencia energetica A. Tipo de gas refrigerante R410A. ALTO:UNID INTERIOR 22.6 UNID EXTERIOR 67.3 ANCHO: UNID INTERIOR 108 UNID EXTERIOR 89 PROFUNDIDAD: UNID INTERIOR 33.5 UNID EXTERIOR 34.2 PESO:UNID INTERIOR 15 UNID EXTERIOR 49.9",
+      "price": 1699999.99,
+      "stock": 12,
+      "model": "BS65WCCR",
+      "quantity": 0,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 67.3,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 89,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 34.2,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 49.9,
+          "unit": "Kg"
+        }
+      },
+      "id": "5588"
+    },
+    {
+      "brand": "LG",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-179204-01.png?context=bWFzdGVyfGltYWdlc3wzMDY2NzF8aW1hZ2UvcG5nfGFEWXpMMmhrTkM4eE1EWXpOVEl3TlRnd05EQTJNaTl6YVhwbE5URTFYekUzT1RJd05GOHdNUzV3Ym1jfGUwZGI0MzE2NmE3NzY5ODU0Yjc1ZGVlOTA3MjlmYzE2NmUwN2M4MmJhMGM1YjlhNGIyMWEwNmMzYjZlYmRjODE",
+      "description": "SPLIT FRIO CALOR INVERTER 5200 WATTS EQUIVALENTE A 4420 FRIGORÍAS EFICIENCIA ENERGÉTICA \"A\" COMPRESOR DUAL. TIMER PROGRAMABLE FUNCIÓN SELF CLEAN FUNCIÓN FOLLOW ME FUNCIÓN SUEÑO CONTROL REMOTO MULTIFUNCIÓN AUTO RESTART REFRIGERANTE ECOLÓGICO R410A BARRIDO DE AIRE AUTOMÁTICO FILTROS LAVABLES. COLOR GRIS",
+      "price": 2199999,
+      "stock": 12,
+      "model": "W18KLRPA",
+      "quantity": 0,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 99.8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 77.7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 21.2,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 12.8,
+          "unit": "Kg"
+        }
+      },
+      "id": "26a3"
+    },
+    {
+      "id": "076b",
+      "brand": "Philco",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-175151-01.png?context=bWFzdGVyfGltYWdlc3w2MTI1NzZ8aW1hZ2UvcG5nfGFESXpMMmcxTlM4eE1EVTJPRE0wTkRrMk1UQTFOQzl6YVhwbE5URTFYekUzTlRFMU1WOHdNUzV3Ym1jfDkwYjYyMDU3OGNiZjU1NWJmMjczNzJkOWUwMjk3OTgwOWQwMWYzY2IyNjViY2Y2ZWVkY2M4ZWEzZmUwNTNlNmQ",
+      "description": "Aire acondicionado Ventana potencia en 3500 watts refrigerante ecologico R410 eficiencia energetica A control remoto multifuncion funcion sleep timer programable.",
+      "price": 839999,
+      "stock": 25,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Ninguno",
+        "country": "Ninguno",
+        "dimension": {
+          "height": {
+            "value": 25,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 77.7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 20.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 8,
+          "unit": "Kg"
+        }
+      },
+      "model": "PHW32CA3ANPHW32CA3AN",
+      "quantity": 0
+    },
+    {
+      "brand": "Tramontina",
+      "category": "Microondas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152814-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTc4NXxpbWFnZS9qcGVnfGFHSTJMMmd6TkM4eE1EWXpPVGN6TnpNNE9UQTROaTl6YVhwbE5URTFYekUxTWpneE5GOHdNUzVxY0djfGVlNWVlNjhhOTZlMzVhMmRhNTllODM4OTQ0ZWJhMWVhYzBjMjJiM2E0M2NkOGFiZTRkMzI5NTJlMWYyMzFiYWQ",
+      "description": "Microondas digital. Capacidad 28L. Capacidad util 15L. Eficiencia Energetica D. Grill. Potencia microondas: 900 W. Potencia grill: 1150 W. Coccion automatica. 10 Niveles de potencia. 7 Programas: pochoclo, papas, vegetales congelados, bebidas, pizza congelada, plato cena y carne. Funcion descongelar. Descongelamiento por peso y por tiempo. Funcionalidad: bifuncion. Luz interior. Reloj (de 12hs). Cronometro. Coccion en etapas. Coccion combinada. Inicio rapido. Coccion express. Traba para ninos. 3 Memorias de programas. Accesorios: plato de vidrio giratorio y rejilla de grill.",
+      "price": 299999,
+      "stock": 15,
+      "model": "GLASS COOK 28L MCDG",
+      "quantity": 0,
+      "characteristics": {
+        "capacity": {
+          "value": 28,
+          "unit": "L"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 30.7,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 51.3,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 39.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 14.2,
+          "unit": "Kg"
+        }
+      },
+      "id": "4a03"
+    },
+    {
+      "brand": "Philco",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-153182-01.jpg?context=bWFzdGVyfGltYWdlc3wxNTg2MnxpbWFnZS9qcGVnfGFEZzVMMmcwTVM4eE1EWXpPVGsxTWprd05ESXlNaTl6YVhwbE5URTFYekUxTXpFNE1sOHdNUzVxY0djfGNkOTBhZjFlYmI5YTVhM2YyMDZjODhlNjNjNGFkY2ZhMjU4ZjM2ZGE5N2QyOTdjODUzMzkxNWFjNGVmMmNhNjI",
+      "description": "Aire acondicionado portaitl. Potencia 3500W. Frigorias 3010. Consumo electrico frio 1750W. Potencia calor 2800W. Calorias 2408. Consumo electrico calor 1400W. Display digital. Timer programable. Gas refrigerante R410a. Nivel de ruido maximo 50 dB. Filtros lavables. Funcion follow me. Funcion sleep. Incluye control remoto.",
+      "price": 849999,
+      "stock": 15,
+      "model": "PHP35HC7API",
+      "quantity": 0,
+      "characteristics": {
+        "airType": "Portatil",
+        "heatCold": "Si",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 35.8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 68.8,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 41.9,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 26.8,
+          "unit": "Kg"
+        }
+      },
+      "id": "84ca"
+    },
+    {
+      "id": "238c",
+      "brand": "Electra",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151061-01.jpg?context=bWFzdGVyfGltYWdlc3wxMjk5MXxpbWFnZS9qcGVnfGFEaG1MMmhrTXk4eE1EVTNNemt6TmpJNU5UazJOaTl6YVhwbE5URTFYekUxTVRBMk1WOHdNUzVxY0djfGNmMzQ1YWNhYWRiYjY3YWY1MDkzM2YzZjI1YWNiMTAyNjAyMWRiODFjOTc5ODk5NjI2YmY3ODM3YjI3YTZmMzI",
+      "description": "Aire acondicionado split frio / calor. Potencia 5300W. Frigorias 4558 FG/H. Calorias 4558 KCAL/H. Eficiencia energetica A+. Tipo de gas refrigerante R410A. Display. Funcion Turbo. Reinicio Automatico. Timer Programable. Funcion Sleep. Dual Conexion Drenaje: posee doble salida de agua para un mejor drenaje. Bajo nivel sonoro. Nivel de ruido maximo: 50dB. Incluye control remoto.",
+      "price": 1269999,
+      "stock": 12,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Ninguno",
+        "country": "Ninguno",
+        "dimension": {
+          "height": {
+            "value": 25,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 77.7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 20.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 8,
+          "unit": "Kg"
+        }
+      },
+      "model": "ENTRDO53TC ",
+      "quantity": 0
+    },
+    {
+      "id": "f371",
+      "brand": "Philco",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150360-01.jpg?context=bWFzdGVyfGltYWdlc3w2MzUzfGltYWdlL2pwZWd8YUdRMUwyZzRNUzh4TURZek56UTRNalE1TVRrek5DOXphWHBsTlRFMVh6RTFNRE0yTUY4d01TNXFjR2N8NDc3MmQyOTdiYjE1YzAwZDY3YTE2NDFhOWRkNTAyOGJlNjNkYWMxODYxZWNhOTI4Mjk5YzAwYmM0Mjk1MDM3ZQ",
+      "description": "Aire acondicionado split inverter frio / calor. Potencia frio 3550 W. Potencia calor 3600 W. Frigorias 3053 FG/H. Calorias 3096 KCAL/H. Eficiencia energetica A++. Tipo de gas refrigerante R410A. Funcion Follow Me. Super silencioso. Display LED (c/ opcion de apagado). Autodiagnostico inteligente. Tecnologia Golden Fin. Funcion turbo. Funcion smart (auto). Modo deshumidificacion. Filtros lavables antipolen. Timer programable. Funcion sleep. Barrido de aire automatico. Alimentacion: 220-240 VCA 50 Hz. Potencia Electrica Nominal (Frio / Calor): 2200 W. Nivel de ruido maximo: 40,5 dB. Incluye control remoto multifuncion.",
+      "price": 899999,
+      "stock": 15,
+      "model": "PHIN35HA3BN",
+      "quantity": 0,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 29.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 80.2,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 20,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "brand": "Atma",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152238-01.jpg?context=bWFzdGVyfGltYWdlc3wxNjk2OHxpbWFnZS9qcGVnfGFHTTJMMmd4TVM4eE1EWXpPVE0xTlRFNE16RXpOQzl6YVhwbE5URTFYekUxTWpJek9GOHdNUzVxY0djfDI5OTc1ZmI4Y2IxYTgwMDJmN2Q1NzI3ZjQ2NTUwMmJiM2VhZGYzY2FhMjA4ZTBhMzZiZDQwODNiY2FiYTQ2ZmU",
+      "description": "Aspiradora trineo. Potencia 1300W. Capacidad 2 litros. Enrollacable: cable de 5 metros. Indicador de deposito lleno. Deposito lavable. Sistema ciclonico sin bolsa. Micro filtro hepa: reduce los alergenos del ambiente. Recoge pelo de mascotas. Manija transportadora. Diseno liviano con ruedas. Pedal encendido / apagado. Regulador del caudal de aire. Boquillas para zonas estrechas. Cepillo para pisos duros, blandos y alfombras.\n",
+      "price": 125309,
+      "stock": 100,
+      "model": "AS8920PI",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Violeta",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 29.4,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 36,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 25.4,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 4,
+          "unit": "Kg"
+        }
+      },
+      "id": "3"
+    },
+    {
+      "brand": "Liliana",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-135463-01.jpg?context=bWFzdGVyfGltYWdlc3w4NDQ4NXxpbWFnZS9qcGVnfGFESmtMMmd6TlM4eE1EWXdOelV6TnpZeE9EazNOQzl6YVhwbE5URTFYekV6TlRRMk0xOHdNUzVxY0djfDM2MzlmZTI3MzIzNWQzOGVlZjFhNjkwODQxOWM5NWM5MWRkNWZhNTgzYWQ5ZTYwNDcwZjA1N2QzYjQwYzk4ZWI",
+      "description": "Pot.1600W. Ciclonica. Contenedor de polvo extraible/lavable/transparente de 2L. Encendido de pie. Filtro HEPA. Control electronico y manual de capac.de succion. Cepillo y Boquilla duales. Enrollacable aut. Manguera c/rotacion 360. Ruedas grandes.",
+      "price": 199999,
+      "stock": 100,
+      "model": "LA910 ALLCLEAN",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Rojo",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 25,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 23,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 24,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 3.5,
+          "unit": "Kg"
+        }
+      },
+      "id": "4"
+    },
+    {
+      "id": "2af9",
+      "brand": "Karcher",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-146015-01.jpg?context=bWFzdGVyfGltYWdlc3wyODk5NHxpbWFnZS9qcGVnfGFEZ3lMMmc1TUM4eE1EWXpOVFF4TXpVNE5UazFNQzl6YVhwbE5URTFYekUwTmpBeE5WOHdNUzVxY0djfDZmYTY1NDZlNTBkOWY0NWFiY2U3NjM5MjMyYTQ5YWM3YzA5NGQ4MGViZjA3OTljYmI0ZDM5MGU3NDJjNjY4YmE",
+      "description": "Aspiradora con bolsa. Contiene una bolsa re ultilizable y lavable. Ideal para espacios estrechos y superficies delicadas. Boquillas: De pisos, Para madera, Para esquinas, Manguera de succion, Tubo de succion telescopico, Bolsa y filtro para particulas finas. Interruptor de pie grande. Cable retractil. Posicion de estacionamiento.",
+      "price": 179999,
+      "stock": 6,
+      "model": "VC 1",
+      "quantity": 0,
+      "characteristics": {
+        "country": "China",
+        "color": "Amarillo",
+        "dimension": {
+          "height": {
+            "value": 35.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 26.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 21.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 3.6,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Hamilton",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150597-01.jpg?context=bWFzdGVyfGltYWdlc3wzMjAzNnxpbWFnZS9qcGVnfGFHVmxMMmhtTlM4eE1EVTBOek0yTnprMk9EYzVPQzl6YVhwbE5URTFYekUxTURVNU4xOHdNUzVxY0djfDgyMDQ0NWNiYmMyZDhjNWU0M2NlYjE5M2FkMGQyNTY0YWQzOTkzY2VlNDI1ZmRjMzZmYTBiN2Q4YjI3ZTI2ZDI",
+      "description": "Aspiradora. Motor Brushed de alto rendimiento y bajo consumo. Bateria de Ion-Litio (no incluida), tension de bateria 20v. Tension de cargador (no incluido) 220-240v - 50 Hz. Potencia de aspirado 10 kPa. Recipiente porta polvo de 500 ml. Flujo de aire 1,1 m3/min. Mango antideslizante. Incluye pico aspirador.",
+      "price": 108800,
+      "stock": 9,
+      "model": "ULT120",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Naranja",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "Kg"
+        }
+      },
+      "id": "aa0e"
+    },
+    {
+      "brand": "Karcher",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152841-01.jpg?context=bWFzdGVyfGltYWdlc3wxNTUwNHxpbWFnZS9qcGVnfGFHRXhMMmc0WlM4eE1EWXpPVGMzTVRNd016azJOaTl6YVhwbE5URTFYekUxTWpnME1WOHdNUzVxY0djfDE2YTEwOTc4NzkxMTA3OTgxNTNlNjI5MmQxNzk5MDA5ZjdjMjBmOGFmMjQ5YmRmZWQ0OTQ5NTE2MTgyMGUxNWE",
+      "description": "Aspiradora robot. Bateria de litio. Autonomia 90 min. Deposito de polvo 310 ml. Base de carga. 2 Cepillos laterales. Mando a distancia. Pano seco para piso. Filtro HEPA. Cepillo de limpieza.",
+      "price": 239999,
+      "stock": 23,
+      "model": "RCV1",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 12,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 10.2,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 32.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1.8,
+          "unit": "Kg"
+        }
+      },
+      "id": "85b1"
+    },
+    {
+      "brand": "Karcher",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152839-01.jpg?context=bWFzdGVyfGltYWdlc3w3NjYyfGltYWdlL2pwZWd8YURsakwyaGhNQzh4TURZek9UYzJPREkxTmpVME1pOXphWHBsTlRFMVh6RTFNamd6T1Y4d01TNXFjR2N8M2YyMjY3NTI3NmE2Yjc1ZDRhM2I5YzM2MjRhMjc1YzUwYjZhZjJjNmUwNWUwNzFiMjAzMTNkMjNiNTk5Yjg0Yg",
+      "description": "Aspiradora de mano sin bolsa. Potencia 1000W. Nivel de ruido dB/A 90. Longitud del cable 5m. Caudal de aire (max) 17 l/s. Deposito de suciedad de 700ml. Boquilla para aspiracion de suciedad seca conmutable. Cartucho filtrante extraible. Funcion de limpieza de filtro. Filtro HEPA. Posicion de estacionamiento. Boquilla para tapicerias. Inserto de agarre suave en el asa. 1 Gancho porta cable.\n",
+      "price": 67999,
+      "stock": 18,
+      "model": "VCL 1",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 108,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 10.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 11.6,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1.54,
+          "unit": "Kg"
+        }
+      },
+      "id": "4a78"
+    },
+    {
+      "brand": "Philco",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150816-01.jpg?context=bWFzdGVyfGltYWdlc3wyMjk3MnxpbWFnZS9qcGVnfGFEaGlMMmczTkM4eE1EVTFOREF3T0RnNU5UVXhPQzl6YVhwbE5URTFYekUxTURneE5sOHdNUzVxY0djfDYwMmVmZDdmZmE2Nzk3Y2M0MWQzMzIzYzdhNTBlMTEwZTliZTdkMGZiNTdiZDExZTkzMGJiNTc5YzU2N2U3ZTY",
+      "description": "Aspiradora tipo trineo ciclonica. Potencia 1800 W. Capacidad 1.2 L. Enrolla cable automatico. Largo del cable: 5 metros. Tubo telescopico metalico. Regulador de caudal de aire en el mango. Pet Friendly: recoge pelo de mascotas. Eco friendly: deposito lavable. Regulador electronico de potencia. Pedal on/off. Cepillo de pisos ajustable: para pisos duros, blandos y alfombras. Boquilla para zonas estrechas. Cepillo redondo para zonas delicadas. Soporte en posicion de descanso. Con manguera, ruedas y manija transportadora.",
+      "price": 189999,
+      "stock": 25,
+      "model": "PHASC1933PI",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Azul",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 32.3,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 35.2,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 27.7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 3.6,
+          "unit": "Kg"
+        }
+      },
+      "id": "08bc"
+    },
+    {
+      "brand": "Philco",
+      "category": "Aspiradoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149774-01.jpg?context=bWFzdGVyfGltYWdlc3wzMTg2NHxpbWFnZS9qcGVnfGFESTNMMmhtTkM4eE1EVTJPRFl6T1RFeE9UTTVNQzl6YVhwbE5URTFYekUwT1RjM05GOHdNUzVxY0djfGQ3NWU1YjI5YTBlMjhhZWUwN2RmYzlhZjAyMDA1YjVhZWUwNTkyMzJlYzc5ZWRiMDdiNzRiOWNjYjdlNDU3ZTc",
+      "description": "Aspiradora multifuncional 3 en 1. Aspira polvo y agua. Potencia de 1200 W. Capacidad de 18 litros. Modo de recoleccion: Tacho metalico. Tipo de tubos: Plasticos. Alimentacion: 220-240V - 50/60Hz. Funcion sopladora. Reduce la presencia de alergenos. Micro filtro HEPA. Filtro de tela. Regulador de caudal de aire. Manguera de 1.5 metros y tubos de extension. Cable de cinco metros. Posicion de estacionamiento. Manija transportadora y ruedas. Nivel sonoro <= 77 DBA. Presion de vacio 18 KPA. Flujo de aire >= 1.8 metros cubicos/min. Eco friendly: Deposito lavable. Pet friendly: Recoge pelo de mascotas. Incluye: Cepillo para pisos duros, blandos y alfombras. Cepillo para tapizados y superficies delicadas. Boquilla para zonas estrechas. Porta accesorios. Porta tubos de extension.",
+      "price": 136419,
+      "stock": 26,
+      "model": "PHAST1833PI",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Gris",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 52,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 32,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 31.7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 6.1,
+          "unit": "Kg"
+        }
+      },
+      "id": "4101"
+    },
+    {
+      "brand": "Monster",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151973-01.jpg?context=bWFzdGVyfGltYWdlc3wxMzU0OXxpbWFnZS9qcGVnfGFHVTFMMmd3T1M4eE1EWXpPVEkwTURZNU1UYzBNaTl6YVhwbE5URTFYekUxTVRrM00xOHdNUzVxY0djfDMzN2NhMzQ5ZGQ2NzNmYjA1NWE0ZjQzOGYzNWY1NDkzZjJlM2FkY2NmYTc2NmM0Yjk1ZDAxMzE4ODM5MDFjMTU",
+      "description": "Auricular inalambrico tipo vincha. Conexion inalambrica bluetooth. Microfono. Control de volumen. Plegable. Driver de 40mm. Bateria de 400 mAh. Duracion de reproduccion o conversacion 25 hs. Rango 10m de distancia. Carga en 2 hs. Cable de carga USB-C.\n",
+      "price": 64999,
+      "stock": 25,
+      "model": "XKH03",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Bluetooth",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "19"
+    },
+    {
+      "brand": "Stromberg",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149944-01.jpg?context=bWFzdGVyfGltYWdlc3wxMDExNnxpbWFnZS9qcGVnfGFEZGlMMmhtTWk4eE1EWXpOekV5TkRFME1UQTROaTl6YVhwbE5URTFYekUwT1RrME5GOHdNUzVxY0djfDcwNDQ3ZDA0MGQ5N2ZhZWU0ODZhNzQ5MDg1N2RjOGE1MGNlZWI3ZjJmODJmMzU1OTM3ZGViOTAyOGJiMmJiYWM",
+      "description": "Auricular in ear. Sonido JBL Deep Bass: Saca el maximo partido a tus mezclas con audio de alta calidad de auriculares seguros y fiables con drivers de 8 mm. Ajuste comodo: El diseno de los auriculares sella suavemente tus oidos bloqueando los ruidos externos y mejorando el rendimiento de los bajos. Bateria de 32 horas (8h en los auriculares +24h en el estuche) con carga rapida, y cuando necesites mas potencia, puedes acelerar la carga con dos horas adicionales de potencia en solo 10 minutos. Tiempo de carga: 2 Horas si estan totalmente descargados. Tiempo de conversacion: 4.5 horas. Controla tu entorno: Ve a cualquier parte y escucha todo con la tecnologia Smart Ambient. Cuando necesites hacer una pausa para un chat rapido, TalkThru te permite escucharte al instante a ti mismo y a quienes te rodean sin quitarte los auriculares. O usa Ambient Aware para mantener la musica en reproduccion mientras te mantienes al tanto de lo que te rodea. Llamadas manos libres con VoiceAware: Cuando realizas llamadas estereo manos libres sobre la marcha, VoiceAware te permite equilibrar la cantidad de tu propia voz que escuchas mientras hablas con los demas. Resistente al agua y al polvo: Los auriculares cuentan con certificacion IP54 y el estuche de carga IPX2 son resistentes al agua y al polvo para disfrutar de experiencias durante todo el dia. Compatible con la aplicacion JBL Headphones. Bluetooth 5.2. Incluye: Cable de carga USB tipo C y 3 tamanos de almohadilla.\n",
+      "price": 24999,
+      "stock": 25,
+      "model": "CYBER WAVE",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "42"
+    },
+    {
+      "brand": "Daewoo",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149331-01.jpg?context=bWFzdGVyfGltYWdlc3wxNDkzNXxpbWFnZS9qcGVnfGFHVTBMMmcwWVM4eE1EWXpOall6TkRZeE9Ua3pOQzl6YVhwbE5URTFYekUwT1RNek1WOHdNUzVxY0djfDgzZmNhZDE2NWEwMjM3MDk1MWE4YmExODk4MTVkMzkzMGVkZDc1Nzk2OGQ3NTBkZjQ4NjdmYzgwNmI0OTYxMmY",
+      "description": "Auricular in ear inalambrico. Tecnologia TWS. Driver de 13 mm. Rango de frecuencia: 2.4 hz - 2.485 GHz. Autonomia: 4 hs de reproduccion. Tiempo de carga: 2 hs. Bateria auricular: Litio 30 mAh. Bateria base de carga: Litio 300 mAh. Puerto de carga: Tipo C. Microfono incorporado.\n",
+      "price": 22999,
+      "stock": 15,
+      "model": "DW-PR431 KI",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "dab9"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-124632-01.jpg?context=bWFzdGVyfGltYWdlc3wzNDMzMnxpbWFnZS9qcGVnfGFHRXdMMmd5WXk4eE1EWXdOamcxTkRjNU9UTTVNQzl6YVhwbE5URTFYekV5TkRZek1sOHdNUzVxY0djfDYxMmQ4YjcxYzljZmUwNTdjMzAzNWM2ZGMwYjM3ZjgzYjgyM2MyOGYwNTc2N2E4NDE1MjBhMTU4ODVjM2U5YWY",
+      "description": "Auricular tipo vincha, ajustable para una mayor comodidad con almohadillas afelpadas y aro acolchado ajustable. Microfono giratorio con reduccion de ruidos que bloquea sonidos, con control de volumen y silencio. Color: Negro.\n",
+      "price": 54999,
+      "stock": 15,
+      "model": "H390",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "3686"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-132574-01.jpg?context=bWFzdGVyfGltYWdlc3wyNTkzOHxpbWFnZS9qcGVnfGFHRTVMMmczWVM4eE1EWXpOREkzTkRRM01UazJOaTl6YVhwbE5URTFYekV6TWpVM05GOHdNUzVxY0djfGViZDJiYjNlNjhmYzRjZDFkZGFjZTU1NzlmNGNmMDIxYzFlZWI5OWExZDY3MWY0ODEwZmJhNjBlMzUzM2U4MWQ",
+      "description": "Compatibles c/ordenadores, tablets y smartphones. Microfono c/supresion de ruido, apto p/uso derecho o izquierdo. Sonido estereo pleno. Ideales p/hablar, jugar o escuchar musica. Comodos y reversibles. Funciona c/las principales aplicaciones de telefonia\n",
+      "price": 54999,
+      "stock": 35,
+      "model": "H111",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Gris",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "9938"
+    },
+    {
+      "brand": "Philips",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-176151-01.png?context=bWFzdGVyfGltYWdlc3wxNDkyNzR8aW1hZ2UvcG5nfGFESm1MMmcyWXk4eE1EWXdOekEzT1RFeU9URXhPQzl6YVhwbE5URTFYekUzTmpFMU1WOHdNUzV3Ym1jfDc2ZDU3NDNkZThjMDcyN2QzNmQ5ODVmMzk5ZmFjNmY5OWFhOTk4YzczNzg0M2IwYzk2MzRjNjQ3MDJjYWQxZjA",
+      "description": "AURICULARES IN EAR TAUE100BK/00. SONIDO DE GRAVES PARA MAYOR CALIDAD DE SONIDO  DRIVERS DE 14 2 MM PARA UNOS GRAVES PROFUNDOS Y UN SONIDO N?TIDO| CABLE DE 1M DE LONGITUD.",
+      "price": 10999,
+      "stock": 41,
+      "model": "TAUE100BK/00 NEGRO",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "73e4"
+    },
+    {
+      "brand": "Philips",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-176147-1.jpg?context=bWFzdGVyfHJvb3R8MjM4NDl8aW1hZ2UvanBlZ3xhRGsxTDJnMk15OHhNRFl3TnpBM056STJNVE0wTWk5emFYcGxOVEUxWHpFM05qRTBOMTh4TG1wd1p3fGI4NDJhNDE0NWVkYmQ1MDFkNTczMWRjY2FhZGVjZjQ0ZDNhNjRkYmYzMDEzOGFiNDRhNGFlODkyN2JjOTQ2NTM",
+      "description": "4 HS DE AUTONOM?A EXTENDIBLE HASTA 12 HS CON EL ESTUCHE PROTECCI?N IPX4 RESISTENTE A SALPICADURAS Y TRANSPIRACI?N MICR?FONO Y CONTROL DE LLAMADAS DESDE EL AURICULAR EMPAREJAMIENTO AUTOM?TICO ENTRE AURICULARES BLUETOOTH 5.1 CON MAYOR VELOCIDAD Y RADIO DE ALCANCE ACTIV? F?CILMENTE EL ASISTENTE DE VOZ DE TU SMARTPHONE",
+      "price": 59999,
+      "stock": 25,
+      "model": "TAT2205BK/00 NEGRO",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "8559"
+    },
+    {
+      "brand": "Daewoo",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-179682-01.png?context=bWFzdGVyfGltYWdlc3w1NDE2MjN8aW1hZ2UvcG5nfGFHVTBMMmczT1M4eE1EVTVNVEF3TmpJNU5EQTBOaTl6YVhwbE5URTFYekUzT1RZNE1sOHdNUzV3Ym1jfGNiMjAwMDE5YThjMWUxOTU2NzMwMzM1ZWFiZTY1MWY0NGRlZTdmYTI5ODlkMGI0MTJkYjQ0ZmU2YjhkMGJjMmY",
+      "description": "DISFRUTA DE LA MEJOR EXPERIENCIA AUDITIVA CON LOS AURICULARES INALÁMBRICOS IN EAR CANDY SPARK DW-CS3105-YLW EN COLOR AMARILLO. CONEXIÓN BLUETOOTH PARA MAYOR COMODIDAD Y MICRÓFONO INTEGRADO PARA ATENDER LLAMADAS SIN ESFUERZO. CON UNA DURACIÓN DE BATERÍA DE HASTA 3 HORAS PODRÁS DISFRUTAR DE TU MÚSICA FAVORITA DONDE QUIERAS. CON UN DISEÑO MODERNO Y ELEGANTE ESTOS AURICULARES SON EL COMPLEMENTO PERFECTO PARA CUALQUIER ESTILO DE VIDA ACTIVO. ¡NO TE PIERDAS LA OPORTUNIDAD DE EXPERIMENTAR LA LIBERTAD QUE TE OFRECEN ESTOS AURICULARES INALÁMBRICOS DE DAEWOO! FRECUENCIA: 2.4HZ / 2.4GHZ BLUETOOTH: SI MICRÓFONO INTEGRADO: SI",
+      "price": 12999,
+      "stock": 31,
+      "model": "CANDY SPARK DW-CS3105 AMARILLO",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Amarillo",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "caed"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150685-01.jpg?context=bWFzdGVyfGltYWdlc3wzMjgxMHxpbWFnZS9qcGVnfGFEYzRMMmhpT0M4eE1EVTFPREk1Tnpjd01qUXpNQzl6YVhwbE5URTFYekUxTURZNE5WOHdNUzVxY0djfDkwYWUyY2YzMmY1MzdmYjk3NWI1NDQ4ZjdjZGFkZGRkMTAwYWY5MDQyMmJiNWJiMDBkZmU3NThiNzI1ZGQwN2I",
+      "description": "Auriculares Fits Wireless. Los audifonos autenticamente inalambricos FITS para juegos se ajustan perfectamente a tu diversion. La tecnologia inalambrica LIGHTSPEED profesional + Bluetooth de baja latencia te permiten divertirte en diversos dispositivos. La tecnologia de moldeado LIGHTFORM proporciona un ajuste personalizado.",
+      "price": 588998,
+      "stock": 29,
+      "model": "FITS TRUE",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "3f2e"
+    },
+    {
+      "brand": "JBL",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150551-01.jpg?context=bWFzdGVyfGltYWdlc3wyNzA5M3xpbWFnZS9qcGVnfGFEQTVMMmcyTmk4eE1EVTBOVGMyTWpFd056UXlNaTl6YVhwbE5URTFYekUxTURVMU1WOHdNUzVxY0djfGFmN2Y3NTVmOTM2ZGQ5ZjY4ZTI0Y2VmNWM0NWQxYmFjMGIxOTU4OWU0NDQ5MDE3NzVmYWRjNmZmNzRmMmIyNjU",
+      "description": "Auricular in ear. Inalambrico. Driver de 12 mm. Conexion: Bluetooth version: 5.2 / TWS. Control de volumen. Microfono. Llamadas manos libres con VoiceAware. Resistente al agua y al polvo. Fuente de alimentacion: 5V 1A. Respuesta de frecuencia: 20 Hz 20 kHz. Impedancia: 16 ohm. Sensibilidad: 105 dB SPL a 1 kHz. SPL maximo: 95 dB. Sensibilidad del microfono: -38 dBV/Pa@1 kHz. Temperatura maxima de funcionamiento: 45 C. Hasta 32 (8h + 24h) horas totales de duracion de la bateria con carga rapida. Tipo de bateria del auricular: polimero de iones de litio (40 mAh/3,85 V). Tipo de bateria del estuche de carga: iones de litio polimero (500 mAh/ 3,8 V). Tiempo de carga: <2 horas desde vacio. Tiempo de reproduccion de musica con BT activado: hasta 8 horas. Tiempo de conversacion: hasta 4,5 horas. Incluye cable de carga USB tipo C.",
+      "price": 129999,
+      "stock": 62,
+      "model": "WAVE FLEX",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "02e2"
+    },
+    {
+      "brand": "JBL",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150541-01.jpg?context=bWFzdGVyfGltYWdlc3wzNzQxOHxpbWFnZS9qcGVnfGFEZzRMMmczTWk4eE1EVTBOVGMwTXpVMk1EY3pOQzl6YVhwbE5URTFYekUxTURVME1WOHdNUzVxY0djfDFjZmYxZDVhNDA5MGE1NTU4NDhmN2E0MDNhOGE2YTdhMzNhN2QxYTcyN2Q3YTVkOTk5MTdmYTlkYjAyMWMzMGI",
+      "description": "Auricular tipo vincha over ear. Tecnologia inalambrica bluetooth 5.3. Tamano del driver: driver dinamico 33 mm / 1.57 in. Control de volumen. Microfono. Plegable. Llamadas manos libres con Voice Aware. Conexion multipunto. Fuente de alimentacion: 5 V 1A. Respuesta de frecuencia: 20 Hz - 20 KHz. Impedancia: 30. Sensibilidad: 102 dB SPL a 1 KHz 1 mW. SPL maxima: 95 dB. Sensibilidad del microfono: -29 dBV a 1KHz/Pa. Temperatura maxima de funcionamiento: 45C. Siri o Hey Google a solo un toque: activa el asistente de voz en tu dispositivo pulsando el boton multifuncion. Hasta 57 horas de duracion de la bateria y carga rapida. Tiempo de carga: 2 horas. Bateria de ion de litio (3.7 V / 450 mAh). Incluye cable de carga USB-C.",
+      "price": 93999,
+      "stock": 52,
+      "model": "TUNE 520 BL",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Bluetooth",
+        "color": "Azul",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "0988"
+    },
+    {
+      "brand": "JBL",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150180-01.jpg?context=bWFzdGVyfGltYWdlc3wzMTI3OHxpbWFnZS9qcGVnfGFHSTVMMmd4TlM4eE1EVXpNVGswT0RreU1EZzJNaTl6YVhwbE5URTFYekUxTURFNE1GOHdNUzVxY0djfDMwZTdmNGYwNjQ0YzJiMTExZGU1MDM3OTdmMjdjNzc5YjYwMjc1ZGRmOTYyNTU5ZmQ3N2FmZWFjZmZhZTI4MTA",
+      "description": "Auricular in ear. Conexion Bluetooth 5.2, TWS. 4 Microfonos. Active Noise Cancelling /Ambient Aware / TalkThru. Controlador de 12mm. Hasta 32 h de bateria. Resistentes al agua y al sudor, IPX4. Dimensiones de los auriculares (alt-anch-prof) 3.49 x 2.05 x 2.02cm. Medidas de la funda (alt-anch-prof) 4.7 x 5.15 x 2.93 cm. Bateria de auriculares de 55 mAh. Bateria estuche 570 mAh. Respuesta de frecuencia 20 Hz - 20 KHz. Impendancia 32. Sensibilidad 110 dB SPL a 1kHz. Sensibilidad del microfono -38 dB/Pa a 1 kHz. SPL maxima 95 dB. Incluye 1 cable de carga USB tipo C. 1 Almohadilla abierta. 3 Tamanos de almohadillas sellados.",
+      "price": 184999,
+      "stock": 47,
+      "model": "TUNE FLEX",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Bluetooth",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "6323"
+    },
+    {
+      "brand": "Stromberg",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150852-01.jpg?context=bWFzdGVyfGltYWdlc3wxMjk0MXxpbWFnZS9qcGVnfGFHWTRMMmc0Wmk4eE1EVTFPRGN6TXpneE1UYzBNaTl6YVhwbE5URTFYekUxTURnMU1sOHdNUzVxY0djfGVjZGYwNTdmYTcyYzU1ZGQ2NTVjNmNmZjVmYzUwYjhiN2QxZTdhNGEzNmFmN2YyYzYxNTZlN2Q4NGM3YjJjODA",
+      "description": "Auricular in ear. Microfono. Control de volumen. Driver 10mm. Conexion USB-C. Longitud de cable 1.2m. Compatible con Siri y Google voice assist. Frecuencia de respuesta: 20Hz-20KHz. Sensibilidad del microfono 42Db+3Db. Impendancia 24+-15%.",
+      "price": 9999,
+      "stock": 64,
+      "model": "WIREZ SC-51-WIREZ-BL",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "inEar",
+        "conectivity": "Cable",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "0ae2"
+    },
+    {
+      "brand": "Stromberg",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150853-01.jpg?context=bWFzdGVyfGltYWdlc3wxNzU3NXxpbWFnZS9qcGVnfGFEbGhMMmhsT0M4eE1EVTFPRGN6TkRNd016STJNaTl6YVhwbE5URTFYekUxTURnMU0xOHdNUzVxY0djfDVkMmQ0OWY4YWUyMDk1MGRlY2JiNmNjMzg0M2VjNjc5MzlhYTkwNzc0YTM2MjQ4MjFkMDI2ZTY1MGFiYTAyMTA",
+      "description": "Auricular in ear. Microfono. Control de volumen. Driver de 10mm. Conexion auxiliar 3.5mm. Longitud del cable 1.2m. Compatible con Siri y Google voice asisst. Frecuencia de respuesta 20Hz-20Khz. Sensibilidad del microfono 42Db+3Db. Impendancia 24 oHm+- 15%.",
+      "price": 5399,
+      "stock": 58,
+      "model": "SONIC SC-51-SONIC-NE",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "b378"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151316-01.jpg?context=bWFzdGVyfGltYWdlc3wyNzc0MXxpbWFnZS9qcGVnfGFESTJMMmd3Tmk4eE1EWXpPRFEyTURVeE9EUXpNQzl6YVhwbE5URTFYekUxTVRNeE5sOHdNUzVxY0djfDI1OTBiMzliOTQwN2IxYWFkYTEwZTA0OWQwZWY1ZDExNzg0N2NiMTliMzgwYjllYzE1ZDlhZGFiZmIxZmU0YTY",
+      "description": "Celular. Pantalla de 6.6\" FHD+ (1080 x 2340) Super AMOLED. Frecuencia 120 Hz. Procesador Exynos1380 Octa core (2.4 GHz, 2 GHz). Capacidad 128 Gb (expandible hasta 1 Tb). RAM 8 Gb. Camara principal 50 + 8 + 5 MP. F1.8, F2.2, F2.4. Zoom digital hasta 10x. Camara frontal 13 Mp. F2.2. Conexiones: Wi Fi 802.11a/b/g/n/ac/ax 2.4GHz+5GHz, HE80, MIMO, 1024-QAM. Bluetooth 5.3. NFC. USB 2.0 tipo C. Lector de tarjetas Micro SD. Sistema operativo Android. Bateria de 5000 mAh. Sensores: Acelerometro, fingerprint. Gyro, geomagnetico, hall, sensor de luz y proximidad. GPS, glonass, veidou, galileo, QZSS. Single SIM.",
+      "price": 589999,
+      "stock": 22,
+      "model": "GALAXY A35 - SM-A356E",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Amarillo",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.17,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.8,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.82,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 209,
+          "unit": "gr"
+        }
+      },
+      "id": "8"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151460-01.jpg?context=bWFzdGVyfGltYWdlc3wyNjQ5MnxpbWFnZS9qcGVnfGFETTFMMmcwTXk4eE1EWXpPRFl4TlRJME9Ea3lOaTl6YVhwbE5URTFYekUxTVRRMk1GOHdNUzVxY0djfDI0MmJjNTM5ZTc0MTY0YTI3MmJkYTUyODc5MmI2YTFjMWZlMDQ1MjhlZTY4YjVhYzgzNTE3ZmVlNmUwODFjNDQ",
+      "description": "Celular. Pantalla pOLED de 6.67\" (20:9), FHD+ (1080 x 2400) 395ppi, HiD, 120 Hz. Vidrio corning gorilla glass 5 3D. Procesador Qualcomm Snapdragon 6 Gen 1 (SM6450), Octa core (2.2 GHz). Capacidad 256 Gb. RAM 8 Gb (hasta 16 Gb con RAMBoost). Camara Principal: 50 MP (84.1) F1.88, Gran angular y macro: 13 MP (120) F2.2. Zoom combinado (10x fotos / 6x videos) sensor Sony LYTIA. Flash LED. Camara frontal 32 MP (80.53) F2.45. Conexiones: Wi Fi 802.11 a/b/g/n/ac - WIFI 5 (2.4 y 5 Ghz). Bluetooth 5.2. NFC. USB-C 2.0 / OTG. Sistema operativo Android 14. Bateria de 5000 mAh. Sensores: acelerometro, de proximidad, brujula, giroscopio, huella dactilcar (bajo display), luz ambiente, desbloqueo facial. GPS, AGPS, Glonass, Galileo, Beidou. Resistencia IP68. Incluye cargador turbopower de 68W.",
+      "price": 799999,
+      "stock": 5,
+      "model": "EDGE 50 FUSION - XT2429-1",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.67,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Rosa",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.19,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.3,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.77,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 175,
+          "unit": "gr"
+        }
+      },
+      "id": "24"
+    },
+    {
+      "brand": "TCL",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150895-01.jpg?context=bWFzdGVyfGltYWdlc3wyMDMyM3xpbWFnZS9qcGVnfGFEQmhMMmhpWlM4eE1EWXpOemswTmpjeE5qRTVNQzl6YVhwbE5URTFYekUxTURnNU5WOHdNUzVxY0djfDViMzc5YTJkYmVkZWI3MDA1ZDM5NjI5MWFmNzU0ZTYxYmYyZThmNjA4YTcxYTc4OGJiMmZjZWEzNjM2MjlmYzE",
+      "description": "Celular. Pantalla de 6.6\", 720 x 1612 (HD+). Procesador G25 (MT6762V/CB), Octa core CPU: 4x A53 1.5GHz. Camara principal 50 + 2 mp / Camara frontal 8 mp. Capacidad 64 Gb (expandible hasta 512 Gb) / RAM 6 Gb. USB tipo C 2.0. GPS. Wi Fi, Bluetooth 5.1. Conector de 3.5mm. Sistema operativo Android 12. Bateria de 5000 mAh. Radio FM. Sensores: Proximidad, desbloqueo facial, huella dactilar.",
+      "price": 179999,
+      "stock": 15,
+      "model": "408 T507A-FALCAR11",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 6,
+          "unit": "GB"
+        },
+        "color": "Gris oscuro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.46,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.54,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.89,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 190,
+          "unit": "gr"
+        }
+      },
+      "id": "36"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149580-01.jpg?context=bWFzdGVyfGltYWdlc3wzMDY1N3xpbWFnZS9qcGVnfGFEbG1MMmhoTnk4eE1EVXdOVGcyT0RZME1ESTROaTl6YVhwbE5URTFYekUwT1RVNE1GOHdNUzVxY0djfDcyOGRkNDI3NGIwYjdhMmQ2MTJlOWUzYjAxYjc5ODExNDFjNmE5YWE5MjgzMWZkZjAyNDZiMzY0YWY3NTVjMDI",
+      "description": "Celular plegable. Pantalla principal de 6.9\" resolucion FHD+ (1080x2640). Pantalla secundaria de 3.63\" resolucion (1056x1066). Tecnologia pOLED. Procesador Qualcomm Snapdragon 8+ Gen 1, octa core. Velocidad del procesador 3.2 GHz. Almacenamiento de 512 GB / Memoria RAM de 12 GB. Camara principal: 12 MP (79.5) F1.59 + Gran Angular y macro: 13 MP (108) F2.2, zoom: digital (8x fotos / 6x videos), flash LED. Camara frontal: 32 MP (80.5) F2.4, flash frontal: Backlight. Conexiones: Wifi 802.11 a/b/g/n/ac/ax /k/v/r/u - WiFi 6E. Wi-Fi Direct / Hotspot. Bluetooth 5.3. Conector USB C 2.0. NFC. GPS. Sensores: Acelerometro, sensor de proximidad, brujula (campo magnetico), giroscopio, huella dactilar, desbloqueo facial. Sistema operativo android 13. Dual SIM (pSIM+eSIM). Bateria: 3800 mAh. Carga Turbo. Carga inalambrica. Incluye: Cubierta Protectora (flip y base), herramienta de extraccion de SIM, cable de datos USB-A - USB-C y cargador 33W USB-A.",
+      "price": 1699999,
+      "stock": 15,
+      "model": "RAZR 40 ULTRA XT2321-1",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.9,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 12,
+          "unit": "GB"
+        },
+        "color": "Negro infinito",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 17.08,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.39,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.69,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 199,
+          "unit": "gr"
+        }
+      },
+      "id": "41"
+    },
+    {
+      "brand": "Apple",
+      "category": "Celulares",
+      "urlImage": "https://images.fravega.com/f300/d1b0d862832738d294eb91166eb6fbe2.jpg.webp",
+      "description": "iPhone 13 de 128 GB en color Blanco Estelar | Rendimiento, Cámara y Diseño de Vanguardia  Descubre el iPhone 13 de 128 GB en su elegante color Blanco Estelar, un dispositivo que combina potencia y estilo. Este smartphone ofrece un rendimiento excepcional gracias a su chip A15 Bionic, una cámara dual avanzada con Modo Noche, y una batería de larga duración. Disfruta de una pantalla Super Retina XDR de 6.1 pulgadas, ideal para ver tus contenidos favoritos con la máxima calidad. Aprovecha el almacenamiento de 128 GB para guardar todas tus fotos, aplicaciones y más. Compra ahora y experimenta lo último en tecnología móvil.  Principales características:  Pantalla Super Retina XDR de 6.1 pulgadas: Imágenes nítidas y colores vibrantes.  Chip A15 Bionic: Potencia y eficiencia inigualables para un rendimiento ultrarrápido.  Cámara dual de 12 MP con Modo Noche: Captura fotos y videos de alta calidad en cualquier condición de luz.  128 GB de almacenamiento interno: Espacio suficiente para todas tus aplicaciones, fotos y archivos.  Batería de larga duración: Hasta 19 horas de reproducción de video.  Resistencia al agua y al polvo (IP68): Diseñado para durar en cualquier ambiente.  iOS 15: Sistema operativo avanzado con nuevas funcionalidades y mayor seguridad.  Compra el iPhone 13 en Blanco Estelar y lleva tu experiencia móvil al siguiente nivel.",
+      "price": 1549990,
+      "stock": 12,
+      "model": "iPhone 13 128 GB",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.2,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 4,
+          "unit": "GB"
+        },
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 14.67,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.15,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.77,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 174,
+          "unit": "gr"
+        }
+      },
+      "id": "d91f"
+    },
+    {
+      "brand": "Noblex",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151127-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTc4MXxpbWFnZS9qcGVnfGFEUmpMMmhrWmk4eE1EWXpPREk0TkRBNU5UVXhPQzl6YVhwbE5URTFYekUxTVRFeU4xOHdNUzVxY0djfDcwNzYwMmQ1MDAzOTRhYzgzMWVkNDEwNTQ5MDYxM2YwNjZlZjE0NzM4NjFhMDExYTBmMTMzZTk4MmZjMzMxZWU",
+      "description": "Celular. Pantalla de 6.52\" (20:9), HD+, 90Hz. Procesador MediaTek MTK6765XB, octa core 2.0 Ghz + 1.5 Ghz. Almacenamiento de 128 GB, expande hasta 256 GB. Memoria RAM de 6 GB. Camara principal de 50 MP + Macro: 2 MP + Profundidad: 2 MP. Flash LED. Camara frontal de 8 MP. Conexiones: Wifi 802.11 b/g/n ac?2.4Ghz 5.0Ghz. Wi-Fi Direct / Hotspot. Bluetooth 5.0. Conector USB C. Jack de Audio (3.5 mm). Lector de tarjeta micro SD. Sistema operativo Android 13. Bateria de 5000 mAh. Radio. Sensor G, Sensor P, Sensor L y huella digital (lateral). Incluye: funda protectora, film protector, cargador y cable usb-c y pin extractor.",
+      "price": 229999,
+      "stock": 8,
+      "model": "B30 91B30",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.52,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 6,
+          "unit": "GB"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.19,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.51,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.875,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 192,
+          "unit": "gr"
+        }
+      },
+      "id": "a013"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152295-01.jpg?context=bWFzdGVyfGltYWdlc3wyNDU1N3xpbWFnZS9qcGVnfGFHWTRMMmhoWkM4eE1EWXpPVFk0TWpjMk5EZ3pNQzl6YVhwbE5URTFYekUxTWpJNU5WOHdNUzVxY0djfGFkMzZhZDM3ZTUwYmZiYzk0OTQ4MzJmZGNjMzY1Njc0ODFjZDgyYWI4OWJiN2ViZWVkNDkxMjNiNWMyZDhiOGE",
+      "description": "Celular. Pantalla 6.7\" 720 x 1600 (HD+), PLS, LCD. Procesador: Octa-Core (2 GHz, 1.8 GHz), Mediatek MT6769V. Almacenamiento: 64 Gb. Ram: 4 Gb. Camara: 50.0 + 2.0 MP. Camara Frontal: 8 MP F2.0. Sistema Operativo Android. Conexiones: WIFI 802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80. Bluetooth v5.3. Lector de tarjetas: SIM 1 + MicroSD. USB tipo C 2.0. Conector de 3.5mm. GPS, Glonass, Beidou, Galileo. Bateria: 5000 mAh. Sensores: acelerometro, sensor de huellas dactilares, sensor de luz y sensor de proximidad. Radio. No incluye cargador.",
+      "price": 239999,
+      "stock": 17,
+      "model": "A06 SM-A065M NEGRO",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.7,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 4,
+          "unit": "GB"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.73,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.73,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.8,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 189,
+          "unit": "gr"
+        }
+      },
+      "id": "6a89"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151309-01.jpg?context=bWFzdGVyfGltYWdlc3wzMTUwNHxpbWFnZS9qcGVnfGFEaG1MMmc1TUM4eE1EWXpPRE0zTnpnM056VXpOQzl6YVhwbE5URTFYekUxTVRNd09WOHdNUzVxY0djfDk5ZjQwOGVmZjEzZmY3YTk5NTA4NmE5OGExMjkxMDk3YWYzZTM4YzcxZjE1ZWZmYzcwOGIwYTUwNzQ3Nzk1OWY",
+      "description": "Celular. Pantalla de 6.7\" FHD+ (1080 x 2340) Super AMOLED. Frecuencia 120 Hz. Procesador Exynos1480 Octa core (2.75 GHz, 2 GHz). Capacidad 128 Gb (expandible hasta 1 Tb). RAM 8 Gb. Camara principal 50 + 12 + 5 MP. F1.8, F2.2, F2.4. Zoom digital hasta 10x. Camara frontal 32 Mp. F2.2. Conexiones: Wi Fi 802.11a/b/g/n/ac/ax 2.4GHz+5GHz, HE80, MIMO, 1024-QAM. Bluetooth 5.3. NFC. USB 2.0 tipo C. Lector de tarjetas Micro SD. Sistema operativo Android. Bateria de 5000 mAh. Sensores: Acelerometro, fingerprint. Gyro, geomagnetico, hall, sensor de luz y proximidad. GPS, glonass, veidou, galileo, QZSS. Dual SIM.",
+      "price": 939999,
+      "stock": 36,
+      "model": "A55 - SM-A556E CELESTE",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.7,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Celeste",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.11,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.74,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.82,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 213,
+          "unit": "gr"
+        }
+      },
+      "id": "b160"
+    },
+    {
+      "id": "8f8e",
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150953-01.jpg?context=bWFzdGVyfGltYWdlc3w0NTM4MXxpbWFnZS9qcGVnfGFHWm1MMmhoTUM4eE1EVTJNRE15TnpVNE1UY3lOaTl6YVhwbE5URTFYekUxTURrMU0xOHdNUzVxY0djfDAzNjE2Y2FhYjM4NDg1Mzg2ZTQxNmEwODFhOTVlNjAyOTEwODJiNmM3OTMyMTU5OTQxNGQ5OTI4MGJhMjc0M2I",
+      "description": "Celular. Pantalla de 6.5\" (1080 x 2340), FHD+. Frecuencia 90 Hz. Super AMOLED. Procesador Mediatek MT6789V/CD. Octa core (2.2GHz,2GHz). Capacidad 128 Gb. RAM 4 Gb. Camara principal 50 + 5 + 2 Mp. F1.8 , F2.2 , F2.4. Conexiones: Wi FI 802.11a/b/g/n/ac 2.4GHz+5GHz, VHT80. Bluetooth 5.3. NFC. USB 2.0 tipo C. Sistema operativo Android. Bateria de 5000 mAh. GPS, Glonass, Beidou, Galileo, QZSS. SIM (SIM 1 + MicroSD). Sensores: acelerometro, huella dactilar, geomagnetico, sensor de luz y proximidad. Incluye cable de datos. No trae cargador.",
+      "price": 349999,
+      "stock": 25,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.67,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 174.5,
+          "unit": "gr"
+        }
+      },
+      "model": "A15 - SM-A155MZKAARO AZUL",
+      "quantity": 0
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149447-01.jpg?context=bWFzdGVyfGltYWdlc3wyMTA2NXxpbWFnZS9qcGVnfGFHVTJMMmd6TlM4eE1EWXpOalk1TnpRd016UXlNaTl6YVhwbE5URTFYekUwT1RRME4xOHdNUzVxY0djfDViNmI0MjhlZDJkYjQ3NzBlMjQ2NDNhZjVlNWFlOWZkOTAzM2JmZmUxNDY5YjhhN2MzYTFmZmZkYzM4NWJmYWM",
+      "description": "Celular. Pantalla de 7.0\" QXGA+ (2176 x 1812) Dynamic Amoled 2X / 6.2\" HD+ (2316 x 904). Dynamic AMOLED 2X. 120 Hz. Gorilla Glass Victus 2 Galaxy. Procesador Qualcomm Snapdragon 8 gen 2, Octa core, CPU speed 3.36, 2.8, 2 GHz. Almacenamiento 256 Gb. RAM 12 Gb. Camara principal 50MP OIS + 12MP + 10MP OIS., F1.8 , F2.2 , F2.4. Zoom optico 3x. Zoom digital 30x. Camara frontal 10MP (F2.2). Under Display Camera: 4MP (F1.8). Conexiones: Wifi 802.11 a/b/g/n/ac/ax 2.4G+5GHz+6GHz, HE160, MIMO, 1024-QAM. BT V5.3. USB type C. USB 3.2 Gen 1. NFC. UWB (Ultra Wideband). Sistema operativo Android. Bateria de 4400 mAh. IPX8. GPS,Glonass,Beidou,Galileo,QZSS. Sensores: Acelerometro, Barometro, Fingerprint, Gyro, Geomagnetico, Hall, Sensor de luz, Proximidad. Dual SIM.",
+      "price": 3699999,
+      "stock": 13,
+      "model": "FOLD 5 SM-F946B ICY BLUE",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 7.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 12,
+          "unit": "GB"
+        },
+        "color": "Icy blue",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 15.49,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 12.99,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.61,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 253,
+          "unit": "gr"
+        }
+      },
+      "id": "f37e"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151725-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTg3OHxpbWFnZS9qcGVnfGFEWTVMMmhrTnk4eE1EWXpPRGcxT0RrME5EVTBNaTl6YVhwbE5URTFYekUxTVRjeU5WOHdNUzVxY0djfDIwMGQ2M2VjMTRhMzg1YWNjNDY4MGY4NDBlOTVlMWNlYWJhNjZlYzk2MTc1ODI2Nzg2MzQzMjc4NGNlNGJmODU",
+      "description": "Celular. Pantalla de 6.7\" pOLED. Resolucion: 2400x1080 FHD+, 394ppi, HiD, 120 Hz, vidrio gorilla glass 3 3D. Procesador octa core, 2.3 GHz, Qualcomm Snapdragon 6s gen 3 (SM6375pro). Almacenamiento de 256 GB (expande hasta 1 TB). Memoria RAM de 8 GB. Camara principal de 50 MP (84.1) F1.79 + Gran angular y macro: 8 MP (118.6) F2.2. Zoom digital (10x picture / 6x video). Flash LED. Camara frontal: 32 MP (80.53) F2.5. Flash frontal: Backlight. Conexiones: Wifi 802.11 a/b/g/n/ac - WIFI 5 (bandas 2.4 y 5 GHz). Bluetooth 5.1. USB-C, version 2.0/OTG. Tarjeta de memoria MicroSD. NFC. GPS. Sensores: Acelerometro, sensor de proximidad, brujula (campo magnetico), giroscopio, huella dactilar, desbloqueo facial, luz ambiente. Sistema operativo Android 14. Bateria: 5000 mAh. Incluye: Cable de datos USB-A - USB-C, cargador 33W USB-A, herramienta de extraccion de SIM y cubierta protectora. Resistencia IP52.",
+      "price": 699999,
+      "stock": 48,
+      "model": "MOTO G85 - XT2427-1 AZUL",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.7,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Azul",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 171,
+          "unit": "gr"
+        }
+      },
+      "id": "1170"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151723-01.jpg?context=bWFzdGVyfGltYWdlc3wyMTc3MXxpbWFnZS9qcGVnfGFEQXdMMmhtWmk4eE1EWTBNekUyTnpRM056YzVNQzl6YVhwbE5URTFYekUxTVRjeU0xOHdNUzVxY0djfDcxM2NmNmVjMDIxYzNkNjk3YWNmZTBiMDYxOGJmMzExNDQxNzA3OTVjZDMyNWZlN2YxOTIxY2EzOGRkNTNmYjc",
+      "description": "Celular. Pantalla de 6.6\" pOLED. Resolucion: 2400x1080 FHD+, 394ppi, HiD, 120 Hz, vidrio gorilla glass 3 3D. Procesador octa core, 2.3 GHz, Qualcomm Snapdragon 6s gen 3 (SM6375pro). Almacenamiento de 256 GB (expande hasta 1 TB). Memoria RAM de 6 GB. Camara principal de 50 MP (84.1) F1.79 + Gran angular y macro: 8 MP (118.6) F2.2. Zoom digital (10x picture / 6x video). Flash LED. Camara frontal: 32 MP (80.53) F2.5. Flash frontal: Backlight. Conexiones: Wifi 802.11 a/b/g/n/ac - WIFI 5 (bandas 2.4 y 5 GHz). Bluetooth 5.1. USB-C, version 2.0/OTG. Tarjeta de memoria MicroSD. NFC. GPS. Sensores: Acelerometro, sensor de proximidad, brujula (campo magnetico), giroscopio, huella dactilar, desbloqueo facial, luz ambiente. Sistema operativo Android 14. Bateria: 5000 mAh. Incluye: Cable de datos USB-A - USB-C, cargador 33W USB-A, herramienta de extraccion de SIM y cubierta protectora. Resistencia IP52.",
+      "price": 699999,
+      "stock": 24,
+      "model": "MOTO G85 - XT2427-1 VERDE",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.67,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Verde",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 171,
+          "unit": "gr"
+        }
+      },
+      "id": "8b11"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151026-01.jpg?context=bWFzdGVyfGltYWdlc3w0NjgwN3xpbWFnZS9qcGVnfGFHSmtMMmhqWXk4eE1EVTVNRGs1T0RneU1qazBNaTl6YVhwbE5URTFYekUxTVRBeU5sOHdNUzVxY0djfDRkZTU4MTYzODIzYjg4YTExNDM4ODBhOWMxMDg1N2ZiZjg5ZmEwNTU4MTUyYTJlOTk5YzQ5NTAxODc0Nzk5YjE",
+      "description": "Celular. Pantalla de 6.56\" (20:9), IPS. Resolucion de 720 x 1612 HD+, 269 ppi, HiD, 90 Hz. Procesador MediaTek Helio G85, Octa core 2.0 GHz. Almacenamiento de 128 GB, expande hasta 512 GB. Memoria RAM de 4 GB. Camara principal de 50 MP (74.26) F1.8 + Macro: 2 MP (86.2) F2.4. Zoom digital (4x fotos / 4x videos). Flash LED. Camara frontal de 8 MP (78) F2.0. Flash frontal: Backlight. Conexiones: Wifi 802.11 a/b/g/n/ac - WIFI5. Wi-Fi Direct / Hotspot. Bluetooth 5.2. GPS. Conector USB C. Jack de Audio (3.5 mm). Lector de tarjeta micro SD. Sistema operativo Android 14. Bateria de 5000 mAh. Radio FM. Sensores: Acelerometro, sensor de proximidad, brujula (campo magnetico), giroscopio, huella dactilar, desbloqueo facial. Inlcuye: Cubierta protectora, herramienta de extraccion de SIM, cable de datos USB-A - USB-C y cargador 20W USB-A.",
+      "price": 369999,
+      "stock": 10,
+      "model": "MOTO G24 XT2423-1 LAVANDA",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.56,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 4,
+          "unit": "GB"
+        },
+        "color": "Lavanda",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.34,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.79,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 180,
+          "unit": "gr"
+        }
+      },
+      "id": "4860"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149762-01.jpg?context=bWFzdGVyfGltYWdlc3w0MjQ4NHxpbWFnZS9qcGVnfGFEWmtMMmhqWXk4eE1EVTBOelUxT0RNMU1EZzNPQzl6YVhwbE5URTFYekUwT1RjMk1sOHdNUzVxY0djfGNlOWVjMDc2OTgwYWQ0MTUyNTJhNDFjMGJiOGQ2NzFiMWI5NTJmMTE0MTU2ZDI1YjZkMmY1Zjg1NTc1YWVjY2U",
+      "description": "Celular. Pantalla principal de 7.0\", resolucion 1080 x 2640 FHD+, 413ppi, HiD, 144Hz. Tecnologia pOLED. Pantalla secundaria (CLI) 1.47\", resolucion 194 x 368, 282ppi, 120Hz. Procesador Qualcomm Snapdragon 7 Gen 1, Octa core, 2.4 GHz. Capacidad 256 Gb. RAM 8 Gb. Camara principal: 64 MP (81) F1.79Gran angular y macro: 13 MP (120) F2.2\". Zoom digital (8x fotos / 6x videos). Flash LED. Camara frontal 32 MP (80.5) F2.45. Flash frontal backlight. Conexiones: WI Fi 802.11 a/b/g/n/ac/ax /k/v/r/u - WiFi 6E (2.4, 5 y 6 GHz). Bluetooth 5.3. NFC. USB-C 2.0. Sistema operativo Android 13. Bateria de 4200 mAh. Sensores: acelerometro, sensor de proximidad, brujula, giroscopio, hulla dactilar, Luz ambiente, Desbloqueo facial. Nano SIM. Dual SIM (pSIM+eSIM).",
+      "price": 1299999,
+      "stock": 15,
+      "model": "RAZR 40 - XT2323-1 MORADO AMATISTA",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.9,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Morado",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 17.08,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.39,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.73,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 189,
+          "unit": "gr"
+        }
+      },
+      "id": "d1e9"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149248-01.jpg?context=bWFzdGVyfGltYWdlc3wyMDYwOXxpbWFnZS9qcGVnfGFEUTRMMmc1WlM4eE1EWXpOall3T1RrM09ETTVPQzl6YVhwbE5URTFYekUwT1RJME9GOHdNUzVxY0djfDM1OWQwNTg1NTA4YmNjYjdkZGI0MTlhNDlhZTBiOGJmYmE4YTU1NGZiNjQzYWI1MDMzNzMxYmM4MjhjZWY1NTY",
+      "description": "Celular. Pantalla de 6.55\" (20:9), pOLED, Resolucion 1080 x 2400 FHD+, 402ppi, HiD, 144 Hz, tipo de vidrio de pantalla NEG glass 3D. Procesador MediaTek Dimensity 8020, Octa core (2.6 GHz). Capacidad 256 Gb / RAM 8 Gb LPDDR4x. Camara Principal: 50 MP (81.2) F1.47, Gran angular y macro: 13 MP (120) F2.2. Zoom digital (8x fotos / 6x videos). Flash LED. Camara frontal 32 MP (80.53) F2.45. Flash frontal Backlight. Conexiones: Wi Fi 802.11a/b/g/n/ac/ax /k/v/r/u - WiFi 6 (2.4 y 5 GHz). Bluetooth 5.3. NFC. USB C 2.0. GPS, AGPS, Glonass, Galileo, Beidou. Sistema operativo Android 13. Bateria de 4400 mAh. Resistencia al agua IP68. Sensores: acelerometro, sensor de proximidad, brujula, giroscopio, huella dactilar, luz ambiente, desbloqueo facial. Dual sim: (pSIM+eSIM). Incluye: Cargador y funda.\n",
+      "price": 849999,
+      "stock": 12,
+      "model": "MOTO EDGE 40 - XT2303-2 MAGENTA",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.55,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Magenta",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 15.82,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.19,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.74,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 170,
+          "unit": "gr"
+        }
+      },
+      "id": "ed5f"
+    },
+    {
+      "brand": "TCL",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152220-01.jpg?context=bWFzdGVyfGltYWdlc3w0MzgwMXxpbWFnZS9qcGVnfGFHWTFMMmhqWXk4eE1EWXpPVE15T0RZME1UQTFOQzl6YVhwbE5URTFYekUxTWpJeU1GOHdNUzVxY0djfGMzY2IxY2Q2ZWMxZjUwMzc4MGM3ZWZiMWI2ZjJlZDVjYjVkNjk3Y2I1ZjhmNDA2NzgzOGVjYzgwNzQ2ZDM4MzA",
+      "description": "Celular. Pantalla IPS de 6.8\". Procesador Octa core MTK 24E. Capacidad 512 Gb. RAM 8 + 8 Gb. Camara principal 108 + 8 + 2 Mp. Camara frontal 32 Mp. Conexiones: Wi Fi. Bluetooth. NFC. USB tipo C. Conector de 3.5mm. Lector de tarjetas. Sistema operativo Android 14. Bateria de 5010 mAh. Radio FM. GPS.\n",
+      "price": 519999,
+      "stock": 19,
+      "model": "50 PRO NXTPAPER BLANCO",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.8,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.76,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.55,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 79,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 236,
+          "unit": "gr"
+        }
+      },
+      "id": "1506"
+    },
+    {
+      "brand": "TCL",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152217-01.jpg?context=bWFzdGVyfGltYWdlc3wyODQ1NnxpbWFnZS9qcGVnfGFHRmlMMmd4TUM4eE1EWXpPVE15TVRnMU9EQTNPQzl6YVhwbE5URTFYekUxTWpJeE4xOHdNUzVxY0djfDUyMTdkOTBlY2QzMDQ1YjEzM2IwN2NlYmRhMzkzOWUxMWFjMDhjZmRjNGU5NmMwZjMxOWI3YThlNDljMWViZTQ",
+      "description": "Celular. Pantalla IPS de 6.75\". Procesador Octa core MTK G36. Capacidad 128 Gb. RAM 4 + 4 Gb. Camara principal 50 + 2 Mp. Camara frontal 5 Mp. Conexiones: Wi Fi. Bluetooth. USB tipo C. Conector de 3.5mm. Lector de tarjetas. Sistema operativo Android 14. Bateria de 5010 mAh. Radio FM. GPS.\n",
+      "price": 229999,
+      "stock": 19,
+      "model": "505",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.75,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.82,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.67,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 70.83,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 190,
+          "unit": "gr"
+        }
+      },
+      "id": "a1f2"
+    },
+    {
+      "brand": "TCL",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152219-01.jpg?context=bWFzdGVyfGltYWdlc3w0MzgwMXxpbWFnZS9qcGVnfGFEY3dMMmd4TUM4eE1EWXpPVE15TmpNNE1EQTJNaTl6YVhwbE5URTFYekUxTWpJeE9WOHdNUzVxY0djfDVlYTJlZTU5Y2VlODdkMTBkZmRmY2NjOTQwMWMzYjJmNjhlZjEwNmUxMGU1Y2Q5ZWQ5OTFlZDI0ODY4ZGRlMzk",
+      "description": "Celular. Pantalla IPS de 6.8\". Procesador Octa core MTK 24E. Capacidad 512 Gb. RAM 8 + 8 Gb. Camara principal 108 + 8 + 2 Mp. Camara frontal 32 Mp. Conexiones: Wi Fi. Bluetooth. NFC. USB tipo C. Conector de 3.5mm. Lector de tarjetas. Sistema operativo Android 14. Bateria de 5010 mAh. Radio FM. GPS.\n",
+      "price": 349999,
+      "stock": 24,
+      "model": "TCL 50 GRIS",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.8,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.76,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.55,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.79,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 174.5,
+          "unit": "gr"
+        }
+      },
+      "id": "8105"
+    },
+    {
+      "brand": "TCL",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149002-01.jpg?context=bWFzdGVyfGltYWdlc3wzMTUwNnxpbWFnZS9qcGVnfGFEQXdMMmcwWkM4eE1EWXpOalV5TkRNMU5UWXhOQzl6YVhwbE5URTFYekUwT1RBd01sOHdNUzVxY0djfGMwYzY1YjY5NmI1MDBlZDNlOWM3NDAwNDNlNjJmMTJjNDcwYjg0MmE2Mjg1OTZjOGQ5NGU1YTJlY2VkOTg5OTk",
+      "description": "CelCelular. Pantalla de 6.75\" mini-notch 90Hz. Resolucion HD+ (720x1600). Ratio pantalla cuerpo 90%1. Formato 20:9. Contraste 1500:1. Brillo 450. Procesador Mediatek Helio G37 Quad core (2.3 GHz, 1.8GHz). Capacidad 256 Gb. RAM 6 Gb. Camara principal 50 Mp. Camara frontal 8 Mp. Conexiones: Bluetooth. Wi Fi. NFC. USB-C. Entrada para auricular de 3.5mm. Lector de tarjetas. Sistema operativo Android. Bateria de 5010 mAh. Radio. AGPS.\n",
+      "price": 274999,
+      "stock": 30,
+      "model": "40 SE GRIS",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.75,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 6,
+          "unit": "GB"
+        },
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.79,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.65,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.84,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 190,
+          "unit": "gr"
+        }
+      },
+      "id": "7a03"
+    },
+    {
+      "brand": "Xiaomi",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151035-01.jpg?context=bWFzdGVyfGltYWdlc3wxNDg4MnxpbWFnZS9qcGVnfGFHVmhMMmd5TkM4eE1EWTBOek01T0RnM05URTJOaTl6YVhwbE5URTFYekUxTVRBek5WOHdNUzVxY0djfGFlZDI5NThjZWU0OGYyZTA5OTk5YzkyNDgyNmQ4OWM5ODA1NGZkMTU4N2IwOWIyNWNiZmM5ZjJiNmIyZmQwOGQ",
+      "description": "Celular. Pantalla de 6.67\" (1080 x 2400). AMOLED, 1B colors*, 120Hz, 1000 nits (peak). Procesador Snapdragon 685 Octa core. (hasta 2.8 Ghz 4 Arm Cortex A73, hasta 1.9 GHz 4 Arm Cortex A5). Capacidad 256 Gb. RAM 8 Gb. Camara principal 108 (9 en 1 de 1,92, 1/1,67\") + 8 (ultra gran angular) + 2 Mp (macro). Flash LED. Camara frontal 16 Mp. Conexiones: Bluetooth 5.3. Wi-Fi 802.11 a/b/g/n/ac, dual-band. USB Type-C 2.0, OTG. Conector de 3.5mm. Sistema operativo Android 13, MIUI 14. Bateria de 5000 mAh. GPS, Glonass. Sensores: Huella digital (lateral), acelerometro, brujula, Deteccion de proximidad virtual. Nano SIM.\n",
+      "price": 539999,
+      "stock": 15,
+      "model": "REDMI NOTE 13 - MZB0G8VAR",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.67,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "color": "Verde",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 16.11,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.76,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 174.5,
+          "unit": "gr"
+        }
+      },
+      "id": "d148"
+    },
+    {
+      "brand": "Whirlpool",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152752-01.jpg?context=bWFzdGVyfGltYWdlc3w5NTY0fGltYWdlL2pwZWd8YURZM0wyZ3lOeTh4TURZek9UWXpOVFl4TVRZM09DOXphWHBsTlRFMVh6RTFNamMxTWw4d01TNXFjR2N8MTNhZTc4ZTQ0MzVmM2U0NzI0N2Y5Njc5YWU3NDQ5ZjU2ZmQwZWM0YTRjNjIxM2MwNjY4NDRjMmNmZjExZWJkOA",
+      "description": "Heladera. Volumen bruto 592 L. Volumen neto 554 L. Sistema de enfriamiento: No Frost. Inverter. Ubicacion del freezer: inferior. Eficiencia Energetica A. Crisper para frutas y verduras. Crisper especial multiuso. Tipo de estantes: vidrio templado, perfil plastico extruido con hotstamping. Ruedas. Pies regulables. Tipo de controles: display touch, control externo de temperatura, control de circulacion de aire. Accede rapido a las funciones: turbo ice, turbo zone, fiesta, vacaciones y compras. Compartimento extra frio turbo zone.",
+      "price": 2999999,
+      "stock": 13,
+      "model": "WRO85BK",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "No frost",
+        "color": "Inoxidable",
+        "country": "Brasil",
+        "dimension": {
+          "height": {
+            "value": 186.4,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 83.6,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 78.3,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 100,
+          "unit": "Kg"
+        }
+      },
+      "id": "10"
+    },
+    {
+      "brand": "Gafa",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-178226-01.png?context=bWFzdGVyfGltYWdlc3wyMDA0MTB8aW1hZ2UvcG5nfGFHWTVMMmc1T1M4eE1EWXpOVGM1TmpJMU1EWTFOQzl6YVhwbE5URTFYekUzT0RJeU5sOHdNUzV3Ym1jfGQwY2EwNTBiMGI4MzU3YWVjZTRjMzRjY2NhNWNkNmNmZDZlY2ZhNzNmZWE4NmMzNWM0N2FjZjEwZGUwNTRmNDU",
+      "description": "Heladera con freezer. Volumen Neto: 282 Lts. Sistema de enfriamiento: Ciclico. Ubicacion del freezer: Superior. Tipo de controles: Manuales. Su clasificacion de Eficiencia Energetica A hace que la h eladera sea mas eficiente con un menor consumo de energia. Crisper para frutas. Tipo de estantes de rejilla metalica. Ademas cuenta con un gas mas ecologico que cuida el medioambiente y no dana la capa de ozono. Pies regulables.",
+      "price": 699999,
+      "stock": 11,
+      "model": "HGF358AFB",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "Cycle defrost",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 142.7,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 61.4,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 62.1,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 45,
+          "unit": "Kg"
+        }
+      },
+      "id": "21"
+    },
+    {
+      "brand": "Hisense",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152904-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTE1OXxpbWFnZS9qcGVnfGFERTJMMmc1WWk4eE1EWXpPVGd3T1Rjd09EQTJNaTl6YVhwbE5URTFYekUxTWprd05GOHdNUzVxY0djfDM0ZTY2YWM2MjYwMDI4MDM0Y2JlZWJiMDZlZjJmMjAzYjNjN2Y0ZjQwZmQ4NTUyZGE3MWNjYzljZTY5ZmQ5YzU",
+      "description": "Heladera side by side no frost. Volumen neto 518L. Volumen bruto 592L. Ubicacion del freezer lateral. Tecnologia inverter. Eficiencia energetica A+. Crisper para frutas y multi uso. Estantes de vidrio templado. Pies regulables. Tipo de gas refrigerante R600a/68. Luz LED. Pantalla de control externo. Termostato regulable.",
+      "price": 3259509,
+      "stock": 4,
+      "model": "RC-70WS",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "No frost",
+        "color": "Inoxidable",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 178.6,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 74.3,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 91,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 112,
+          "unit": "Kg"
+        }
+      },
+      "id": "38"
+    },
+    {
+      "brand": "Standard electric",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-177891-01.png?context=bWFzdGVyfGltYWdlc3wxNzQ2NjJ8aW1hZ2UvcG5nfGFEY3hMMmc0WXk4eE1EVTJPRFEwTkRZM05EQTNPQzl6YVhwbE5URTFYekUzTnpnNU1WOHdNUzV3Ym1jfDAzMWJkOWM4N2UwOTE2NGI5MjdiM2JiY2VjMWM2YTkyODFmNjcxZjBkYzVlODVmMWQ0ZjZlZDdkYzQ1YzM2Mjc",
+      "description": "Heladera con freezer. Volumen bruto 330L. Volumen neto 329L. Sistema de enfriamiento: Skin. Ubicación del freezer: Superior. Tipos de controles: Termostato mecánico. Eficiencia Energética A+. Crisper para frutas y verduras. Estantes reforzados. Compartimiento de congelado rápido. Pies regulables. Dispenser externo. Descongelamiento Automático.",
+      "price": 731999,
+      "stock": 5,
+      "model": "STE-2F1600PDA",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "Cycle defrost",
+        "color": "Plata",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 145,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 55.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 62,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 45,
+          "unit": "Kg"
+        }
+      },
+      "id": "8ece"
+    },
+    {
+      "brand": "Electrolux",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-179559-01.png?context=bWFzdGVyfGltYWdlc3wzNjA2MjJ8aW1hZ2UvcG5nfGFEZGlMMmhqWVM4eE1EWXpOalV3TWpBME1EWXdOaTl6YVhwbE5URTFYekUzT1RVMU9WOHdNUzV3Ym1jfDdkYWM5MTMxZDFlMWVjNzM1MmJlODlhZWIyZGE3MWQ3NzFmYjA5OTIxNmViMzNkOGRiMGZjMjU2YjZkNWE2YWY",
+      "description": "Heladera no frost. Volumen neto 298L. Volumen bruto 303L. Ubicacion del freezer superior. Tecnologia inverter. Eficiencia energetica A+. Crisper para frutas. Estantes removibles de vidrio templado antiderrame. Compartimiento de congelado rapido. Compartimiento extra frio. Fabricadora de cubitos Ice twister. Pies regulables.",
+      "price": 1075299,
+      "stock": 8,
+      "model": "HENI3500P",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "No frost",
+        "color": "Plata",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 152.7,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 61.3,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 68.3,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 46.41,
+          "unit": "Kg"
+        }
+      },
+      "id": "3a69"
+    },
+    {
+      "id": "0e38",
+      "brand": "Creality",
+      "category": "Impresoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150522-01.jpg?context=bWFzdGVyfGltYWdlc3wxODI3NXxpbWFnZS9qcGVnfGFEWm1MMmhrWkM4eE1EWXpOelU0TlRFNE5qZzBOaTl6YVhwbE5URTFYekUxTURVeU1sOHdNUzVxY0djfDQzNzYwYzlkMmNiYmY1ZTgwNDA1ZjFmZDI3MzRkNWI4NjE0ODc4NzEzMDQzMDMzYjI5Y2M1MWY2YmEzZmNhMzk",
+      "description": "Impresora 3D. Boquilla utilizable: tipo Volcano. Diametro de filamento utilizable 1,75 mm. Boquilla incluida: 0.4 mm. Temperatura maxima de la boquilla: 300 C. Sistema de filamento abierto (si admite filamento de terceros). Tipo de extrusor: Directo Dual Drive. Temperatura maxima de la base de impresion: 100 C. Superficie de la placa de impresion: Flexible. Fijacion de la placa: magnetica. Sistema de nivelacion: automatico. Numero de Extrusores: 1. Velocidad de impresion: =<600 mm/s. Aceleracion: <=20000mm/s. Filamentos compatibles: ABS, PLA, PETG, PET, TPU, PA, ABS, ASA, PC, PLA-CF, PA-CF, PET-CF. Filtro Hepa. Sensor de agotamiento del filamento. Recuperacion de impresion por perdida de corriente. Transferencia de archivos: unidad USB, WiFi. Pantalla tactil a color de 4,3\". Kit de iluminacion. Formato de archivo imprimible: codigo G. Modo de suspension. Idiomas de la interfaz de usuario: ingles, espanol, aleman, frances, ruso, portugues, italiano, turco, japones, chino. Software de corte: Creality Print",
+      "price": 1108999,
+      "stock": 4,
+      "model": "K1",
+      "quantity": 0,
+      "characteristics": {
+        "printerType": "3D",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 48,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 35.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 35.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 12.5,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Epson",
+      "category": "Impresoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151134-01.jpg?context=bWFzdGVyfGltYWdlc3wzMjc5M3xpbWFnZS9qcGVnfGFHWmxMMmd6Wmk4eE1EVTNPVEF5T1RBd01ESXlNaTl6YVhwbE5URTFYekUxTVRFek5GOHdNUzVxY0djfGRhYjQ2MzM4ZTc2YTE3MzcxNzA4ZTJiNWQxYzIyMTE2YWFiNjBjNjlkOTc0N2U3MDY1NTU4NGQ3MGE5ODgzZjY",
+      "description": "Impresora. Impresion por USB. Wifi. Resolucion 5.760 x 1.440 Dpi. Botellas individuales. Incluye cable. Garantia extendible a 24 meses con registro del producto.",
+      "price": 439999,
+      "stock": 14,
+      "model": "ECOTANK L1250 (B631E)",
+      "quantity": 0,
+      "characteristics": {
+        "printerType": "Color",
+        "color": "Negro",
+        "country": "Filipinas",
+        "dimension": {
+          "height": {
+            "value": 16.9,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 37.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 34.7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 2.9,
+          "unit": "Kg"
+        }
+      },
+      "id": "27"
+    },
+    {
+      "brand": "HP",
+      "category": "Impresoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150654-01.jpg?context=bWFzdGVyfGltYWdlc3w5ODYxfGltYWdlL2pwZWd8YURjd0wyZzBOaTh4TURZek9Ea3hNRFkxTWpRME5pOXphWHBsTlRFMVh6RTFNRFkxTkY4d01TNXFjR2N8NzU3MTZiY2UxYTlkZmE4ODU0MjM1NmFmMDQ2ODgxY2JkZDc3OGY5MTE4MWIwMzY1NWJiNTlmMWFmZmRmNDhkYw",
+      "description": "Impresora laser. Memoria interna 32 Mb. Procesador 500 Mhz. Resolucion impresion 600x600 dpi. Velocidad de impresion negro 21 PPM. Capacidad bandeja de salida 100. Capacidad bandeja de entrada 150. Impresion por USB. Wi Fi. Area de impresion maxima 216 x 355.6mm. Cartucho de toner de reemplazo HP Laser Jet 150A, negro (aproximadamente 975 paginas), W1500A. Ciclo de trabajo (mensual, A4) hasta 8000 paginas. Compatible con MAC. Conectividad estandar 1 USB 2.0 de alta velocidad, conexion inalambrica 802.11b/g/n de 2.4 Ghz con bluetooth de bajo consumo de energia. Lenguajes de impresion PCLm5, URF, PWG.",
+      "price": 146999,
+      "stock": 9,
+      "model": "LASERJET M111W",
+      "quantity": 0,
+      "characteristics": {
+        "printerType": "Color",
+        "color": "Blanco",
+        "country": "Vietnam",
+        "dimension": {
+          "height": {
+            "value": 18.9,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 34.6,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 15.9,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "Kg"
+        }
+      },
+      "id": "28"
+    },
+    {
+      "brand": "Anycubic",
+      "category": "Impresoras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151810-01.jpg?context=bWFzdGVyfGltYWdlc3wyMDc2N3xpbWFnZS9qcGVnfGFHSmhMMmhpWkM4eE1EWXpPVEF5TXpZek5qVXhNQzl6YVhwbE5URTFYekUxTVRneE1GOHdNUzVxY0djfDIxOTI3NWVlMjUzOGJhNTEzMTc1MzhjY2QzOTEyNDY5MWRiODcwOGNlNWUzMjkzMDdhZDkyNDAzMjE5NDMzM2Q",
+      "description": "Impresora 3D. Volumen de impresion 250 x 220 x 220mm. Velocidad de impresion maxima de 250 mm/s. Y una velocidad de impresion recomendada de 150 mm/s. Pantalla de perilla LCD de 2.4 pulgadas. Extrusor Integrado: El sistema de extrusion actualizado y el sistema de enfriamiento funden filamentos rapidamente a traves del hotend de 60W, mientras que el potente ventilador de material con 7000 revoluciones por minuto garantiza la refrigeracion necesaria del modelo. De este modo, las velocidades maximas de 250 mm/s. Nivelacion Automatica: Con LeviQ 2.0, las irregularidades de la superficie de impresion se registran durante la nivelacion automatica y se compensan sobre la marcha mediante ajustes de offset Z. Esto se hace automaticamente o mediante valores definidos por el usuario, puedes elegir la opcion que prefieras segun tus necesidades. Toda la maquina consta de 5 modulos con un diseno de estructura de marco de puente grua. Ensamblaje facil y menos mantenimiento. Esta equipado con una plataforma magnetica de acero para muelles con revestimiento PEI. La plataforma es solida, resistente al desgaste y flexible, lo que significa que los modelos se pueden quitar facilmente de la placa doblandose ligeramente. Tiene 2 sensores especiales: el sensor de reanudacion en caso de corte de energia y el sensor de agotamiento del filamento (opcional). La impresion se detiene en caso de un corte de luz y se reanuda donde se detuvo una vez que se restablece la luz. El segundo sensor detecta cuando el filamento se acaba y detiene la impresion. Cuando se inserta un nuevo filamento, la impresion se reanuda automaticamente. El ajuste del tensor de correa XY se realiza sin herramientas. Incluye curso de regalo.",
+      "price": 404100,
+      "stock": 9,
+      "model": "KOBRA 2 NEO",
+      "quantity": 0,
+      "characteristics": {
+        "printerType": "3D",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 48.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 44,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 44,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 8.4,
+          "unit": "Kg"
+        }
+      },
+      "id": "c3bb"
+    },
+    {
+      "id": "9d32",
+      "brand": "Whirlpool",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149618-01.jpg?context=bWFzdGVyfGltYWdlc3wxNDgzM3xpbWFnZS9qcGVnfGFEVmpMMmhqWmk4eE1EWXpOamc0TWpFME9UUXdOaTl6YVhwbE5URTFYekUwT1RZeE9GOHdNUzVxY0djfDYwYjNmMDc3YWM4YzlkZTYxNjA3OTA1OTZhNDc4ZDFkMDhiZTYwZWE1NGZjNmY2MGJmN2ZlZTgxYWVkNDc5YWQ",
+      "description": "Lavarropas automatico. Tecnologia inverter. Capacidad 9 Kg. 15 Programas. Eficiencia energetica A++. Carga frontal. Velocidad de centrifugado 1400 RPM. Controles mecanicos. Display. Regulador de temperatura. Exclusion de centrifugado. Media carga. Antiarrugas. Lavado rapido. Tambor de acero inoxidable. Pies niveladores. Alarma de puerta. Traba de seguridad. Consumo de agua: 64 litros. Bomba de desagote. Sensores inteligentes detectan el nivel de carga para optimizar el ciclo minimizando el uso de recursos. Ahorro superior, mejor rendimiento y durabilidad.",
+      "price": 1099999,
+      "stock": 10,
+      "model": "WNQ90AS",
+      "quantity": 0,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 9,
+          "unit": "Kg"
+        },
+        "color": "Gris oscuro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 84.6,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 59.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 64.4,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 79.7,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Hisense",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151905-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTUxOXxpbWFnZS9qcGVnfGFHSmlMMmc0TWk4eE1EWXpPVEV6TmprNE1UQXlNaTl6YVhwbE5URTFYekUxTVRrd05WOHdNUzVxY0djfGJkZGQ2OGFjNzM5N2VjNjExNDA2MGRkNzI2YjU3OTkzZDVlZDA1NGE4MTUxMjRlYTFhNWQ3OTExZGZmNTY5Mjg",
+      "description": "Lavarropas automatico. Capacidad 6.5Kg. Sistema de lavado europeo. 15 Programas. Eficiencia energetica A. Carga frontal. Velocidad de centrifugado 1000 rpm. Contol digital. Regulador de temperatura. 1/2 Carga. Lavado rapido (15 min). Tambor de acero inoxidable.",
+      "price": 699999,
+      "stock": 5,
+      "model": "WFMB6510SU",
+      "quantity": 0,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 6.5,
+          "unit": "Kg"
+        },
+        "color": "Plata",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 85,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 60,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 46,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 56,
+          "unit": "Kg"
+        }
+      },
+      "id": "22"
+    },
+    {
+      "brand": "Philco",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152816-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTc3MnxpbWFnZS9qcGVnfGFESXlMMmc1WWk4eE1EWXpPVGN6T1RJMU5qZzJNaTl6YVhwbE5URTFYekUxTWpneE5sOHdNUzVxY0djfDZiYmViODNhYjU1NGM5Mjk0ZjgzN2JiOTUwNjIwMGJhM2JhNmY2YTUyOTk2NzBiMWUwMjFhZmY5ODFkNjk5OTM",
+      "description": "Lavarropas automatico. Capacidad 6.5 kg. Sistema de lavado europeo. 15 Programas. Eficiencia energetica A. Carga frontal. Velocidad de centrifugado 1000 rpm. Control analogico. Regulador de temperatura. 1/2 Carga. Tambor de acero inoxidable. Lavado rapido.",
+      "price": 71999,
+      "stock": 11,
+      "model": "PHLF6510P2",
+      "quantity": 0,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 6.5,
+          "unit": "Kg"
+        },
+        "color": "Plata",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 84.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 59.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 45,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 55,
+          "unit": "Kg"
+        }
+      },
+      "id": "01af"
+    },
+    {
+      "brand": "Patrick",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-146910-01.jpg?context=bWFzdGVyfGltYWdlc3wzMTgwM3xpbWFnZS9qcGVnfGFEa3dMMmcxT1M4eE1EVTBNalF6TVRnNU5UVTRNaTl6YVhwbE5URTFYekUwTmpreE1GOHdNUzVxY0djfDJjMjkzYWFiNTc3Nzg2MTU0MTRhZDhiYTJhMzQ4OGFjYWYyMzM2MjQ1YmNlMWVlOTkzZjM3OTJkM2ZiMmFhMmI",
+      "description": "Lavarropas Semiautomatico. Capacidad: 7kg. 9 Programas automaticos de lavadoy enjuague: Eco - Enjuague - Lana - Sintetico - Algodon - Algodon muy Sucio - Superlavado - Suavizante - Vaciado. Dispenser de detergente y suavizante con dosificador. Motor termoprotegido. Interriuptor de seguridad. Bomba de desagote. Sistema de lavado automatico. Tambor de acero inoxidable. Tapa transparente: Mayor visibilidad. Facil apertura y cierre. Comando Superior: Con Selector Perilla.",
+      "price": 307899,
+      "stock": 2,
+      "model": "LTPK67SB",
+      "quantity": 0,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 7,
+          "unit": "Kg"
+        },
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 87,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 50.9,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 39.6,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 16.3,
+          "unit": "Kg"
+        }
+      },
+      "id": "993f"
+    },
+    {
+      "brand": "Drean",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-139135-01.jpg?context=bWFzdGVyfGltYWdlc3w1NzA5MXxpbWFnZS9qcGVnfGFHVmtMMmhqTlM4eE1EUTRNVFU0TkRjd01UUTNNQzl6YVhwbE5URTFYekV6T1RFek5WOHdNUzVxY0djfDAzNDRjMWM1NWJmMzY3MjI0MjM5YmQ4OGI4NGI5ZGE4ZTBjMGE3NWU4MTA5YTU4MjYxNThmZjZmYzFlYzBkN2Q",
+      "description": "Lav. automatico CF Inventer. Cap.8K. 35 programas. 1400rpm. Sist. de lavado europeo. Tambor ac.inox. Controles manuales-pulsadores. 1/2 carga. Expulsion de centrif. Antiarrugas. Display Led. Lavado rapido. Control de temp. Eco wash / Eco soft. EE A+++.",
+      "price": 1091999,
+      "stock": 7,
+      "model": "NEXT 8-14 PG ECO",
+      "quantity": 0,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 8,
+          "unit": "Kg"
+        },
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 85,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 59.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 55,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 72,
+          "unit": "Kg"
+        }
+      },
+      "id": "6489"
+    },
+    {
+      "id": "e2d3",
+      "brand": "Whirlpool",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-146231-01.jpg?context=bWFzdGVyfGltYWdlc3wyMjAzNXxpbWFnZS9qcGVnfGFHTXhMMmc1TXk4eE1EUTNNRFE1T1RjME5UZ3lNaTl6YVhwbE5URTFYekUwTmpJek1WOHdNUzVxY0djfDc4ZjU3NmQ5ZDE2ZGM1MTg1ODViN2RlNDE0ZTE1NDBiMGRmOTM4NTc4ZTZhMjg5MGYzNmYxODc0MTU2YjllYjM",
+      "description": "Lavarropas carga superior, 11kg. 17 Programas: \"Ciclos Anti-pelusas, Antialergico, Remocion de manchas Pro, Ropa de mascotas, Diario, Blanca, Color, Delicado, Jeans, Edredon, Limpieza de tambor, Sanitizar (ropa), Lavado Express, Ciclos manuales: Remojar, Lavar, Enjuagar, Desagotar y Centrifugar. Eficiencia energetica A. Controles display. Tambor de acero inoxidable. Lavado rapido. Sistema de lavado impeller (smart action): Conjunto de componentes que generan accion mecanica mejorando el desempeno de lavado, removiendo la suciedad de las prendas y dejandolas limpias. Compuesto por los siguientes elementos: Filtro atrapa pelusa con diseno renovado. Es desmontable para una facil limpieza. Permite la entrada de agua por los laterales y la salida sin pelusa por el frente. Lifter al costado del tambor para una agitacion intensa promoviendo la remocion de manchas. Esta pieza genera turbulencia y flujos de agua a traves de la accion mecanica (uno de los principales contribuidores para el buen lavado de la ropa). Mini impellers que generan corrientes de agua ascendentes para una mayor penetracion en las fibras de la ropa. Ademas, con su diseno renovado favorece al cuidado de la ropa. Doble entrada de agua. Incluye opcion antiarrugas. Regulador de temperatura, 3. Velocidad de centrifugado 700 RPM.",
+      "price": 1164999,
+      "stock": 7,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 9,
+          "unit": "Kg"
+        },
+        "color": "Gris oscuro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 84.6,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 59.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 64.4,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 79.7,
+          "unit": "Kg"
+        }
+      },
+      "model": "WW11BT",
+      "quantity": 0
+    },
+    {
+      "id": "237a",
+      "brand": "BGH",
+      "category": "Microondas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-146596-01.jpg?context=bWFzdGVyfGltYWdlc3wyNDI3NnxpbWFnZS9qcGVnfGFESmlMMmhtTmk4eE1EWXpPRFkzTURBek56QXlNaTl6YVhwbE5URTFYekUwTmpVNU5sOHdNUzVxY0djfDc5NDhlNGUyNzdiYWVmNWFlOTYyNGE1NmRlNDc2MDIwYzQ1YjBlNzZhYTBlYTg4MTY1M2QyNDhmMmY1NWE2ZmQ",
+      "description": "Microondas bifuncion digital. Clase de eficiencia energetica B. Control digital - membrana. Display LED blanco. Modo ahorro de energia (modo ECO). Diametro del plato de vidrio 270. Luz interior LED. Voltage / frecuencia 220v / 50Hz. Consumo maximo (W) 1250. Tipo de ficha de 10A. Potencia de entrada microondas 1250W. Potencia de salida de microondas 800W / Potencia grill 1000W. Auto menu. ECO. Reloj. Cronometro. Coccion multietapa. Descongelamiento por peso. Descongelamiento por tiempo. Iniciado rapido. Senal de fin de la coccion. Bloqueo de teclado para ninos. Rejilla grill.",
+      "price": 327869,
+      "stock": 17,
+      "model": "B223DN20",
+      "quantity": 0,
+      "characteristics": {
+        "capacity": {
+          "value": 23,
+          "unit": "L"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 29.2,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 48.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 39.4,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 13.4,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "id": "2d03",
+      "brand": "Logitech",
+      "category": "Mouses",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152331-01.jpg?context=bWFzdGVyfGltYWdlc3wxNDA5MHxpbWFnZS9qcGVnfGFHTTNMMmczTVM4eE1EWXpPVFV5T1Rnd016Z3dOaTl6YVhwbE5URTFYekUxTWpNek1WOHdNUzVxY0djfGM1MDVlZDc5OTZlNjlmNDc5ZTVkZTE2ZjlhMzFjMWQ0YjJkMzY2NWRiYzlmNTNlZWIxMWEwZmJjMWRkZmU1YTU",
+      "description": "Levanta la mano, enderezala en una postura mas natural y descubre la verdadera comodidad. Relajate y aumenta la productividad con el mouse ergonomico vertical Lift, un dispositivo disenado para manos pequenas y medianas. Elevacion izquierda, grafito/negro",
+      "price": 93520,
+      "stock": 14,
+      "model": "LIFT",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Bluetooth",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 10.8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 7.1,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 125,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "brand": "Kanji",
+      "category": "Mouses",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149349-01.jpg?context=bWFzdGVyfGltYWdlc3w1MDc1OXxpbWFnZS9qcGVnfGFEUmtMMmcxWlM4eE1EUTVNelEwTURJMk1qRTNOQzl6YVhwbE5URTFYekUwT1RNME9WOHdNUzVxY0djfGQ5NWQxOGU1YjRkNmM4OWFmZDM0MGU3NmRhYTBlZmZmNWFjOGRkYmI5ZWZlZTEyZTU0Mjk3MmZjMjEyNDQ1YTY",
+      "description": "Mouse. Sensor. Resolucion de 800 DPI.",
+      "price": 4599,
+      "stock": 15,
+      "model": "KJ-MOUSET001",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Azul",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 3.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 5.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 9.7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 100,
+          "unit": "gr"
+        }
+      },
+      "id": "b407"
+    },
+    {
+      "brand": "Noganet",
+      "category": "Mouses",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149052-01.jpg?context=bWFzdGVyfGltYWdlc3wyMDAyM3xpbWFnZS9qcGVnfGFEWXlMMmhoTUM4eE1EWXpOalUwTkRjd05EVTBNaTl6YVhwbE5URTFYekUwT1RBMU1sOHdNUzVxY0djfDk0YzYwNjYyNmQ1ZDY3M2I3MzNlM2M4MDQyNGE0ZTRhYTRhMGIzNmZiM2YwZTFhMzdhOWFkZGIxM2I1ZGM2Yjk",
+      "description": "Mouse gamer. Selectores de velocidad de movimiento con resolucion maxima de 12000 DPI. Sensor optico profesional IC6662. 11 Botones y scroll que incluye boton de disparo, funciones multimedia y calculadora. RGB LED con boton de encendido y seleccion de efectos de luces. Cable mallado con filtro de 1,9 metros. Diseno gamer ultra-ergonomico con excelente estabilidad y deslizamiento.",
+      "price": 24899,
+      "stock": 10,
+      "model": "ST-333",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 220,
+          "unit": "gr"
+        }
+      },
+      "id": "96e4"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Mouses",
+      "urlImage": "https://medias.musimundo.com/medias/size515-132572-01.jpg?context=bWFzdGVyfGltYWdlc3wxODk5MXxpbWFnZS9qcGVnfGFEQTRMMmd5TWk4eE1EWXpOREkzTXprNE1EUTBOaTl6YVhwbE5URTFYekV6TWpVM01sOHdNUzVxY0djfDNmNWY2ZjdhZGVmYTMxNmY5NDJlMDQ5NzJlZDkzNGMwNzAyMDc3OTg0NWViOTVmMThhZTExZWVhMzZmMmZlMDc",
+      "description": "Mouse inalambrico para Windows, Mac, Chrome OS y Linux. Tecnologia inalambrica fiable de 2.4Ghz con alcance de h/10mts. Conexion Plug and Play. Comodo y portatil. Nano receptor USB. Funciona c/1 bateria AA (h/12 meses de duracion). Color rojo/negro.",
+      "price": 12799,
+      "stock": 10,
+      "model": "M170",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Wireless",
+        "color": "Rojo",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 3.52,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 6.15,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 9.77,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 71,
+          "unit": "gr"
+        }
+      },
+      "id": "9264"
+    },
+    {
+      "id": "ebc1",
+      "brand": "HP",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152232-01.jpg?context=bWFzdGVyfGltYWdlc3w0NzQwN3xpbWFnZS9qcGVnfGFESTFMMmcyTXk4eE1EWXpPVE0wTmpjNU5EVXlOaTl6YVhwbE5URTFYekUxTWpJek1sOHdNUzVxY0djfDlmNjQ5ZjZiZDAwZjY3YTI1MDM0NzhiOGIxNDY1ZGNmMmQ4MDIwYjlmYmNhZTQ3MzM0YTBkMTg0NzFkODUwOTE",
+      "description": "Notebook. Pantalla de 14\", FHD (1920 x 1080) IPS. Relacion aspecto 16:9. Procesador Intel Core Ultra 5-125H (1.2 hasta 4.5 Ghz). Capacidad 512 Gb. RAM 8 Gb DDR5-5600 MHz. Placa de video Intel ARC. Conexiones: Wi Fi. Bluetooth. 1 USB tipo C. 2 USB tipo A. 1 HDMI 1.4b. Combo de auriculares/microfono. Sistema operativo Windows 11 home. Camara HP True Vision 720p HD con reduccion de ruido temporal y microfonos digitales de matriz dual integrados. Bateria 41 Whrs.",
+      "price": 1599999,
+      "stock": 7,
+      "model": "14-EP1002LA - A51JPLA",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 14,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "processor": "CORE ULTRA 5-125H",
+        "storageSize": {
+          "size": 512,
+          "unit": "GB"
+        },
+        "color": "Plata",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 1.79,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 32.37,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 21.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1.4,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Dell",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151940-01.jpg?context=bWFzdGVyfGltYWdlc3wzMDE4NHxpbWFnZS9qcGVnfGFEY3lMMmd5TXk4eE1EWXpPVEU0TlRnd05UTTBNaTl6YVhwbE5URTFYekUxTVRrME1GOHdNUzVxY0djfGI5MmNkNmI5ZDhiZWI0NDA2NTY4MWVkZTMxNTRlM2MwMDNjMGUwNTAxYzBlYTBiZTE4M2FmMzg4NDQzNDU3ZTE",
+      "description": "Notebook. Pantalla de 15.6\" FHD (1920x1080). Formato de pantalla 16:9. Brillo 250 CD/M2. Respuesta de ascenso/descenso de la pantalla 35 ms. Maxima velocidad de actualizacion 120 Hz. Procesador Intel Core I3-1215U de 12ma generacion (2 hasta 4.4 Ghz). Capacidad 512 Gb. RAM 8 Gb. Conexiones: Wi fi. Bluetooth. HDMI. USB. Entrada para microfono. Microfono incorporado Sistema operativo Windows 11. Camara. Bateria 41 Wh. 2 Altavoces.",
+      "price": 849999,
+      "stock": 6,
+      "model": "INSPIRON 3520 - P9DVJ",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 15.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "processor": "Intel Core i3",
+        "storageSize": {
+          "size": 512,
+          "unit": "GB"
+        },
+        "color": "Plata",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 1.69,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 35.8,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 23.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1.63,
+          "unit": "Kg"
+        }
+      },
+      "id": "35"
+    },
+    {
+      "brand": "Asus",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-146833-01.jpg?context=bWFzdGVyfGltYWdlc3wyNTEzMXxpbWFnZS9qcGVnfGFEQTFMMmc0Wmk4eE1EWXpOVGN6T0RJMU1USTVOQzl6YVhwbE5URTFYekUwTmpnek0xOHdNUzVxY0djfGNhYWI4ZGVlYTQzZGVjNjNmNDM0NzRhZjk1NTIwYzRhNWRkZTRkYTZjMjQ0NWZjNTk5ZWNkYWUwOTUzNDIyZjA",
+      "description": "Notebook. Pantalla de 15.6\" FHD (1920x1080) 16:9. Tasa de refresco 60 Hz. Brillo 220 nits. Procesador Intel Core i3-1215U Processor 1.2 GHz (10M Cache, up to 4.4 GHz, 6 cores). Capacidad 256GB M.2 NVMe PCIe 3.0 SSD. RAM 8GB DDR4 on board. Placa de video Intel UHD graphics. Conexiones: Wi-Fi 5(802.11ac) (Dual band) 1*1 + Bluetooth 5.1 Wireless Card. 1x USB 2.0 Type-A. 1x USB 3.2 Gen 1 Type-C. 2x USB 3.2 Gen 1 Type-A. 1x HDMI 1.4. 1x 3.5mm Combo Audio Jack. 1x DC-in. Microfono incorporado. Sistema operativo Windows 11 home. Camara HD 720p. Bateria 42WHrs, 3S1P, 3-cell Li-ion.",
+      "price": 1249999,
+      "stock": 23,
+      "model": "VIVOBOOK 15 - X1502ZA-EJ830W",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 15.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "processor": "Intel Core i3",
+        "storageSize": {
+          "size": 256,
+          "unit": "GB"
+        },
+        "color": "Azul",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 1.99,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 35.97,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 23.25,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1.7,
+          "unit": "Kg"
+        }
+      },
+      "id": "4609"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149362-01.jpg?context=bWFzdGVyfGltYWdlc3w0NDYyOXxpbWFnZS9qcGVnfGFEbGlMMmcwWmk4eE1EVTRNRFE0TkRFMk1UVTJOaTl6YVhwbE5URTFYekUwT1RNMk1sOHdNUzVxY0djfDViNGEwOGQwMjYzYTlkOTMwN2YzNDUwNTgwZDUxNGNlN2ZkNzU0MTI0OWFlODkzM2JiOTRiYjYyMmRkMzkyOWE",
+      "description": "Notebook Idea Pad gamer. Pantalla de 15.6 FHD (1920x1080) IPS 250nits Anti-glare, 45% NTSC, 120Hz, FreeSyn. Procesador AMD Ryzen 5-6600H (3.3 hasta 4.5GHz). Capacidad 512GB SSD M.2 2280 PCIe 3.0x4 NVMe. RAM 16GB SO-DIMM DDR5-4800. Placa de video NVIDIA GeForce RTX 3050 Ti 4GB GDDR6, Boost Clock 1695MHz, TGP 85W. Conexiones Wi-Fi 6, 11ax 2x2 + BT5.1. 2x USB 3.2 Gen 1. 1x USB-C 3.2 Gen 2 (support data transfer, Power Delivery 3.0 and DisplayPort 1.4). 1x HDMI 2.0. 1x Ethernet (RJ-45). 1x Headphone / microphone combo jack (3.5mm). Microfono incorporado. Sistema operativo Windows 11 Home. Camara HD 720p. Bateria de 60 Wh. Incluye 3 meses de Gamepass a partir de la activacion de windows.",
+      "price": 2129999,
+      "stock": 10,
+      "model": "IDEAPAD GAMING 3 15ARH7 - 82SB00E2AR",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 16,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "processor": "AMD Ryzen 5",
+        "storageSize": {
+          "size": 512,
+          "unit": "GB"
+        },
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 2.18,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 35.96,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 26.64,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 2.32,
+          "unit": "Kg"
+        }
+      },
+      "id": "a396"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-153403-01.jpg?context=bWFzdGVyfGltYWdlc3wxMzEzOXxpbWFnZS9qcGVnfGFETTBMMmcyWXk4eE1EWTFNREUwTkRRME1ETTFNQzl6YVhwbE5URTFYekUxTXpRd00xOHdNUzVxY0djfGRmYmVkOTlmYTU1MTkxMGJiNWYwZWYzYzI4ZTFmMDQzODkxZTcyMjQwZTc3OTA1ZGY3YzAyOWY0N2FhZWM4MDQ",
+      "description": "Notebook. Pantalla de 15.6\", FHD (1920 x 1080), ideal para disfrutar de imagenes nitidas y colores vibrantes. Procesador Intel Core I7 150U (1.2 GHz hasta 5.4 GHz). Capacidad 512 GB SSD que garantiza arranques rapidos y acceso veloz a tus archivos. RAM DDR4 16 GB perfecto para quienes buscan un rendimiento excepcional en sus tareas diarias. Placa de video integrada. Conexiones: Wifi, Bluetooth. USB-C x2. USB 3.2 x2. HDMI x1. MicroSD. Camara web. Sistema operativo Windows 11, brindando una experiencia moderna y fluida. Con su elegante color plata y un teclado retroiluminado, la Notebook Samsung Galaxy Book4 no solo es funcional, sino tambien un complemento estetico para tu espacio de trabajo. Bateria 4865 mAh.",
+      "price": 3906999,
+      "stock": 10,
+      "model": "GALAXY BOOK3 PRO 360",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 15.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 16,
+          "unit": "GB"
+        },
+        "processor": "Intel Core i7",
+        "storageSize": {
+          "size": 512,
+          "unit": "GB"
+        },
+        "color": "Plata",
+        "country": "Corea del Sur",
+        "dimension": {
+          "height": {
+            "value": 10,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 20,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 50,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 2,
+          "unit": "Kg"
+        }
+      },
+      "id": "6879"
+    },
+    {
+      "brand": "HP",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-153406-01.jpg?context=bWFzdGVyfGltYWdlc3wxODkwM3xpbWFnZS9qcGVnfGFEbGtMMmd3TWk4eE1EWTFNREUwTlRReU16TTVNQzl6YVhwbE5URTFYekUxTXpRd05sOHdNUzVxY0djfDZjYjNmYzZhNTg4YTNhYzYyZTk3NzEyODU4ZmVhNmYwZTY5Y2ZhYTE0MmU5ODQzOWU1N2ExODdhMmJiMjM4YTQ",
+      "description": "Notebook. Pantalla de 14\", HD (1366 x 768) perfecta para disfrutar de contenido multimedia. Procesador Intel Core i3-N305 (cache de 6 MB, hasta 3.8 GHz). Capacidad 256GB SSD que proporciona arranques rapidos y acceso veloz a tus archivos. RAM DDR4 de 8 GB que garantiza un rendimiento fluido para tareas cotidianas como navegacion, procesamiento de texto y streaming. Placa de video integrada. Conexiones: Wifi, Bluetooth. USB-A x2, USB-C x1. Sistema operativo Windows 11 que ofrece una interfaz moderna y facil de usar. Bateria de polimero de litio de 3694 mAh que ofrece una adecuada duracion para acompanarte a lo largo del dia.",
+      "price": 783000,
+      "stock": 10,
+      "model": "14-EP0792WM",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 14,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "processor": "Intel Core i3",
+        "storageSize": {
+          "size": 256,
+          "unit": "GB"
+        },
+        "color": "Plata",
+        "country": "Usa",
+        "dimension": {
+          "height": {
+            "value": 10,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 20,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 50,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 2,
+          "unit": "Kg"
+        }
+      },
+      "id": "fbe6"
+    },
+    {
+      "id": "0dd9",
+      "brand": "JBL",
+      "category": "Parlantes",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151139-01.jpg?context=bWFzdGVyfGltYWdlc3wyODAzN3xpbWFnZS9qcGVnfGFEVmlMMmhsTUM4eE1EWXpPRE13TXpBMk9ERTVNQzl6YVhwbE5URTFYekUxTVRFek9WOHdNUzVxY0djfDc2Zjc3YzMwODRjMzZhNWEyODZiNjM5NjM5NzZhY2ZkOWI5ZGM4MjNmMjU2MzY0ZGJlZTdkY2ViY2ZhOWRhZWY",
+      "description": "Parlante portatil. Alimentacion 5v (no incluye cargador). Resistente al polvo y al agua conforme a la norma IP67. Transductor: 45 mm/1.75. Potencia de salida: 4.2 W RMS. Respuesta de frecuencia: 90 Hz 20 kHz. Relacion senal/ruido: >85 dB. Tipo de bateria: polimero de ion-litio 3.23 Wh (equivalente a 3,8 V / 850 mAh). Tiempo de carga de la bateria: 3 horas (5 V/1 A). Tiempo de reproduccion de musica: hasta 7 horas (en funcion del volumen y del contenido del audio) Version Bluetooth: 5.3. Perfil Bluetooth: A2DP 1.4, AVRCP 1.6 Rango de frecuencia del transmisor. Bluetooth: 2400 MHz 2483.5 MHz. Potencia del transmisor Bluetooth: =9 dBm (PIRE). Modulacion del transmisor. Bluetooth: GFSK, p/4 DQPSK, 8 DPSK. Incluye cable de carga tipo C.",
+      "price": 99999,
+      "stock": 19,
+      "model": "GO 4",
+      "quantity": 0,
+      "characteristics": {
+        "country": "China",
+        "color": "Negro",
+        "dimension": {
+          "height": {
+            "value": 7.8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 9.4,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 4.2,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0.9,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Blackpoint",
+      "category": "Parlantes",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151206-01.jpg?context=bWFzdGVyfGltYWdlc3w4NTY3MHxpbWFnZS9qcGVnfGFESXhMMmczTnk4eE1EVTRNakk1TlRVeE1UQTNNQzl6YVhwbE5URTFYekUxTVRJd05sOHdNUzVxY0djfDM5OGFiMTM1MGI1ZGYwMDJiM2YzMTg3YmE0YmI2ZWQzOTlhZmIwNGJhMGZjNTY0YmRiZTEzNDE0ZDg0OGFiMjk",
+      "description": "Parlante portatil. Conexion inalambrica Bluetooth. TWS-Estereo inalambrico real. Efecto de luces led. Radio FM. USB. Bateria recargable. Entrada de Microfono. 5W potencia de salida. Subwoofer Unit: 6.5\". Bateria de litio: 1200mAH. Ruedas. Manija.",
+      "price": 23999,
+      "stock": 21,
+      "model": "S29.1",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 28,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 20,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 11,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1,
+          "unit": "Kg"
+        }
+      },
+      "id": "20"
+    },
+    {
+      "brand": "Stromberg",
+      "category": "Parlantes",
+      "urlImage": "https://medias.musimundo.com/medias/size515-179281-01.png?context=bWFzdGVyfGltYWdlc3wzNDA2Mzh8aW1hZ2UvcG5nfGFHVTJMMmhoTlM4eE1EWXpPVFl5T1RNeU1ESXlNaTl6YVhwbE5URTFYekUzT1RJNE1WOHdNUzV3Ym1jfDEzYTI0OTM0OTQ0YThhZDY3NTViMzAwOTQ4MzljMjExNzEwMjhmY2IwOTc0ZjdlYjg1NzRkOTZjNjA3M2FlNzI",
+      "description": "DESCUBRÍ UN MUNDO DE POSIBILIDADES CON EL PARLANTE PORTÁTIL STROMBERG ZING!. ESTE DIMINUTO GIGANTE DE 5 WATTS DE POTENCIA Y CON UNA DURACIÓN DE BATERÍA DE HASTA 6 HORAS TE ACOMPAÑA EN CADA MOMENTO ESPECIAL. EL PARLANTE STROMBERG ZING! CON BLUETOOTH SE CONECTA FÁCILMENTE A TUS DISPOSITIVOS LIBERÁNDOTE DE LOS CABLES Y PERMITIÉNDOTE MOVERTE CON TOTAL LIBERTAD. WOOFER 1X1.75 / 5 WATTS DE POTENCIA DURACIÓN DE BATERÍA: 6 HORAS (50% DE VOLUMEN) BLUETOOTH / ENTRADA ELÉCTRICA: 5V 1A USB ENTRADA AUXILIAR 3 5MM",
+      "price": 27999,
+      "stock": 19,
+      "model": "ZING",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Amarillo",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 10,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0.3,
+          "unit": "Kg"
+        }
+      },
+      "id": "39"
+    },
+    {
+      "brand": "Genius",
+      "category": "Parlantes",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152851-01.jpg?context=bWFzdGVyfGltYWdlc3wxNTg3M3xpbWFnZS9qcGVnfGFERmlMMmd6WWk4eE1EWXpPVGM0TWpJeE5UY3hNQzl6YVhwbE5URTFYekUxTWpnMU1WOHdNUzVxY0djfDE4NmJjN2ZhOGU2NDA1ZDNmZWFhNDg2ZTA3ZjQ4ZjRiYTQ5NWE5MzQwZDkzY2YyNzNjMGI4MWZmMTZhZDc3Mzk",
+      "description": "Parlantes estereo USB 2.0 con auxiliar auriculares. Elegante, pequeno y potente de 3 vatios con sonido claro y nitido. El conector de audio de 3,5 mm es compatible para diversos dispositivos. Unidad de controlador: 2 \" \" . Respuesta frecuente: 150 Hz - 20 kHz. Relacion senal/ruido: 70dB. Toma de auriculares. Longitud del cable: 1.2m.",
+      "price": 17999,
+      "stock": 19,
+      "model": "SP-U125",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 8,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 10.3,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 12.4,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 424,
+          "unit": "gr"
+        }
+      },
+      "id": "40"
+    },
+    {
+      "brand": "Divoom",
+      "category": "Parlantes",
+      "urlImage": "https://medias.musimundo.com/medias/size515-147932-01.jpg?context=bWFzdGVyfGltYWdlc3w2MjA5N3xpbWFnZS9qcGVnfGFHWmpMMmczTnk4eE1EUTNORE0wTVRJMk9UVXpOQzl6YVhwbE5URTFYekUwTnprek1sOHdNUzVxY0djfGUyZDUwNjg4ZmMxMTEwNDUwMmRjYTRkNTQ4OTk4Y2ZmOTk4Yjg4YTE5MTllYWU5M2Q4NDk1NThlZjc1MzI1NmY",
+      "description": "Parlante Portatil. Pantalla LED de 3,55 pulgadas. Pantalla de pixeles. Bluetooh. USB tipo C. Tamano del parlante: 45 MM. Potencia: 15 W. Tiempo de reproduccion: 8 Horas. Tiempo de carga: 4 Horas. Capacidad de bateria: 3000 mAh. Display. Control de aplicacion de altavoz inalambrico. Audio HD. Teclado mecanico. Lector de tarjetas.",
+      "price": 183640,
+      "stock": 8,
+      "model": "DITOOPRO-LB",
+      "quantity": 0,
+      "characteristics": {
+        "country": "China",
+        "color": "Celeste",
+        "dimension": {
+          "height": {
+            "value": 13,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 9,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 6,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0.53,
+          "unit": "Kg"
+        }
+      },
+      "id": "8a81"
+    },
+    {
+      "brand": "Havit",
+      "category": "Auriculares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-143663-01.jpg?context=bWFzdGVyfGltYWdlc3wyNDEyNHxpbWFnZS9qcGVnfGFEVmpMMmcyT1M4eE1EWTBNelUyTkRVNU16RTRNaTl6YVhwbE5URTFYekUwTXpZMk0xOHdNUzVxY0djfDZmYmM3NTkyZjIzNTdjNTgwNWI5MzgyYmE1M2JiNzg1YjdhMTUyMmMwNzA0NTc0YWUwYTFhYjQ0NmRhMTdmYTE",
+      "description": "Auricular. Rango de funcionamiento : 8-10m (sin obstaculos). Radio FM y reproductor de mp3 desde tarjeta micro SD. Version de Bluetooth: 3.0 + EDR. Bateria: 500mAH. Tiempo de carga: 1,5 horas Periodo de espera: 140 horas. Tiempo de conversacion: hasta 5-6 horas. Periodo de conversacion y de uso: de 6 horas. Tamano del altavoz: 36mm Impedancia: 32 (a 1kHz). Soporta conexion de cable de audio de 3,5 mm. Medios de carga: Cable micro USB. Chat y aviso de voz: compatible. Diseno plegable de la estructura. Tapa blanda de la oreja que hace el ajuste comodo.",
+      "price": 20116,
+      "stock": 6,
+      "model": "H2575BT",
+      "quantity": 0,
+      "characteristics": {
+        "headphoneType": "headBand",
+        "conectivity": "Bluetooth",
+        "color": "Violeta",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "Kg"
+        }
+      },
+      "id": "6732"
+    },
+    {
+      "id": "7b50",
+      "brand": "Samsung",
+      "category": "Tablets",
+      "urlImage": "https://medias.musimundo.com/medias/size515-153643-01.jpg?context=bWFzdGVyfGltYWdlc3wyMjQ1M3xpbWFnZS9qcGVnfGFHTm1MMmhrTkM4eE1EWTFNalV6TXpZNE5qTXdNaTl6YVhwbE5URTFYekUxTXpZME0xOHdNUzVxY0djfGQ1ZWY0MGEzMzYxZWRhZGEzOTM0Y2E5OTFjZmIwNjRhMzQ0ZjE1MGZhZWZiZTQ4Y2M4MTUyN2QwMjUxNzMyZjU",
+      "description": "Tablet. Pantalla TFT de 10.4\" y 2000 x 1200px (WUXGA+). Procesador Octa-Core (CPU speed 2.4GHz). Camara trasera: 8 mp. Camara frontal: 5 mp. Resolucion de video: FHD (1920 x 1080px) a 30fps. Capacidad: 128GB. Capacidad disponible: 111.8GB. RAM: 4GB. Lector de tarjetas MicroSD (extendible hasta 1Tb). Tecnologia de localizacion: GPS, Glonass, Beidou, Galileo, QZSS. Conector: 3.5 mm stereo. Wi-Fi: 802.11a/b/g/n/ac 2.4GHz + 5GHz, VHT80 MIMO. Bluetooth v5.3: Bluetooth profiles A2DP,AVRCP,DI,HID,HOGP,OPP,PAN. Sistema operativo Android. Smart Switch (PC version). Sensores: Accelerometer, Gyro Sensor, Hall Sensor, RGB Light Sensor. Bateria de 7040 mAh. Incluye S Pen. Color: gris.",
+      "price": 749999,
+      "stock": 12,
+      "model": "GALAXY 6S LITE SM-P620",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 10.4,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 4,
+          "unit": "GB"
+        },
+        "storageSize": {
+          "size": 128,
+          "unit": "GB"
+        },
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 24.4,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 15.4,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 465,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "id": "e83c",
+      "brand": "X-View",
+      "category": "Tablets",
+      "urlImage": "https://medias.musimundo.com/medias/size515-180254-01.png?context=bWFzdGVyfGltYWdlc3w2NTQ5MjJ8aW1hZ2UvcG5nfGFHUTBMMmhsTXk4eE1EWTBPVEkwTURVMk56Z3pPQzl6YVhwbE5URTFYekU0TURJMU5GOHdNUzV3Ym1jfDc1NjM3MjdkOGVkZjM3ZGE2YzNkMmJmYjQ5YTdiOWRmNDgzOWYxNWViZjAzYTk1ZTUyN2FiOWExODliMWJhMWY",
+      "description": "CARACTERÍSTICAS DESTACADAS: SISTEMA OPERATIVO: ANDROID 14 QUE TE OFRECE UNA INTERFAZ MODERNA Y ACCESO A MILES DE APLICACIONES. RENDIMIENTO POTENTE: PROCESADOR OCTA CORE A523 A 2.0 GHZ IDEAL PARA MULTITAREA Y UN USO FLUIDO DE APLICACIONES. ALMACENAMIENTO AMPLIO: 64 GB DE MEMORIA FLASH PERFECTA PARA GUARDAR TUS FOTOS VIDEOS Y APLICACIONES FAVORITAS. MEMORIA RAM: 4 GB QUE PERMITE UN RENDIMIENTO EFICIENTE Y SIN INTERRUPCIONES EN TUS ACTIVIDADES DIARIAS. CÁMARA DUAL: CAPTURA MOMENTOS ESPECIALES CON LA CÁMARA TRASERA DE 8.0 MP Y REALIZA VIDEOLLAMADAS NÍTIDAS CON LA CÁMARA FRONTAL DE 2.0 MP. PANTALLA DE ALTA CALIDAD: PANTALLA IPS LCD DE 10 CON UNA RESOLUCIÓN HD DE 1280 X 800 PX QUE PROPORCIONA COLORES VIVOS Y UNA EXPERIENCIA VISUAL ENVOLVENTE. CONECTIVIDAD AVANZADA: BLUETOOTH 5.0 PARA UNA CONEXIÓN RÁPIDA Y ESTABLE CON OTROS DISPOSITIVOS. BATERÍA DURABLE: BATERÍA RECARGABLE DE 6000 MAH QUE GARANTIZA LARGAS HORAS DE USO SIN NECESIDAD DE RECARGA.",
+      "price": 199999,
+      "stock": 15,
+      "model": "PROTAB",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 10,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 4,
+          "unit": "GB"
+        },
+        "storageSize": {
+          "size": 64,
+          "unit": "GB"
+        },
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 17.9,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 25.4,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 4.7,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 701,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "id": "eb9d",
+      "brand": "Shenlong",
+      "category": "Teclados",
+      "urlImage": "https://medias.musimundo.com/medias/size515-142605-01.jpg?context=bWFzdGVyfGltYWdlc3wzNzQ3NXxpbWFnZS9qcGVnfGFEWTNMMmd5T0M4eE1EWXpORGd5TVRZMk5EYzVPQzl6YVhwbE5URTFYekUwTWpZd05WOHdNUzVxY0djfDU1ZGI1N2M3ZGExMzM3NzllODM1MTY3OTQ2MzYzYTFiYWRjMjkzMmE3OGQzNTc3NjgwNzQ0NjJiZTY5NzU5YzY",
+      "description": "Teclado Gamer. Conexion USB. Disenio de 105 teclas. Cubierta superior de metal / Inferior de ABS. Switches mecanicos blue. 50 millones de clics. Idioma espanol. 26 teclaa antighosting. Iluminacion Rainow con 9 modos de colores. Teclas multimedia: FN + F1 - 12. Cable de 1.5mts de largo con anillo magnetico. Voltaje de funcionamiento: USB 5V.",
+      "price": 47149,
+      "stock": 12,
+      "model": "MK9600SB",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 4.1,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 44.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 17.8,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 887,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "brand": "Noganet",
+      "category": "Teclados",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150864-01.jpg?context=bWFzdGVyfGltYWdlc3w2MjEyM3xpbWFnZS9qcGVnfGFETTBMMmc1TUM4eE1EVTFPRGMwTVRrM01EazNOQzl6YVhwbE5URTFYekUxTURnMk5GOHdNUzVxY0djfDE2OTgxMzc2MmY5ZjU2ZmZiZmJmZTM5N2MwOThhYmNhOTJlYzkxMDQxZGJiNWMyOWI0NWJlNTg1MWRhY2RhZDU",
+      "description": "Teclado gamer LED multicolor con opcion de apagado de luces (FN+bloq despl). 104 Teclas reforzadas que soportan exigencias de uso. 12 Teclas multimedia y de web. Conexion USB 2.0. Longitud del cable 1.4m. Posee teclas claves para gamers y de web estrategicamente ubicadas, para agilizar el uso de Internet y funciones multimedia mas empleadas cotidianamente.",
+      "price": 17999,
+      "stock": 12,
+      "model": "NKB-T100",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 13.1,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 43.6,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 2.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 0,
+          "unit": "gr"
+        }
+      },
+      "id": "ae64"
+    },
+    {
+      "id": "1db6",
+      "brand": "TCL",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151395-01.jpg?context=bWFzdGVyfGltYWdlc3wyODg5OHxpbWFnZS9qcGVnfGFESmtMMmc1T0M4eE1EWXpPRGc0TVRFMk1USTBOaTl6YVhwbE5URTFYekUxTVRNNU5WOHdNUzVxY0djfGYyMGFhZmVmZmI4NGZkOTE3NWZhNzMzZjE1OTc2YmI5YzE5ZGNiOTc3MTdlYTEyODI2NGNhOWVmNzEwMWQzNzA",
+      "description": "Televisor Smart LED Google. Pantalla 55\" 4K UHD 3840 x 2160 Px. Procesador Quad core x4 @1.1GHz. Memoria: 8 GB eMMC5.1. Salidas de audio. Potencia: 2 x 9.5 W. Conexiones: WIFI 2.4, Bluetooth 5.0, HDMI, USB y Optica Digital. Sintonizador TDA. Soporte Vesa: 200 x 200. Medidas con base: Alto 76.6 / Ancho 122.6 / Profundidad 26.5. Peso: 10.2 Kg. Incluye: 2 patas de soporte, 1 Control Remoto Multimedia, 1 Adaptador AV IN y cable de alimentacion.",
+      "price": 769999,
+      "stock": 12,
+      "model": "L55P635-F",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "LED",
+        "screenSize": {
+          "size": 55,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 71.1,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 122.6,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 8.1,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 10,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Philips",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150646-01.jpg?context=bWFzdGVyfGltYWdlc3wzMjA2OHxpbWFnZS9qcGVnfGFEUXpMMmhsTWk4eE1EWXpPRGczTkRnMk9UYzVNQzl6YVhwbE5URTFYekUxTURZME5sOHdNUzVxY0djfGJkNTA3ZjM1ZjU1ZTFlMDhhOWFmYmZhZmE3YzZkZWE2NDg1YWI5ZDE1MjMzM2NmODNkYTc3MTAzMDQ1ZWNjYzQ",
+      "description": "Televisor smart mini LED google. Pantalla de 65\" 4K Ultra HD (3840x2160). Tamano diagonal de pantalla (metrico): 164 cm. Relacion de aspecto: 16:9. Frecuencia de actualizacion nativa: 120 Hz. Potencia de procesamiento: Doble nucleo. Tipo de sonido: Dolby Atmos, Dolby Digital MS12 V2.6.1, DTS:X. Potencia de salida: 40 W (RMS). Configuracion de altavoz: 2 altavoces medio-alto de 10 W, 2 tweeters de 10 W. Dialogos nitidos, Sonido con IA, Ecualizador con IA, Calibracion de la sala, DTS Play-Fi, Personalizacion del sonido Mimi, Mejora de graves Dolby, Nivelador de volumen Dolby, Modo nocturno. Conexiones: Wifi 802.11n, 2x2, banda dual. Bluetooth 5.0. 4 HDMI. 3 USB. Common Interface Plus (CI+). Salida de auriculares. Ethernet. Antena tipo F. 1 Puerto de servicio. Salida de sonido digital SPDIF: 1 (optica). Sintonizador TDA. OS: Google TV. Aplicaciones de televisor inteligente: Disney+, Apple TV, Netflix, YouTube, Amazon Prime video. Tamano de la memoria (flash): 16 GB. Funciones de ahorro de energia: Temporizador de apagado automatico, Silencio de imagen (para radio), Modo ecologico, Sensor de luz. Control remoto por voz. Asistente de voz: OK Google, Funciona con Alexa. Soporte VESA 300x300 mm. Medidas con base (alt-anch-prof): 86.4x145x35.2 cm. Incluye: Control remoto, 2 baterias AAA y cable de alimentacion.",
+      "price": 1899999,
+      "stock": 12,
+      "model": "65PML9118/77",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "Mini LED",
+        "screenSize": {
+          "size": 65,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Gris",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 84.4,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 145,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 8.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 22.5,
+          "unit": "Kg"
+        }
+      },
+      "id": "12"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150909-01.jpg?context=bWFzdGVyfGltYWdlc3w0NzIwMnxpbWFnZS9qcGVnfGFESXpMMmcxWVM4eE1EWXpPVEl3T1RBek56ZzFOQzl6YVhwbE5URTFYekUxTURrd09WOHdNUzVxY0djfDQzMmU0YzUzMGQwYTU3YTM0YWIyNmNjMDg3M2E4ZDc4ZWFjMThlYWE1ZDJlODJkZDgwODg4ZjBjMTNhYmY2MDU",
+      "description": "Televisor Smart. Pantalla LED de 43\" UHD 4K (3840 x 2160). Formato de pantalla Wide. HDR. Frecuencia de barrido 50 Hz. Procesador Crystal 4K, Motion Xcelerator, Sistema operativo Tizen smart Tv. Salidas de audio. Potencia 20W. Conexiones: Wi Fi 5. Bluetooth 5.2. 3 Entradas HDMI. 1 USB-A. Puerto de red. 1 Salida de audio digital (optico). Sintonizador TDA. Soporte VESA 200x200 mm. Medidas y peso con base (alt-anch-prof) 62.78 x 96.39 x 19.25 cm. Peso 7.9 Kg.",
+      "price": 629999,
+      "stock": 22,
+      "model": "UN43CU7000GCZB",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "LED",
+        "screenSize": {
+          "size": 43,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 55.89,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 96.39,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 5.96,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 7.7,
+          "unit": "Kg"
+        }
+      },
+      "id": "13"
+    },
+    {
+      "brand": "Noblex",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152732-01.jpg?context=bWFzdGVyfGltYWdlc3wzOTkxOHxpbWFnZS9qcGVnfGFEVXdMMmhtTWk4eE1EWXpPVFl3TkRJMU1qY3dNaTl6YVhwbE5URTFYekUxTWpjek1sOHdNUzVxY0djfGM5MWQ1OTU2NGRlN2NlNmQ4ZmI1YjFiY2ViMzEwMGVhOTM0OGJjNjFmMjE5NzRjNGZhODI0NmMwYzA1YjQxOTQ",
+      "description": "Televisor Smart. Pantalla LED de 43\" FHD (1920x1080px). Frecuencia de barrido 60 Hz. Contraste: 3000:1. Brillo: 250cd. Relacion de aspecto 16:09. Sistema operativo VIDAA. Salidas de audio Stereo. Potencia RMS 2 x 7W. Tipo de sonido: Standard / Auto / Movie / Music / News / Sports / Vivid / User. Conexiones: Wi Fi. 2 Entrada USB. 2 Entradas HDMI. Audio y video (A/V): via adaptador. Sintonizador TDA. Medidas con base (alt-anch-prof) 61.1 x 96.5 x 18.2 cm.",
+      "price": 439999,
+      "stock": 57,
+      "model": "DV43X5150",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "LED",
+        "screenSize": {
+          "size": 43,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 56.3,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 96.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 8.8,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 6.2,
+          "unit": "Kg"
+        }
+      },
+      "id": "18"
+    },
+    {
+      "brand": "Motorola",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151128-01.jpg?context=bWFzdGVyfGltYWdlc3w3ODc5MnxpbWFnZS9qcGVnfGFEWTJMMmhoTmk4eE1EVTNPRGMzTmpZMU16ZzFOQzl6YVhwbE5URTFYekUxTVRFeU9GOHdNUzVxY0djfGZkYmFiODUwNzk0MGMxZjMxMGU5ZDUzZDMyYmU1OTNiNzdjOTA1M2JjMTU3NGRjYTk0NDM1NWZmMjNlNWM2MzI",
+      "description": "Televisor Smart DLED. Pantalla de 32\" HD (1366x768). Frecuencia de barrido 60Hz. Brillo 180 nit. Radio contraste 3000:1. Tiempo de respuesta 6.5ms. Procesador MT9216, Host CPU A55, Quad core, Frecuencia CPU 1.5 Ghz, DDR 1 G. EMMC 8 G. Tcon integrada. Sistema operativo Android TV. 2 Salidas de audio. Potencia 6W x2. Ecualizador de audio, Dolby digital, Dolby digial plus, DTS HD, DTS virtual X, reduccion de ruido. Conexiones: Wi Fi 2.4 / 5.0 GHz. Bluetooth 5.0. USB tipo 2.0: 2 / USB 1, USB 2. 2 Entradas HDMI. Puerto de red (RJ45). SPDIF. Conector de 3.5mm. Google assistant. Control por voz. Soporte VESA 100x100 mm. Medidas con base (alt-anch-prof) 45.7 x 72.6 x 22.1 cm.",
+      "price": 339999,
+      "stock": 10,
+      "model": "MT3200",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "QLED",
+        "screenSize": {
+          "size": 32,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 43.1,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 72.6,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 8.1,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 3.7,
+          "unit": "Kg"
+        }
+      },
+      "id": "b1ba"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-149710-01.jpg?context=bWFzdGVyfGltYWdlc3wzNTQ0M3xpbWFnZS9qcGVnfGFHRm1MMmcyT0M4eE1EWXpPVEV5TVRZME5UVTVPQzl6YVhwbE5URTFYekUwT1RjeE1GOHdNUzVxY0djfDc1NmE1NjQxNmYwMmE0NDYxYThmZWUxY2Y1NjdkMGUxMDkyY2NhMjZlYjg5ODY1ODkwYTViMGY2ZDA0NzI4Y2Q",
+      "description": "Televisor smart OLED de 55\". Resolucion OLED 4K (3840x2160). Formato de pantalla wide. Procesador Neural Quantum 4K. Tipo de sonido: Dolby Atmos. Salida de sonido 40 W (RMS). Sonido adaptativo. Conexiones: Wifi. Bluetooth 5.2. 2 USB. 4 HDMI. Ethernet (LAN). 1 Salida de audio digital (optica). Entrada de video compuesto. Entrada de video componente. Sintonizador TDA. Soporte VESA 300x200 mm. Control remoto ecologico: Permite recargarlo con luz solar, ambiente, USB-C y radiofrecuencia. Tecnologia OLED: Negros realmente profundos gracias a sus pixeles autoiluminados impulsados por Quantum Dot. Quantum HDR OLED: Disfruta de brillo potente y amplio rango de contraste a traves de los pixeles auto iluminados. Real depth enhancer: Aumenta el contraste del primer plano para reflejar una imagen mas profunda. Rendimiento superior en juegos (144 hz en 4K). Game pass: Juga sin consola. Medidas con base (alt-anch-prof) 77.2x122.4x26.6 cm. Incluye: Control remoto ecologico y cable de alimentacion.",
+      "price": 3299999,
+      "stock": 12,
+      "model": "QN55S90CAGCZB",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "OLED",
+        "screenSize": {
+          "size": 55,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 70.86,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 122.54,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 3.99,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 16.2,
+          "unit": "Kg"
+        }
+      },
+      "id": "eb99"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150193-01.jpg?context=bWFzdGVyfGltYWdlc3w5MDQ2OHxpbWFnZS9qcGVnfGFERXpMMmhrTnk4eE1EVTRORFl3TXprMU1URXpOQzl6YVhwbE5URTFYekUxTURFNU0xOHdNUzVxY0djfDMzYzc0ZWY1MGFiNDYwMjk0MjQzYTE1ZGE1OGU4YzViMWQ5MjY2NjU4YzI4MmRjZTM2ZjQ1YjhlMTIxMmYyYjA",
+      "description": "Televisor smart QLED. Pantalla de 98\" 4k (3840x2160), wide. Frecuencia de barrido 120 Hz (100Hz UY, PY). Contraste ultrafino de colores negros profundos y blancos puros. Quantum HDR+. Mil millones de colores con Quantum DOT. Procesador neural quantum 4K. Sonido adaptativo e inteligente: 40W de potencia. Conexiones: Wifi. Bluetooth. 4 HDMI. 2 USB. Entrada de video componente. Entrada de video compuesto. Sintonizador TDA. Sistema operativo: Tizen. Gaming: Motion Xcelerator Turbo+, 4K a 120Hz. Smart things. Medidas con soporte (altxanchxprof):130.68x218.06x38.73 cm. Incluye: Cable de alimentacion y control remoto ecologico.",
+      "price": 11799999,
+      "stock": 12,
+      "model": "QN98Q80CAGCZBB",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "QLED",
+        "screenSize": {
+          "size": 98,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Carbón",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 124.39,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 218.06,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 4.84,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 56.3,
+          "unit": "Kg"
+        }
+      },
+      "id": "f333"
+    },
+    {
+      "brand": "Liliana",
+      "category": "Ventiladores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151883-01.jpg?context=bWFzdGVyfGltYWdlc3wyNDc3NnxpbWFnZS9qcGVnfGFHTXhMMmhsTWk4eE1EWXpPVEV3T0Rnd01EVTBNaTl6YVhwbE5URTFYekUxTVRnNE0xOHdNUzVxY0djfGZjMzRjMGVjODlkZjk5OGRlZWMxZmM3NjI4ZGFjYTRmMjQ1Mjg2MGIzOWNhYmE3ZDU1MzA2NzEyZGQ4Yjc5NzI",
+      "description": "Ventilador turbo de mesa. Tamano 12\". Potencia 55 W. 3 Velocidades (baja, media, alta). 5 Palas plasticas transparentes. Cabezal oscilante. Inclinable, sistema \"cricket\" para ajuste vertical del cabezal. Super silncioso. Parrilla metalica blanca. Base redonda, blanca brillante. Comando frontal.",
+      "price": 62999,
+      "stock": 5,
+      "model": "VSOM12",
+      "quantity": 0,
+      "characteristics": {
+        "fanType": "Mesa",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 48,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 36,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 13,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 2.3,
+          "unit": "Kg"
+        }
+      },
+      "id": "39e2"
+    },
+    {
+      "brand": "Peabody",
+      "category": "Ventiladores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-136954-01.jpg?context=bWFzdGVyfGltYWdlc3wxMDMyMDF8aW1hZ2UvanBlZ3xhR1ExTDJobFpTOHhNRFl5TmpNMU1EZzBNVGc0Tmk5emFYcGxOVEUxWHpFek5qazFORjh3TVM1cWNHY3wyMDEzOTU0MWI3ZGNjMGI3NTFjMjEyNzRjNjA3ZTcxN2RhNTk2YjFhNzJmODE3Y2RjNDE3MDVhNDFiNTQwYjA0",
+      "description": "20 Pulgadas. 3 Velocidades.Cabezal oscilante y regulable p/direccionar el viento. Pie antideslizante. Rejilla de alambre. Paletas de metal nacional (calibradas y balanceadas). Tamano de la base 53 x 30 cm.",
+      "price": 129999,
+      "stock": 6,
+      "model": "PE-VP150",
+      "quantity": 0,
+      "characteristics": {
+        "fanType": "Pie",
+        "color": "Gris",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 10,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 67,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 33,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 13.5,
+          "unit": "Kg"
+        }
+      },
+      "id": "339e"
+    },
+    {
+      "id": "1317",
+      "brand": "Axel",
+      "category": "Ventiladores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-147230-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTgyM3xpbWFnZS9qcGVnfGFHUTNMMmhtWVM4eE1EWXpOVGcyTlRjNE5ETTFNQzl6YVhwbE5URTFYekUwTnpJek1GOHdNUzVxY0djfDFkOTM2OThjMTgwOTJhNWJkMzQzYmE1MGRkOGI2MmFkOGMxM2FlNzE3ZjRkOTBjYWI1MDU2NGY4ZjYxNmJkNDA",
+      "description": "Ventilador industrial de pie 24\". Motor potenciado. 3 Velocidades. Oscilante. Inclinable. 2 Palas metalicas tipo avion.",
+      "price": 103999,
+      "stock": 12,
+      "model": "AX-PIE24",
+      "quantity": 0,
+      "characteristics": {
+        "fanType": "Pie",
+        "color": "Plata",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 0,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 67,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 33,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 13.5,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "id": "18e4",
+      "brand": "Fedders",
+      "category": "Aire Acondicionado",
+      "urlImage": "https://medias.musimundo.com/medias/size515-180257-01.png?context=bWFzdGVyfGltYWdlc3wxMTg1ODF8aW1hZ2UvcG5nfGFHWTVMMmhpTXk4eE1EWTFNVFF5TkRFeU9UQTFOQzl6YVhwbE5URTFYekU0TURJMU4xOHdNUzV3Ym1jfGUyYWI1ZWY2YzkzNDM5ZTZhMWE2OWUxZTM3NTU0MDgyMDkyMTA0YjYyMWFhNDY5Yjg0NjFhNWRjNmZlYTIyOWM",
+      "description": "AIRE ACONDICIONADO SPLIT FRIO/CALOR. POTENCIA FRIO 2600W. FRIGORÍAS 2236. POTENCIA CALOR 2700W. CALORÍAS 2322. EFICIENCIA ENERGÉTICA A+. GAS REFRIGERANTE R410A. TIMER. FUNCIÓN SLEEP. DISPLAY DIGITAL. INCLUYE CONTROL REMOTO.",
+      "price": 749999,
+      "stock": 5,
+      "model": "FSF09TC1W",
+      "quantity": 0,
+      "characteristics": {
+        "airType": "Split",
+        "heatCold": "Si",
+        "color": "Blanco",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 25,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 77,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 20,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 8,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "id": "4911",
+      "brand": "JVC",
+      "category": "Televisores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-151536-01.jpg?context=bWFzdGVyfGltYWdlc3w0NDk4OXxpbWFnZS9qcGVnfGFHTmtMMmczWXk4eE1EWTBOVEF3TkRFMU5qazFPQzl6YVhwbE5URTFYekUxTVRVek5sOHdNUzVxY0djfDNkMzRhMGYyY2U2N2RlMmU0M2EzMjIzODE3ZmNiOTY3MzNjYmE0Yzg5Yzc2NzM0NGM0MjA1ZTA3NGExNzRjMGM",
+      "description": "Televisor Smart LED Google. Pantalla de 50\" UHD (3840 x 2160). Frecuencia de barrido 60 Hz. Brillo 300 CD/M2. Radio de contraste 4000:1. Contraste dinamico 4000:1. Salidas de audio Stereo. Potencia 8W RMS x 2. Tipo de sonido Standard / Teatro / Musica / Dialogo / Nocturno. Conexiones: Wi Fi. Bluetooth. 2 Entradas USB. 3 Entradas HDMI. Sintonizador TDA. Soporte VESA: 200x200 mm. Medidas con base (alt-anch-prof) 69.08 x 111.25 x 26.4cm.",
+      "price": 619999,
+      "stock": 15,
+      "model": "LT-50DA71252A",
+      "quantity": 0,
+      "characteristics": {
+        "screenTechnology": "LED",
+        "screenSize": {
+          "size": 50,
+          "unit": "\""
+        },
+        "smart": "Si",
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 64.16,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 111.25,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 64.16,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 9.7,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "id": "0616",
+      "brand": "Asus",
+      "category": "Notebooks",
+      "urlImage": "https://medias.musimundo.com/medias/size515-146833-01.jpg?context=bWFzdGVyfGltYWdlc3wyNTEzMXxpbWFnZS9qcGVnfGFEQTFMMmc0Wmk4eE1EWXpOVGN6T0RJMU1USTVOQzl6YVhwbE5URTFYekUwTmpnek0xOHdNUzVxY0djfGNhYWI4ZGVlYTQzZGVjNjNmNDM0NzRhZjk1NTIwYzRhNWRkZTRkYTZjMjQ0NWZjNTk5ZWNkYWUwOTUzNDIyZjA",
+      "description": "Notebook. Pantalla LED Backlit de 15.6\" FHD (1920 x 1080) Relacion aspecto 16:9. Procesador intel Core i5-1240P (1.7 GHz) 12 nucleos. (12M cache, hasta 4.4 GHz, 4P +8E cores). Sistema operativo Windows 11 home. Placa de video Intel UHD Graphics. Capacidad 256 Gb M.2 2280 PCle 3.0 SSD / RAM 8 Gb DDR4 on board. Expansion 1x DDR4 SO-DIMM slot1x M.2 2280 PCIe 4.0x4. Camara web 720p HD. Wi-Fi 5(802.11ac) (Dual band) 1*1 + Bluetooth 4.1. Puertos: 1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 1.4, 1x 3.5mm Combo Audio Jack, 1x DC-in. Entrada para microfono. Microfono incorporado. Bateria 42WHrs, 3S1P, 3-cell Li-ion.",
+      "price": 979999,
+      "stock": 12,
+      "model": "VIVOBOOK 15 X1502ZA-EJ294W",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 15.6,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 8,
+          "unit": "GB"
+        },
+        "processor": "Intel Core i5",
+        "storageSize": {
+          "size": 256,
+          "unit": "GB"
+        },
+        "color": "Azul",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 1.99,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 35.97,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 23.25,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 1.7,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "id": "f7a6",
+      "brand": "Peabody",
+      "category": "Ventiladores",
+      "urlImage": "https://medias.musimundo.com/medias/size515-153381-01.jpg?context=bWFzdGVyfGltYWdlc3wxMDMwMnxpbWFnZS9qcGVnfGFEaGpMMmhsTWk4eE1EWTBOamczTVRBME9ESXlNaTl6YVhwbE5URTFYekUxTXpNNE1WOHdNUzVxY0djfDZiNGZiZGYyODAyNWNiM2FlY2I5MjNmYjUyMDcxYWNmMjhjMzk4YmFmNWJmYzI4MzVhOWQyOTRiNWRhYWM5ZGU",
+      "description": "Ventilador de techo con luz LED. 6 Velocidades. Potencia: 72 W. 3 Paletas invisibles de acrilico (sistema de paletas retractiles). Motor DC 100% de cobre: alto rendimiento y bajo consumo. 3 Configuraciones de luz (colores preestablecidos) neutra, blanca y calida. Diametro: 106.68 cm (42\"). Modo conveccion (para complementar el sistema de calefaccion). Aspas de gran tamano para mayor caudal de aire. Incluye barral y soporte para su instalacion. Incluye control remoto (con funcion MUTE para silenciarlo).",
+      "price": 299999,
+      "stock": 6,
+      "model": "PE-VTRDC425B",
+      "quantity": 0,
+      "characteristics": {
+        "fanType": "Techo",
+        "color": "Blanco",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 26,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 106,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 106,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 7.4,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "id": "d1bc",
+      "brand": "Pcbox",
+      "category": "Computadoras de Escritorio",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150973-01.jpg?context=bWFzdGVyfGltYWdlc3wxNzUzMHxpbWFnZS9qcGVnfGFEQmhMMmc1Tnk4eE1EWXpPREE1TWpRd01qY3hPQzl6YVhwbE5URTFYekUxTURrM00xOHdNUzVxY0djfGZhMjdkZDUyZDk2MWFmNDJmMzkxZDc3MTgzOTE3MWMxYTNjY2FkMDEwNjJiMzRjYmJmZWUxOWJkNjVkYmQ1YWE",
+      "description": "PC de escritorio. Procesador AMD Ryzen 5-4600G (3.7 hasta 4.2 Ghz). Capacidad 240 Gb SSD. RAM 8 Gb. Placa de video AMD radeon integrada. Sistema operativo Windows 11. Conexiones: lector de tarjetas. Incluye teclado, parlantes y mouse.",
+      "price": 599999,
+      "stock": 3,
+      "model": "R5-4600",
+      "quantity": 0,
+      "characteristics": {
+        "country": "Argentina",
+        "color": "Negro",
+        "dimension": {
+          "height": {
+            "value": 41,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 22,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 45,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 4,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "brand": "Shenlong",
+      "category": "Mouses",
+      "urlImage": "https://medias.musimundo.com/medias/size515-142601-01.jpg?context=bWFzdGVyfGltYWdlc3wyMzgzOHxpbWFnZS9qcGVnfGFESTBMMmcxTWk4eE1EWXpORGd5TURFNU1ESXpPQzl6YVhwbE5URTFYekUwTWpZd01WOHdNUzVxY0djfGEzNDZjYTcwMGM3NzY2OGEyZDhlM2I1OWYyMjA0M2JlYjdmNzdlYjhiZTAyNzVlYTU0ODMxMDNiMWRmODA5MGQ",
+      "description": "Mouse gamer. Alta sensibilidad optica hasta 6400 DPI. Facil de instalar. 7 botones. Iluminacion Rainow. Cable trenzado 1.5mts. Tiempo de vida de los interruptores: 5 millones de clicks. Pesas incorporadas para manejo mas estable. Disenio ergonomico para usar con ambas manos.",
+      "price": 16319,
+      "stock": 4,
+      "model": "M700",
+      "quantity": 0,
+      "characteristics": {
+        "conectivity": "Cable",
+        "color": "Negro",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 4,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 11,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 250,
+          "unit": "gr"
+        }
+      },
+      "id": "229d"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Lavarropas",
+      "urlImage": "https://medias.musimundo.com/medias/size515-148882-01.jpg?context=bWFzdGVyfGltYWdlc3wxNTI0M3xpbWFnZS9qcGVnfGFHVTNMMmd6TXk4eE1EWXpPREEyTmpNMU1qRTFPQzl6YVhwbE5URTFYekUwT0RnNE1sOHdNUzVxY0djfGRlYzQwZDhhNTYyNGJhZmZiZjg0YjJmZjhjMjc2OGRmOTFlZDM0M2I5ZjJhNDEwOTlhYTdiMTg4MGYzODQzZmE",
+      "description": "Lavarropas. Capacidad 9.5 Kg. Inverter con ecobubble. Eficiencia energetica A+++. 14 Programas. Control digital. Tipo de carga: Frontal. Lavado rapido. 1/2 Carga. Velocidad de centrifugado: 1400 RPM. Tipo de puerta: Tint door. Tipo de tambor: Diamond. Smart check. Calentador ceramico. Control de voltaje. Seguro para ninos.",
+      "price": 1259999,
+      "stock": 9,
+      "model": "WW95AA046BXUBG",
+      "quantity": 0,
+      "characteristics": {
+        "weightCapacity": {
+          "weight": 9.5,
+          "unit": "Kg"
+        },
+        "color": "Plata",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 85,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 60,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 60,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 69,
+          "unit": "gr"
+        }
+      },
+      "id": "a2a2"
+    },
+    {
+      "id": "ffdd",
+      "brand": "Samsung",
+      "category": "Celulares",
+      "urlImage": "https://medias.musimundo.com/medias/size515-150923-01.jpg?context=bWFzdGVyfGltYWdlc3wxOTM0NXxpbWFnZS9qcGVnfGFHVXhMMmczTlM4eE1EWXpPREF4TXpBM01UTTVNQzl6YVhwbE5URTFYekUxTURreU0xOHdNUzVxY0djfGNlZWExNDBhYzdkNWUwNjliN2E4OTZkYmYzODMyOTRhMWViZjMwNTU3ZWFmMjBjOWQ4NjlkOTk2ODM4M2I3ZWE",
+      "description": "Celular. Pantalla de 6.7\" (3120x1440) Quad HD+. Frecuencia 120 Hz. Dynamic AMOLED 2X. Procesador Exynos 2400, Deca core (3.2GHz,2.9GHz,2.6GHz,1.95GHz). Capacidad 256 Gb. RAM 12 Gb. Camara principal 50 + 10 + 12 Mp. F1.8, F2.4, F2.2. Conexiones: Wi FI 802.11a/b/g/n/ac/ax 2.4GHz+5GHz+6GHz, HE160, MIMO, 1024-QAM. Bluetooth 5.3. NFC. UWB (Ultra-wideband). USB 3.2 gen1 tipo C. Sistema operativo Android. Bateria de 4900 mAh. GPS, Glonass, Beidou, Galileo, QZSS. Dual SIM (SIM1 + eSIM). Sensores: acelerometro, barometro, huella dactilar, giroscopio, geomagnetico, hall sensor, sensor de luz y proximidad. Resistencia IP68.\n",
+      "price": 1999999,
+      "stock": 19,
+      "model": "GALAXY S24+ - SM-S926BZKLARO",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 6.7,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 12,
+          "unit": "GB"
+        },
+        "color": "Negro",
+        "country": "Argentina",
+        "dimension": {
+          "height": {
+            "value": 15.85,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 7.59,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 0.77,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 196,
+          "unit": "gr"
+        }
+      }
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Tablets",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152202-01.jpg?context=bWFzdGVyfGltYWdlc3wyNTYwMnxpbWFnZS9qcGVnfGFHTmlMMmhqWWk4eE1EWXpPVEk1TXpJMU1UWXhOQzl6YVhwbE5URTFYekUxTWpJd01sOHdNUzVxY0djfDVlZDAyODJiNWY1MDRkNzliN2NjYzM3MDQwNDJjZjM0MDc4MGYyMWVkNDlmZGYzMzNlZTdkMGIwNTgwMzgzZmY",
+      "description": "Tablet. Pantalla de 11.5\", IPS 400nits, 72% NTSC, 90Hz. Resolucion 2000x1200. Procesador MediaTek Helio G99 (8C, 2x A76 @2.2GHz + 6x A55 @2.0GHz). Almacenamiento de 128GB UFS 2.2. Memoria RAM de 8GB Soldered LPDDR4x. Camara principal 8 MP y trasera de 8 MP. Graficos GPU Mali-G57 MC2 con brazo integrado. Sistema operativo Android 14. Conexiones: Wi-Fi 5, 802.11ac 1x1 + Bluetooth 5.2. Puertos estandar 1x USB-C (USB de alta velocidad / USB 2.0). 1 Conector combinado para auriculares/microfono (3,5 mm). GPS + GLONASS + Galileo. Lector de tarjeta microSD. Sonido: Altavoces Hi-Fi Octa JBL (sonido de JBL), 4 x tweeters, 4 x unidades de bajos con balance de fuerza, Dolby Atmos. Modo de altavoz Bluetooth. Sensores: acelerometro (G), sensor de luz ambiental, Sensor de giroscopio. Resistente al polvo y al agua: IP52. Bateria Integrada 8600 mAh / Carga 45W.\n",
+      "price": 499999,
+      "stock": 12,
+      "model": "TAB PLUS ZADX0124AR",
+      "quantity": 0,
+      "characteristics": {
+        "screenSize": {
+          "size": 11.5,
+          "unit": "\""
+        },
+        "ram": {
+          "size": 6,
+          "unit": "GB"
+        },
+        "storageSize": {
+          "size": 128,
+          "unit": "GB"
+        },
+        "color": "Gris",
+        "country": "China",
+        "dimension": {
+          "height": {
+            "value": 26.83,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 17.42,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 13.58,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 650,
+          "unit": "gr"
+        }
+      },
+      "id": "ddfd"
+    },
+    {
+      "id": "7e27",
+      "brand": "Exo",
+      "category": "Computadoras de Escritorio",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152864-01.jpg?context=bWFzdGVyfGltYWdlc3wyNDAwMnxpbWFnZS9qcGVnfGFERXpMMmczTUM4eE1EWTFNRGt4TkRZNE5EazFPQzl6YVhwbE5URTFYekUxTWpnMk5GOHdNUzVxY0djfGI3ZWU2ZTVhMzlkNzI4YTFkYTMyZTI5MTZjNzgwMTg0MTFiMjE4MWZlNmY3YmE3NmU3MWNjOTc5ZTYwYzU3YWM",
+      "description": "Pc gamer. Procesador Intel core i5-12400 (2.50 hasta 4.40 Ghz). Capacidad 480 Gb SSD. RAM 16 Gb. Placa de video UHD Intel + GF RTX 3050 6 Gb. Conexiones: 8 entradas USB. 1 Entrada HDMI. Sistema operativo Windows 11.\n",
+      "price": 1299999,
+      "stock": 12,
+      "model": "G52A",
+      "quantity": 0,
+      "characteristics": {
+        "country": "Argentina",
+        "color": "Gris",
+        "dimension": {
+          "height": {
+            "value": 36,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 16.5,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 33.5,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 5.5,
+          "unit": "Kg"
+        }
+      }
+    },
+    {
+      "id": "bdb7",
+      "brand": "Whirlpool",
+      "category": "Heladeras",
+      "urlImage": "https://medias.musimundo.com/medias/size515-152720-01.jpg?context=bWFzdGVyfGltYWdlc3w5NTE2fGltYWdlL2pwZWd8YURWbEwyZzBaUzh4TURZek9UVTRORFF5T0RBMk1pOXphWHBsTlRFMVh6RTFNamN5TUY4d01TNXFjR2N8ZjMyNmY3NDYxNDYwOGQ1MGUxNjQ2NDM3ZTNjNDQ4Y2EwY2EwOWE0Y2JkMzk1NTFmZGVjMTM0YjFhYmJiMDc0ZA",
+      "description": "Heladera Bottom Freezer No Frost. Volumen bruto 527 L. Volumen neto 488 L. Sistema de enfriamiento: No Frost. Ubicacion del freezer: inferior. Eficiencia Energetica A++. Crisper hortinatura para frutas y verduras conservando por mas tiempo y reduciendo desperdicios. Tipo de estantes: vidrio templado antiderrame. Pies Regulables. Controles digitales con Food Control. Tecnologia Autosense: regula la temperatura automaticamente utilizando inteligencia artificial y prolonga la vida de los aliemntos hasta 30% mas tiempo. Sistema Food Control: controla la validez de los alimentos frescos hasta la fecha optima de consumo, evitando desperdicios. Tecnologia Inverter: el compresor mantiene la temperatura mas estable garantizando hasta un 41% de ahorro de energia. TasteGuard: elimina hasta 9 veces mas rapido los malos olores causados por las bacterias. FastAdapt: estantes que permiten configuraciones internas para almacenar alimentos de diferentes tamanos. IceMax: compartimento que permite la reposicion del agua sin salpicaduras y sin mezcla de olores con el resto del freezer. Funcion drink express: permite enfriar las bebidas en menos tiempo. Funcion compras: permite enfriar rapidamente los alimentos. Funcion fiesta: mantiene la maxima capacidad de refrigeracion durante 6 horas. Funcion de bloque del panel.\n",
+      "price": 2624999,
+      "stock": 12,
+      "model": "IB7B",
+      "quantity": 0,
+      "characteristics": {
+        "coolingSystem": "No frost",
+        "color": "Negro",
+        "country": "Brasil",
+        "dimension": {
+          "height": {
+            "value": 189.5,
+            "unit": "cm"
+          },
+          "width": {
+            "value": 69.9,
+            "unit": "cm"
+          },
+          "depth": {
+            "value": 74.85,
+            "unit": "cm"
+          }
+        },
+        "weight": {
+          "weight": 70.5,
+          "unit": "gr"
+        }
+      }
+    }
+  ]
+}

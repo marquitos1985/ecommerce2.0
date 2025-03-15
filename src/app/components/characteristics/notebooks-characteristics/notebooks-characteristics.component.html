@@ -1,0 +1,25 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+    <P> Tamaño de pantalla</P>
+  
+    <input type="number" id="notebookScreenSize" formControlName="notebookScreenSize" min="0">Pulg
+    <P> RAM </P>
+ 
+    <input type="text" id="notebookRam" formControlName="notebookRam" >GB
+    <div style="color: red" *ngIf="characteristicsFormGroup.get('notebookRam')?.errors?.['numbersOnly']">
+        Campo números enteros...
+      </div>
+    <P> Procesador </P>
+    <select id="notebookProcessor" formControlName="notebookProcessor"> 
+        <option *ngFor="let processor of notebookProcessorsList" [value]="processor">{{ processor }}</option>
+    </select>    
+    <P> Almacenamiento </P>
+ 
+    <input type="text" id="notebookStorageSize" formControlName="notebookStorageSize" >
+    <div style="color: red" *ngIf="characteristicsFormGroup.get('notebookStorageSize')?.errors?.['numbersOnly']">
+        Campo números enteros...
+      </div>
+      
+      <select id="storageUnit" formControlName="storageUnit"> 
+        <option *ngFor="let unit of memoryUnitList" [value]="unit">{{ unit }}</option>
+    </select> 
+</form>

@@ -1,0 +1,374 @@
+<div class="bg-dark header" data-bs-theme="dark">
+  <div class="categories">
+    <label style="color: grey">Categorías</label>
+    <select id="category" [formControl]="formControlCategory">
+      <option
+        *ngFor="let category of categoryList"
+        [value]="category"
+        routerLinkActive="router-link-active"
+      >
+        {{ category }}
+      </option>
+    </select>
+  </div>
+
+  <div class="buttons-gap">
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Aire Acondicionado')"
+      type="button"
+      class="button-products"
+    >
+      <div class="inner-button">
+        <p>Aires</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Celulares')"
+      class="button-products"
+      type="button"
+    >
+      <div class="inner-button">
+        <p>Celulares</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Heladeras')"
+      type="button"
+      class="button-products"
+    >
+      <div class="inner-button">
+        <p>Heladeras</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Impresoras')"
+      type="button"
+      class="button-products"
+    >
+      <div class="inner-button">
+        <p>Impresoras</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Lavarropas')"
+      class="button-products"
+      type="button"
+    >
+      <div class="inner-button">
+        <p>Lavarropas</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Notebooks')"
+      type="button"
+      class="button-products"
+    >
+      <div class="inner-button">
+        <p>Notebooks</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Microondas')"
+      type="button"
+      class="button-products"
+    >
+      <div class="inner-button">
+        <p>Microondas</p>
+      </div>
+    </button>
+    <button
+      href=""
+      (click)="formControlCategory.setValue('Televisores')"
+      type="button"
+      class="button-products"
+    >
+      <div class="inner-button">
+        <p>Televisores</p>
+      </div>
+    </button>
+  </div>
+</div>
+
+<form action="" [formGroup]="formGrupSubfilters">
+  <div style="display: flex; justify-content: flex-start">
+    <aside *ngIf="_productListFilteredByCategory.length != 0" class="aside">
+        <div *ngIf="_productListFilteredByCategory.length != 0">
+        <div class="filters">
+          <p>Marca</p>
+          <select id="brand" formControlName="brand">
+            <option *ngFor="let brand of brandList" [value]="brand">
+              {{ brand }}
+            </option>
+          </select>
+          <div class="precio">
+            <div class="inner-precio">
+              <input type="radio" formControlName="orderByPrice" value="asc" />
+              <label for="asc">Precio Menor a mayor</label>
+            </div>
+            <div class="inner-precio">
+              <input type="radio" formControlName="orderByPrice" value="desc" />
+              <label for="desc">Precio Mayor a menor</label>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Condición para "Aire Acondicionado" -->
+        <div
+          class="filters"
+          *ngIf="formControlCategory.value == 'Aire Acondicionado'"
+        >
+          <p>Frio / Calor</p>
+          <select id="heatCold" formControlName="heatCold">
+            <option *ngFor="let type of heatColdList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+          <p>Tipo</p>
+          <select id="airTypes" formControlName="airTypes">
+            <option *ngFor="let type of airTypesList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+
+
+        
+        <!-- Condición para "Ventiladores" -->
+        <div
+          class="filters"
+          *ngIf="formControlCategory.value == 'Ventiladores'"
+        >
+          <p>Tipo</p>
+          <select id="fanType" formControlName="fanType">
+            <option *ngFor="let type of fanTypeList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Condición para tecnologia "Televisores" -->
+        <div
+          class="filters"
+          *ngIf="formControlCategory.value === 'Televisores'"
+        >
+          <p>Tecnología</p>
+          <select id="screenTechnology" formControlName="screenTechnology">
+            <option *ngFor="let type of screenTechnologiesList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Condición para "Auriculares" -->
+        <div
+          class="filters"
+          *ngIf="formControlCategory.value === 'Auriculares'"
+        >
+          <p>Tipo</p>
+          <select id="headphoneType" formControlName="headphoneType">
+            <option *ngFor="let type of headphonesTypeList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Condición para "Heladeras" -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Heladeras'">
+          <p>Sist. enfriamiento</p>
+          <select
+            id="coolingSystem"
+            formControlName="coolingSystem"
+          >
+            <option
+              *ngFor="let type of coolingSystemList"
+              [value]="type"
+            >
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Condición para "Lavarropas" -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Lavarropas'">
+          <p>Capacidad</p>
+          <select id="weightCapacity" formControlName="weightCapacity">
+            <option *ngFor="let weight of weightCapacityList" [value]="weight">
+              {{ weight }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Condición para "Microondas" -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Microondas'">
+          <p>Capacidad</p>
+          <select id="volumeCapacity" formControlName="volumeCapacity">
+            <option *ngFor="let type of volumeCapacityList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        
+
+        <!-- Condición para "Notebooks" -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Notebooks'">
+          <p>Procesador</p>
+          <select id="processor" formControlName="processor">
+            <option *ngFor="let processor of processorsList" [value]="processor">
+              {{ processor }}
+            </option>
+          </select>
+        </div>
+
+        
+
+        <!-- Condición para "Impresoras" -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Impresoras'">
+          <p>Monocromatica</p>
+          <select id="printerType" formControlName="printerType">
+            <option *ngFor="let type of printerTypeList" [value]="type">
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        
+        <!-- Condición conectividad  mouses, teclados y auriculares-->
+        <div class="filters" *ngIf="(formControlCategory.value === 'Mouses' || formControlCategory.value === 'Teclados' || formControlCategory.value === 'Auriculares')">
+          <p>Conectividad</p>
+          <select
+            id="connectivity"
+            formControlName="connectivity"
+          >
+            <option
+              *ngFor="let type of connectivityTypeList"
+              [value]="type"
+            >
+              {{ type }}
+            </option>
+          </select>
+        </div>
+
+        <!-- Condición tamaño pantalla televisores, notebook, smartphone, Tablet -->
+        <div
+        class="filters"
+        *ngIf="formControlCategory.value === 'Televisores' || formControlCategory.value === 'Notebooks' || formControlCategory.value === 'Tablets' || formControlCategory.value === 'Celulares'"
+        >
+        <p>Tamaño pantalla</p>
+        <select id="screenSize" formControlName="screenSize">
+          <option *ngFor="let size of screenSizeList" [value]="size">
+            {{ size }}
+          </option>
+        </select>
+        </div>
+
+        <!-- Condición RAM notebook, smartphone, Tablet -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Notebooks' || formControlCategory.value === 'Tablets' || formControlCategory.value === 'Celulares'">
+          
+          <p>RAM</p>
+          <select id="ram" formControlName="ram">
+            <option *ngFor="let size of ramList" [value]="size">
+              {{ size }} 
+            </option>
+          </select>
+         
+        </div>
+
+        <!-- Condición Tamaño almacenamiento notebook,  Tablet -->
+        <div class="filters" *ngIf="formControlCategory.value === 'Notebooks' || formControlCategory.value === 'Tablets'">
+          
+          <p>Tamaño almacenamiento</p>
+          <select
+            id="storageSize"
+            formControlName="storageSize"
+          >
+            <option
+              *ngFor="let size of storageSizeList"
+              [value]="size"
+            >
+              {{ size }}
+            </option>
+          </select>
+          
+        </div>
+
+
+
+
+      </div>
+    </aside>
+      <div *ngIf="_productListSubFiltered.length> 0; else noProducts">
+      <div class="cards">
+      <div *ngFor="let product of _productListSubFiltered  | paginate: { itemsPerPage: 8, currentPage: currentPage }">
+          <div [routerLink]="['/productDetails', product.id]" class="card">
+            <img
+              src="{{ product.urlImage }}"
+              alt="Imagen {{ product.model }}"
+              class="card-img-top"
+            />
+            <div class="card-text">
+              <p class="marca">{{ product.brand }}</p>
+              <p>
+                {{ product.category }} {{ product.brand }} {{ product.model }}
+              </p>
+              <p>Precio: ${{ product.price | number : "1.0-0" }}</p>
+
+              
+                <div class="controls" [hidden]="!isAdmin()">
+                  
+                <button
+                  class="add-cart"
+                  type="button"
+                  [routerLink]="['/productEdit', product.id]">
+                
+
+                  Modificar
+                </button>
+    
+                <button
+                  class="add-cart"
+                  type="button"
+                  (click)="deleteProduct(product.id)" [hidden]="!isAdmin()"
+                >
+                  Eliminar
+                </button>
+              </div>
+                <button
+                class="add-cart"
+                type="button"
+                [routerLink]="['/productDetails', product.id]"
+              >
+                Ver detalle
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="my-pagination">
+        <pagination-controls
+          (pageChange)="onPageChange($event)"
+          [autoHide]="false"
+        ></pagination-controls>
+      </div>
+    </div>
+    
+      <ng-template #noProducts>
+        <div class="no-products">
+          <div class="alert alert-info" role="alert">
+            SIN PRODUCTOS
+          </div>
+        </div>
+      </ng-template>
+      
+  </div>
+</form>

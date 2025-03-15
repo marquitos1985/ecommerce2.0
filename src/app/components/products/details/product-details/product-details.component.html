@@ -1,0 +1,66 @@
+<button class="button" (click)="goBack()">
+  <img src="/arrow-left.svg" alt="volver" width="25px" />
+</button>
+<div>
+  <div>
+    <img
+      src="{{ productToVievDetails?.urlImage }}"
+      alt="Imagen {{ productToVievDetails?.model }}"
+    />
+  </div>
+  <div>
+    <p>{{ productToVievDetails?.brand }}</p>
+    <p>
+      {{ productToVievDetails?.category }}
+      {{ productToVievDetails?.model }}
+    </p>
+    <p>Descripción:</p>
+    <p>{{ productToVievDetails?.description }}</p>
+    <p>Precio: ${{ productToVievDetails?.price | number: "1.0-0" }}</p>
+    <div class="controls" [hidden]="!isLoggedIN()">
+      <p>Añadir al carrito</p>
+      <button
+        class="button-controls"
+        (click)="decreaseQuantity(productToVievDetails?.id!)"
+        [disabled]="!productToVievDetails || productToVievDetails.quantity <= 0"
+        
+      >
+        -
+      </button>
+      <span class="qty">
+        {{ productToVievDetails?.quantity || 0 }}
+      </span>
+      <button
+        class="button-controls"
+        (click)="addToCart(productToVievDetails!)"
+        [disabled]="
+          !productToVievDetails ||
+          productToVievDetails.quantity >= productToVievDetails.stock
+        "
+      >
+        +
+      </button>
+    </div>    
+    
+
+
+    <div  >
+      <button
+        class="inner-button"
+        type="button"
+        [routerLink]="['/productEdit', productToVievDetails?.id]" [hidden]='!isAdmin()'
+      >
+        Modificar
+      </button>
+
+      <button
+        class="inner-button"
+        type="button"
+        (click)="deleteProduct(productToVievDetails?.id)" [hidden]="!isAdmin()"
+      >
+        Eliminar
+      </button>
+    </div>
+
+  </div>
+</div>

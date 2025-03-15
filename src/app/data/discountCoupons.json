@@ -1,0 +1,123 @@
+{
+  "discountCoupons": [
+    {
+      "code": "10PORC-STOCKINFINITO",
+      "maxMount": 350000,
+      "discountPercentage": 10,
+      "freeShiping": false,
+      "categoryList": [],
+      "brandList": [],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": true,
+      "stock": 0,
+      "id": "1"
+    },
+    {
+      "code": "6PORC-AIRE-ENVIO",
+      "maxMount": 75000,
+      "discountPercentage": 6,
+      "freeShiping": true,
+      "categoryList": [
+        "Aire Acondicionado"
+      ],
+      "brandList": [
+        "LG"
+      ],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": false,
+      "stock": 4,
+      "id": "2"
+    },
+    {
+      "code": "5POR-NOTEBOOKS-MARCA-SINENVIO",
+      "maxMount": 100000,
+      "discountPercentage": 5,
+      "freeShiping": false,
+      "categoryList": [
+        "Notebooks"
+      ],
+      "brandList": [
+        "Dell",
+        "Asus"
+      ],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": true,
+      "stock": 0,
+      "id": "3"
+    },
+    {
+      "code": "10PORC-MONTO-HELADERAS-ENVIO",
+      "maxMount": 100000,
+      "discountPercentage": 10,
+      "freeShiping": true,
+      "categoryList": [
+        "Heladeras"
+      ],
+      "brandList": [],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": false,
+      "stock": 0,
+      "id": "4"
+    },
+    {
+      "code": "10PORC-MONTO-DELL-SINENVIO",
+      "maxMount": 100000,
+      "discountPercentage": 10,
+      "freeShiping": false,
+      "categoryList": [],
+      "brandList": [
+        "Dell"
+      ],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": true,
+      "stock": 0,
+      "id": "5"
+    },
+    {
+      "code": "10PORC-MONTO-DELL-ENVIO",
+      "maxMount": 100000,
+      "discountPercentage": 10,
+      "freeShiping": true,
+      "categoryList": [],
+      "brandList": [
+        "Dell"
+      ],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": true,
+      "stock": 0,
+      "id": "6"
+    },
+    {
+      "code": "10PORC-MONTO-ENVIO",
+      "maxMount": 100000,
+      "discountPercentage": 10,
+      "freeShiping": true,
+      "categoryList": [],
+      "brandList": [],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": true,
+      "stock": 0,
+      "id": "7"
+    },
+    {
+      "code": "10PORC-MONTO-SINENVIO",
+      "maxMount": 1000000,
+      "discountPercentage": 10,
+      "freeShiping": false,
+      "categoryList": [],
+      "brandList": [],
+      "startstDate": "2025-01-24T14:30:00-03:00",
+      "endDate": "2025-04-24T14:30:00-03:00",
+      "infinitStock": true,
+      "stock": 0,
+      "id": "8"
+    }
+  ]
+}

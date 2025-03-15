@@ -1,0 +1,173 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <div class="text">
+    <h1>Información Personal</h1>
+    <p>Completa tus datos para registrarte</p>
+  </div>
+  <div class="part">
+    <div class="flex">
+      <div class="inner-flex">
+        <label for="name">Nombre:</label>
+        <input id="name" formControlName="name" type="text" placeholder="Nombre" />
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('name')?.dirty || registerForm.get('name')?.touched)">
+          <div *ngIf="registerForm.get('name')?.errors?.['required']">
+            *Campo requerido
+          </div>
+          <div *ngIf="registerForm.get('name')?.errors?.['lettersOnly']">
+            *Debe contener sólo letras
+          </div>
+        </div>
+      </div>
+      <div class="inner-flex">
+        <label for="lastname">Apellido:</label>
+        <input id="lastname" formControlName="lastname" type="text" placeholder="Apellido" />
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('lastname')?.dirty || registerForm.get('lastname')?.touched)">
+          <div *ngIf="registerForm.get('lastname')?.errors?.['required']">
+            *Campo requerido
+          </div>
+          <div *ngIf="registerForm.get('lastname')?.errors?.['lettersOnly']">
+            *Debe contener sólo letras
+          </div>
+        </div>
+      </div>
+
+      <div class="inner-flex">
+        <label for="lastname">dni:</label>
+        <input id="lastname" formControlName="dni" type="text" placeholder="DNI" />
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('dni')?.dirty || registerForm.get('dni')?.touched)">
+          <div *ngIf="registerForm.get('dni')?.errors?.['required']">
+            *Campo requerido
+          </div>
+          <div *ngIf="registerForm.get('dni')?.errors?.['numbersOnly']">
+            *Debe contener sólo números
+          </div>
+        </div>
+      </div>
+
+      <div class="inner-flex">
+        <label for="birthdate">Fecha de Nacimiento:</label>
+        <input id="birthdate" formControlName="birthdate" type="date" />
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('birthdate')?.dirty || registerForm.get('birthdate')?.touched)">
+          <div *ngIf="registerForm.get('birthdate')?.errors?.['required']">
+            *Fecha de nacimiento requerida
+          </div>
+          <div *ngIf="registerForm.get('birthdate')?.errors?.['ageRangeLimitator']">
+            *Edad debe ser mayor a 18
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="inner-flex">
+        <label for="province">Provincia:</label>
+        <select id="province" formControlName="province">
+          <option *ngFor="let province of provincesList" [value]="province">
+            {{ province }}
+          </option>
+        </select>
+      </div>
+      <div class="inner-flex">
+        <label for="city">Ciudad:</label>
+        <select id="city" formControlName="city">
+          <option *ngFor="let city of bsasCityList" [value]="city">
+            {{ city }}
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="inner-flex">
+        <label for="street">Calle:</label>
+        <input id="street" formControlName="street" type="text" placeholder="Calle" />
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('street')?.dirty || registerForm.get('street')?.touched)">
+          <div *ngIf="registerForm.get('street')?.errors?.['required']">
+            *Calle requerida
+          </div>
+        </div>
+      </div>
+      <div class="inner-flex">
+        <label for="streetNumber">Número:</label>
+        <input id="streetNumber" formControlName="streetNumber" type="text" placeholder="Número" />
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('streetNumber')?.dirty || registerForm.get('streetNumber')?.touched)">
+          <div *ngIf="registerForm.get('streetNumber')?.errors?.['required']">
+            *Número de dirección requerido
+          </div>
+          <div *ngIf="registerForm.get('streetNumber')?.errors?.['numbersOnly']">
+            *Debe contener sólo numeros
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="inner-flex">
+        <label for="floor">Piso:</label>
+        <input id="floor" formControlName="floor" type="text" placeholder="Piso" />
+      </div>
+      <div class="inner-flex">
+        <label for="flat">Departamento:</label>
+        <input id="flat" formControlName="flat" type="text" placeholder="Departamento" />
+      </div>
+    </div>
+
+    <div class="inner-flex">
+      <label for="email">Email:</label>
+      <input id="email" formControlName="email" type="email" placeholder="Email" />
+      <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('email')?.dirty || registerForm.get('email')?.touched)">
+        <div *ngIf="registerForm.get('email')?.errors?.['required']">
+          *Email requerido
+        </div>
+        <div *ngIf="registerForm.get('email')?.errors?.['emailDomainValidator']">
+          *Email inválido
+        </div>
+      </div>
+    </div>
+    <div class="flex">
+      <!-- Contraseña -->
+      <div class="inner-flex">
+        <label for="password">Contraseña:</label>
+        <div class="input-group">
+          <input [type]="showNewPassword ? 'text' : 'password'" class="form-control" formControlName="password">
+          <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility('new')">
+            <img *ngIf="showNewPassword; else showIconNew" src="/eyeHide-icon.png" alt="Ocultar Contraseña" width="20">
+            <ng-template #showIconNew>
+              <img src="/eye-icon.png" alt="Mostrar Contraseña" width="20">
+            </ng-template>
+          </button>
+        </div>
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('password')?.dirty || registerForm.get('password')?.touched)">
+          <div *ngIf="registerForm.get('password')?.errors?.['required']">
+            *Contraseña requerida
+          </div>
+        </div>
+      </div>
+    
+      <!-- Confirmar Contraseña -->
+      <div class="inner-flex">
+        <label for="passwordConfirmation">Confirmar contraseña:</label>
+        <div class="input-group">
+          <input [type]="showConfirmPassword ? 'text' : 'password'" class="form-control" formControlName="passwordConfirmation">
+          <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility('confirm')">
+            <img *ngIf="showConfirmPassword; else showIconConfirm" src="/eyeHide-icon.png" alt="Ocultar Contraseña" width="20">
+            <ng-template #showIconConfirm>
+              <img src="/eye-icon.png" alt="Mostrar Contraseña" width="20">
+            </ng-template>
+          </button>
+        </div>
+        <div class="error-message" *ngIf="!registerForm.valid && (registerForm.get('passwordConfirmation')?.dirty || registerForm.get('passwordConfirmation')?.touched)">
+          <div *ngIf="registerForm.get('passwordConfirmation')?.errors?.['required']">
+            *Confirmar contraseña
+          </div>
+          <div *ngIf="registerForm.hasError('samePasswordValidator') && !registerForm.get('passwordConfirmation')?.errors?.['required']">
+            *Las contraseñas deben coincidir
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="button" type="submit" [disabled]="registerForm.invalid">
+      Registrarme
+    </button>
+  </div>
+</form>

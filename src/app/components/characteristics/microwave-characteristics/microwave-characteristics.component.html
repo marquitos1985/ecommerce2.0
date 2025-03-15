@@ -1,0 +1,8 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+    <p> Capacidad </p>
+    <!-- <select id="microwaveCapacity" formControlName="microwaveCapacity"> 
+        <option *ngFor="let capacity of microwaveCapacityList" [value]="capacity">{{ capacity }}</option>
+    </select> -->
+    <input type="number" id="microwaveCapacity" formControlName="microwaveCapacity" min="0">L
+
+</form>

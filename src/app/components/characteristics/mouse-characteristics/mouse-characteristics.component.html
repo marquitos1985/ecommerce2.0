@@ -1,0 +1,7 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+   
+    <P> Conectividad </P>
+    <select id="mouseConnectivityType" formControlName="mouseConnectivityType"> 
+        <option *ngFor="let type of mouseConnectivityTypeList" [value]="type">{{ type }}</option>
+    </select> 
+</form>

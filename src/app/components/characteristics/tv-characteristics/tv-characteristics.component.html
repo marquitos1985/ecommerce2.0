@@ -1,0 +1,19 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+    <p> Tipo de pantalla </p>
+    <select id="screenTechnology" formControlName="screenTechnology"> 
+        <option *ngFor="let screenTechnology of screenTechnologiesList" [value]="screenTechnology">{{ screenTechnology }}</option>
+    </select>
+
+    <p> Smart TV </p>
+    <select id="smart" formControlName="smart"> 
+        <option *ngFor="let smart of smartList" [value]="smart">{{ smart }}</option>
+    </select>
+    
+
+    <P> Tamaño </P>
+ 
+    <input type="number" id="screenInches" formControlName="screenInches" min="0">Pulg
+
+
+
+</form>

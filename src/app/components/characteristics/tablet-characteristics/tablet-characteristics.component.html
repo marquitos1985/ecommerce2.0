@@ -1,0 +1,22 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+    <P> Tamaño pantalla</P>
+  
+    <input type="number" id="tabletScreenSize" formControlName="tabletScreenSize" min="0">Pulg
+
+    <P> RAM </P>
+
+    <input type="text" id="tabletRam" formControlName="tabletRam" >GB
+    <div style="color: red" *ngIf="characteristicsFormGroup.get('tabletRam')?.errors?.['numbersOnly']">
+        Campo números enteros...
+      </div>
+      <P> Almacenamiento </P>
+    <input type="text" id="tabletStorageSize" formControlName="tabletStorageSize" >
+    <div style="color: red" *ngIf="characteristicsFormGroup.get('tabletStorageSize')?.errors?.['numbersOnly']">
+        Campo números enteros...
+      </div>
+      
+      <select id="storageUnit" formControlName="storageUnit"> 
+        <option *ngFor="let unit of memoryUnitList" [value]="unit">{{ unit }}</option>
+    </select> 
+    
+</form>

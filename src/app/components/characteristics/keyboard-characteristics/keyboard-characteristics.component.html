@@ -1,0 +1,7 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+    
+    <P> Conectividad </P>
+    <select id="keyboardConnectivityType" formControlName="keyboardConnectivityType"> 
+        <option *ngFor="let type of keyboardConnectivityTypeList" [value]="type">{{ type }}</option>
+    </select>
+</form>

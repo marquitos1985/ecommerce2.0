@@ -1,0 +1,484 @@
+{
+  "purchases": [
+    {
+      "purchaseId": 60,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "6",
+          "quantity": 2,
+          "price": 119.99,
+          "brand": "BrandA",
+          "model": "ModelX"
+        }
+      ],
+      "fecha": "2024-11-20T20:04:40.336Z",
+      "total": 239.98,
+      "productosCargados": [
+        {
+          "cantidad": 2,
+          "precio": 119.99,
+          "brand": "BrandA"
+        }
+      ],
+      "id": "c432"
+    },
+    {
+      "purchaseId": 81,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "8",
+          "quantity": 1,
+          "price": 589999,
+          "brand": "Samsung",
+          "model": "GALAXY A35 - SM-A356E"
+        }
+      ],
+      "fecha": "2024-11-20T20:06:06.022Z",
+      "total": 299.99,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 299.99,
+          "brand": "BrandB"
+        }
+      ],
+      "id": "f9bb"
+    },
+    {
+      "purchaseId": 160,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "9",
+          "quantity": 1,
+          "price": 1299.99,
+          "brand": "BrandC",
+          "model": "ModelZ"
+        }
+      ],
+      "fecha": "2024-11-20T20:26:25.895Z",
+      "total": 1299.99,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 1299.99,
+          "brand": "BrandC"
+        }
+      ],
+      "id": "5e48"
+    },
+    {
+      "purchaseId": 237,
+      "clienteId": "c9ad",
+      "productos": [
+        {
+          "id": "26",
+          "quantity": 1,
+          "price": 799.99,
+          "brand": "BrandD",
+          "model": "ModelA"
+        },
+        {
+          "id": "25",
+          "quantity": 1,
+          "price": 1499.99,
+          "brand": "BrandE",
+          "model": "ModelB"
+        }
+      ],
+      "fecha": "2024-11-21T01:13:02.807Z",
+      "total": 2299.98,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 799.99,
+          "brand": "BrandD"
+        },
+        {
+          "cantidad": 1,
+          "precio": 1499.99,
+          "brand": "BrandE"
+        }
+      ],
+      "id": "072c"
+    },
+    {
+      "purchaseId": 237,
+      "clienteId": "c9ad",
+      "productos": [
+        {
+          "id": "12",
+          "quantity": 1,
+          "price": 1899999,
+          "brand": "Philips",
+          "model": "65PML9118/77"
+        },
+        {
+          "id": "13",
+          "quantity": 2,
+          "price": 629999,
+          "brand": "Samsung",
+          "model": "UN43CU7000GCZB"
+        },
+        {
+          "id": "18",
+          "quantity": 1,
+          "price": 439999,
+          "brand": "Noblex",
+          "model": "DV43X5150"
+        }
+      ],
+      "fecha": "2024-11-21T01:21:38.841Z",
+      "total": 3599.97,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 999.99,
+          "brand": "BrandF"
+        },
+        {
+          "cantidad": 2,
+          "precio": 499.99,
+          "brand": "BrandG"
+        },
+        {
+          "cantidad": 1,
+          "precio": 1099.99,
+          "brand": "BrandH"
+        }
+      ],
+      "id": "383a"
+    },
+    {
+      "purchaseId": 238,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "25",
+          "quantity": 1,
+          "price": 649.99,
+          "brand": "BrandI",
+          "model": "ModelF"
+        },
+        {
+          "id": "22",
+          "quantity": 1,
+          "price": 699999,
+          "brand": "Hisense",
+          "model": "WFMB6510SU"
+        }
+      ],
+      "fecha": "2024-11-21T01:36:16.829Z",
+      "total": 1549.98,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 649.99,
+          "brand": "BrandI"
+        },
+        {
+          "cantidad": 1,
+          "precio": 899.99,
+          "brand": "BrandJ"
+        }
+      ],
+      "id": "1642"
+    },
+    {
+      "purchaseId": 243,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "24",
+          "quantity": 1,
+          "price": 799999,
+          "brand": "Motorola",
+          "model": "EDGE 50 FUSION - XT2429-1"
+        }
+      ],
+      "fecha": "2024-11-21T15:49:21.704Z",
+      "total": 599.99,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 599.99,
+          "brand": "BrandK"
+        }
+      ],
+      "id": "7842"
+    },
+    {
+      "purchaseId": 361,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "1",
+          "quantity": 2,
+          "price": 199.99,
+          "brand": "BrandL",
+          "model": "ModelI"
+        }
+      ],
+      "fecha": "2024-11-21T20:03:30.355Z",
+      "total": 399.98,
+      "productosCargados": [
+        {
+          "cantidad": 2,
+          "precio": 199.99,
+          "brand": "BrandL"
+        }
+      ],
+      "id": "0cd5"
+    },
+    {
+      "purchaseId": 480,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "1",
+          "quantity": 1,
+          "price": 179.99,
+          "brand": "BrandM",
+          "model": "ModelJ"
+        }
+      ],
+      "fecha": "2024-11-21T20:04:48.571Z",
+      "total": 179.99,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 179.99,
+          "brand": "BrandM"
+        }
+      ],
+      "id": "1fdb"
+    },
+    {
+      "purchaseId": 132,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "1",
+          "quantity": 3,
+          "price": 149.99,
+          "brand": "BrandN",
+          "model": "ModelK"
+        }
+      ],
+      "fecha": "2024-11-21T20:22:24.578Z",
+      "total": 449.97,
+      "productosCargados": [
+        {
+          "cantidad": 3,
+          "precio": 149.99,
+          "brand": "BrandN"
+        }
+      ],
+      "id": "2003"
+    },
+    {
+      "purchaseId": 109,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "2959",
+          "quantity": 1,
+          "price": 2599999,
+          "brand": "Samsung",
+          "model": "GALAXY S24 ULTRA - SM-S928BZKMARO"
+        }
+      ],
+      "fecha": "2025-01-30T14:59:30.479Z",
+      "total": 999.99,
+      "productosCargados": [
+        {
+          "cantidad": 1,
+          "precio": 999.99,
+          "brand": "BrandO"
+        }
+      ],
+      "id": "bc7b"
+    },
+    {
+      "id": "a2bb",
+      "purchaseId": 480,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "27",
+          "quantity": 1,
+          "price": 439999,
+          "brand": "Epson",
+          "model": "ECOTANK L1250 (B631E)"
+        },
+        {
+          "id": "26a3",
+          "quantity": 1,
+          "price": 2199999,
+          "brand": "LG",
+          "model": "W18KLRPA"
+        },
+        {
+          "id": "fe30",
+          "quantity": 1,
+          "price": 1799999,
+          "brand": "Exo",
+          "model": "D6-S7785"
+        }
+      ],
+      "fecha": "2025-02-03T18:17:47.504Z",
+      "total": 4440682.6
+    },
+    {
+      "id": "e2ea",
+      "purchaseId": 480,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "5",
+          "quantity": 1,
+          "price": 749999,
+          "brand": "Electra",
+          "model": "ENTRDO32TC "
+        }
+      ],
+      "fecha": "2025-02-03T19:46:44.305Z",
+      "total": 750684.6
+    },
+    {
+      "id": "d33c",
+      "purchaseId": 480,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "68cb",
+          "quantity": 1,
+          "price": 129999,
+          "brand": "JBL",
+          "model": "TUNE 770 WH"
+        }
+      ],
+      "fecha": "2025-02-03T19:49:03.230Z",
+      "total": 130557.2
+    },
+    {
+      "id": "8dc3",
+      "purchaseId": 480,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "fe30",
+          "quantity": 1,
+          "price": 1799999,
+          "brand": "Exo",
+          "model": "D6-S7785"
+        }
+      ],
+      "fecha": "2025-02-03T20:13:49.888Z",
+      "total": 1800557.2
+    },
+    {
+      "id": "ca4e",
+      "purchaseId": 480,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "5",
+          "quantity": 1,
+          "price": 749999,
+          "brand": "Electra",
+          "model": "ENTRDO32TC "
+        }
+      ],
+      "fecha": "2025-02-03T20:19:19.840Z",
+      "total": 750557.2
+    },
+    {
+      "id": "dac3",
+      "purchaseId": 480,
+      "clienteId": "e844",
+      "productos": [
+        {
+          "id": "2959",
+          "quantity": 1,
+          "price": 2599999,
+          "brand": "Samsung",
+          "model": "GALAXY S24 ULTRA - SM-S928BZKMARO"
+        }
+      ],
+      "fecha": "2025-02-03T20:21:25.455Z",
+      "total": 2600557.2
+    },
+    {
+      "id": "a636",
+      "purchaseId": 480,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "10",
+          "quantity": 1,
+          "price": 2999999,
+          "brand": "Whirlpool",
+          "model": "WRO85BK"
+        },
+        {
+          "id": "68cb",
+          "quantity": 1,
+          "price": 129999,
+          "brand": "JBL",
+          "model": "TUNE 770 WH"
+        },
+        {
+          "id": "01af",
+          "quantity": 1,
+          "price": 71999,
+          "brand": "Philco",
+          "model": "PHLF6510P2"
+        }
+      ],
+      "fecha": "2025-02-23T01:25:36.038Z",
+      "total": 3101997
+    },
+    {
+      "id": "edc1",
+      "purchaseId": 480,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "68cb",
+          "quantity": 1,
+          "price": 129999,
+          "brand": "JBL",
+          "model": "TUNE 770 WH"
+        },
+        {
+          "id": "21",
+          "quantity": 1,
+          "price": 699999,
+          "brand": "Gafa",
+          "model": "HGF358AFB"
+        }
+      ],
+      "fecha": "2025-02-23T01:41:52.846Z",
+      "total": 759998.1
+    },
+    {
+      "id": "3654",
+      "purchaseId": 480,
+      "clienteId": "ccc1",
+      "productos": [
+        {
+          "id": "3a69",
+          "quantity": 1,
+          "price": 1075299,
+          "brand": "Electrolux",
+          "model": "HENI3500P"
+        }
+      ],
+      "fecha": "2025-02-23T01:44:24.468Z",
+      "total": 975299
+    }
+  ]
+}

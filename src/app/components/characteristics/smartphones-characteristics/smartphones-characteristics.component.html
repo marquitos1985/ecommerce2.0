@@ -1,0 +1,11 @@
+<form action="" [formGroup]="characteristicsFormGroup">
+    <P> Pulgadas </P>
+   
+    <input type="number" id="smartphoneInches" formControlName="smartphoneInches" min="0">Pulg 
+    <P> RAM </P>
+     
+    <input type="text" id="smartphoneRam" formControlName="smartphoneRam" >GB
+    <div style="color: red" *ngIf="characteristicsFormGroup.get('smartphoneRam')?.errors?.['numbersOnly']">
+        Campo números enteros...
+      </div> 
+</form>

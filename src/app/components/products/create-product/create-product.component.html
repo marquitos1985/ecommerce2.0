@@ -1,0 +1,207 @@
+
+
+<div class="form-container">
+  <button class="buttonBack" (click)="goBack()">
+    <img src="/arrow-left.svg" alt="volver" width="25px" />
+  </button>
+
+  <h2 style="color: white; font-size: 30px; text-transform: uppercase">
+    Agregar Producto
+  </h2>
+ 
+  <form [formGroup]="createProductFormGroup" (ngSubmit)="onSubmit()">
+
+    <img src="{{ createProductFormGroup.get('urlImage')?.value }}" alt="" />
+    <p>Categoría</p>
+    <select id="category" formControlName="category">
+      <option
+        *ngFor="let category of categoryList"
+        [value]="category"
+        routerLinkActive="router-link-active"
+      >
+        {{ category }}
+      </option>
+    </select>
+
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('category')?.dirty ||
+          createProductFormGroup.get('category')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('category')?.errors?.['required']">
+        Categoría requerida...
+      </div>
+    </div>
+
+    <p>Marca</p>
+    <select id="brand" formControlName="brand">
+      <option *ngFor="let brand of brandList" [value]="brand">
+        {{ brand }}
+      </option>
+    </select>
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('brand')?.dirty || createProductFormGroup.get('brand')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('brand')?.errors?.['required']">
+        Marca requerida...
+      </div>
+    </div>
+
+    <p>URL Imágen</p>
+    <!-- <input type="text" formControlName="urlImage" class="form-control" /> -->
+    <!-- <img src="{{ createProductFormGroup.get('urlImage')?.value }}" alt="" /> -->
+    <textarea formControlName="urlImage" class="form-control" rows="10"></textarea>
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('urlImage')?.dirty ||
+          createProductFormGroup.get('urlImage')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('urlImage')?.errors?.['required']">
+        Url de imágen requerido...
+      </div>
+    </div>
+
+    <p>Descripción</p>
+    <!-- <input type="text" formControlName="description" class="form-control" /> -->
+    <textarea formControlName="description" class="form-control" rows="15"></textarea>
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('description')?.dirty ||
+          createProductFormGroup.get('description')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('description')?.errors?.['required']">
+        Descripción requerida...
+      </div>
+    </div>
+
+    <p>Precio</p>
+    <input type="number" formControlName="price" class="form-control"/>
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('price')?.dirty || createProductFormGroup.get('price')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('price')?.errors?.['required']">
+        Precio requerido...
+      </div>
+      <div *ngIf="createProductFormGroup.get('price')?.errors?.['min']">
+        El valor ingresado es inválido...
+      </div>
+    </div>
+
+    <p>Stock</p>
+    <input type="number" formControlName="stock" class="form-control" />
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('stock')?.dirty || createProductFormGroup.get('stock')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('stock')?.errors?.['required']">
+        Stock requerido...
+      </div>
+      <div *ngIf="createProductFormGroup.get('stock')?.errors?.['min']">
+        El valor ingresado es inválido...
+      </div>
+    </div>
+
+    <p>Modelo</p>
+    <input type="text" formControlName="model" class="form-control" />
+    <div
+      style="color: red"
+      *ngIf="
+        !createProductFormGroup.valid &&
+        (createProductFormGroup.get('model')?.dirty || createProductFormGroup.get('model')?.touched)
+      "
+    >
+      <div *ngIf="createProductFormGroup.get('model')?.errors?.['required']">
+        Modelo requerido...
+      </div>
+    </div>
+
+
+    <app-general-chracteristics (generalCharacteristicsFormValid)="set_GeneralCharacteristicsFormValid($event)" [resetFormGroup]="resetFormGeneralAndCharacteristics"  ></app-general-chracteristics>
+    <app-air-conditioning-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Aire Acondicionado'"
+    ></app-air-conditioning-characteristics>
+    <app-fan-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)" 
+      *ngIf="createProductFormGroup.get('category')?.value == 'Ventiladores'"  ></app-fan-characteristics>
+    <app-tv-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Televisores'"
+    ></app-tv-characteristics>
+    <app-heapphones-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Auriculares'"
+    ></app-heapphones-characteristics>
+    <app-refrigerator-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Heladeras'"
+    ></app-refrigerator-characteristics>
+    <app-washing-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Lavarropas'"
+    ></app-washing-characteristics>
+    <app-notebooks-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Notebooks'"
+    ></app-notebooks-characteristics>
+    <app-microwave-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Microondas'"
+    ></app-microwave-characteristics>
+    <app-smartphones-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Celulares'"
+    ></app-smartphones-characteristics>
+    <app-tablet-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Tablets'"
+    ></app-tablet-characteristics>
+    <app-printer-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Impresoras'"
+    ></app-printer-characteristics>
+    <app-keyboard-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Teclados'"
+    ></app-keyboard-characteristics>
+    <app-mouse-characteristics (characteristicsFormValid)="setCharacteristicsFormValid($event)"
+      *ngIf="createProductFormGroup.get('category')?.value == 'Mouses'"
+    ></app-mouse-characteristics>
+    <div class="flex">
+     
+      
+        <button  class="inner-button" type="submit" [disabled]="!((this.createProductFormGroup.valid && this._generalCharacteristicsFormValid && this.characteristicsFormValid) || (this.createProductFormGroup.valid && this._generalCharacteristicsFormValid && this.generalCharacteristicsOnly))">
+          Crear
+        </button>
+      
+      <!-- <div *ngIf="id != ''" >
+        <button  class="inner-button" type="button" (click)="productEdit()" [disabled]="!((this.createProductFormGroup.valid && this._generalCharacteristicsFormValid && this.characteristicsFormValid) || (this.createProductFormGroup.valid && this._generalCharacteristicsFormValid && this.generalCharacteristicsOnly))">
+          Modificar
+        </button>
+        <button  class="inner-button" type="button" (click)="productEdit()" [disabled]="!((this.createProductFormGroup.valid && this._generalCharacteristicsFormValid && this.characteristicsFormValid) || (this.createProductFormGroup.valid && this._generalCharacteristicsFormValid && this.generalCharacteristicsOnly))">
+          Eliminar producto
+        </button>
+      </div> -->
+      
+      <!-- si todas las validaciones pasaron con exito lo habilita -->
+      <button class="inner-button" type="button" (click)="resetForm()">
+        Limpiar Campos
+      </button>
+    </div>
+
+    <!-- <div *ngIf="productAdded" class="alert alert-warning" role="alert">
+      Producto agregado con exito
+    </div>
+    <div *ngIf="productNotAdded" class="alert alert-danger" role="alert">
+      Producto ya existente
+    </div> -->
+  </form>
+</div>

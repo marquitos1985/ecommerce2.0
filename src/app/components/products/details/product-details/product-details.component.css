@@ -1,0 +1,141 @@
+div {
+  display: flex;
+  gap: px;
+  margin: 20px;
+  border-radius: 8px;
+  color: #ddd;
+}
+
+div > div:first-child img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+
+div > div:nth-child(2) {
+  display: flex;
+  padding: 20px;
+  height: 500px;
+  border: 1px solid white;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Marca del producto */
+div > div:nth-child(2) p:first-child {
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ccc;
+}
+
+/* Categoría, precio y modelo */
+div > div:nth-child(2) p:nth-child(2) {
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+/* Descripción y características */
+div > div:nth-child(2) p:nth-child(4),
+div > div:nth-child(2) p:nth-child(6) {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #aaa;
+}
+
+/* Precio */
+div > div:nth-child(2) p:nth-child(5) {
+  font-weight: bold;
+  color: #d9534f;
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.add-cart {
+  background-color: #333;
+  color: white;
+  border: 1px solid #666;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-button {
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid white;
+  transition: 0.3s;
+  max-width: 150px;
+  min-width: 50px;
+}
+
+.add-cart:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Precio adicional */
+.precio {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #bbb;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 50px;
+  display: flex;
+  align-items: flex-start;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid white;
+  max-width: max-content;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.button-controls {
+  max-width: 100px;
+}
+
+.inner-button {
+  min-width: 100px;
+  display: flex;
+  border: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  background-color: grey;
+}

@@ -1,0 +1,239 @@
+<button class="buttonBack" (click)="goHome()">
+  <img src="/arrow-left.svg" alt="volver" width="25px" />
+</button>
+<div class="profile-container">
+    <div class="text">
+        <h1>Información Personal</h1>
+        <p>Tus datos personales</p>
+    </div>
+
+    <div class="part">
+        <div class="flex">
+            <div class="inner-flex">
+                <label>Nombre:</label>
+                <p class="profile-data">{{ user.name }}</p>
+            </div>
+            <div class="inner-flex">
+                <label>Apellido:</label>
+                <p class="profile-data">{{ user.lastname }}</p>
+            </div>
+            <div class="inner-flex">
+                <label>Fecha de Nacimiento:</label>
+                <p class="profile-data">{{ user.birthdate | date: 'dd/MM/yyyy' }}</p>
+            </div>
+        </div>
+
+        <div class="inner-flex">
+            <label>Email:</label>
+            <p class="profile-data">{{ user.email }}</p>
+        </div>
+
+        <!-- Botones de acciones -->
+        <div class="button-group">
+            <button (click)="openEditModal(user)"data-bs-toggle="modal" data-bs-target="#editProfileModal">Editar Información</button>
+            <button (click)="openEditModal(user)" data-bs-toggle="modal" data-bs-target="#editAddressModal">Editar Dirección</button>
+        </div>
+        <!-- Nueva fila de botones -->
+        <div class="button-group">
+            <button data-bs-toggle="modal" data-bs-target="#changePasswordModal">Cambiar Contraseña</button>
+            <button data-bs-toggle="modal" data-bs-target="#purchaseHistoryModal">Historial de Compras</button>
+        </div>
+    </div>
+</div>
+<!-- MODAL PARA EDITAR DIRECCIÓN -->
+<div class="modal" id="editAddressModal" tabindex="-1" aria-labelledby="editAddressLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="editAddressLabel">Editar Dirección de Envío</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form [formGroup]="profileForm">
+                  <label>Calle:</label>
+                  <input type="text" class="form-control" formControlName="street">
+
+                  <label>Número:</label>
+                  <input type="text" class="form-control" formControlName="streetNumber">
+
+                  <label>Ciudad:</label>
+                  <select name="" id="" formControlName="city" class="form-control" >
+                    <option *ngFor="let city of bsasCityList" [value]="city">{{ city }}</option>
+                  </select>
+
+                  <label>Provincia:</label>
+                  <select name="" id="" formControlName="province"  class="form-control">
+                    <option *ngFor="let province of provincesList" [value]="province">
+                      {{ province }}
+                    </option>
+                  </select>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary" (click)="saveAddress()">Guardar Dirección</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- MODAL HISTORIAL DE COMPRAS -->
+<div class="modal fade" id="purchaseHistoryModal" tabindex="-1" aria-labelledby="purchaseHistoryLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="purchaseHistoryLabel">Historial de Compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <!-- Mostrar compras si existen -->
+        <div *ngIf="purchases.length > 0; else noPurchases">
+          <div *ngFor="let purchase of purchases" class="purchase-item border p-3 mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <span><strong>{{ purchase.fecha | date: 'dd/MM/yyyy' }}</strong> - {{ purchase.total | currency }}</span>
+              <button (click)="togglePurchaseDetails(purchase)" class="btn btn-info btn-sm">
+                Ver Detalle Compra
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mensaje si no hay compras -->
+        <ng-template #noPurchases>
+          <p class="text-center text-muted">No se encontraron compras para este usuario.</p>
+        </ng-template>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL PARA EDITAR PERFIL -->
+<div class="modal" id="editProfileModal" tabindex="-1" aria-labelledby="editProfileLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editProfileLabel">Editar Información</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="profileForm">
+                    <!-- Nombre -->
+                    <label>Nombre:</label>
+                    <input type="text" class="form-control" formControlName="name">
+                    <div *ngIf="profileForm.get('name')?.invalid && profileForm.get('name')?.touched" class="text-danger">
+                        <small *ngIf="profileForm.get('name')?.hasError('required')">El nombre es obligatorio.</small>
+                        <small *ngIf="profileForm.get('name')?.hasError('lettersOnly')">Solo se permiten letras y espacios.</small>
+                    </div>
+
+                    <!-- Apellido -->
+                    <label>Apellido:</label>
+                    <input type="text" class="form-control" formControlName="lastname">
+                    <div *ngIf="profileForm.get('lastname')?.invalid && profileForm.get('lastname')?.touched" class="text-danger">
+                        <small *ngIf="profileForm.get('lastname')?.hasError('required')">El apellido es obligatorio.</small>
+                        <small *ngIf="profileForm.get('lastname')?.hasError('lettersOnly')">Solo se permiten letras y espacios.</small>
+                    </div>
+
+                    <!-- Fecha de Nacimiento -->
+                    <label>Fecha de Nacimiento:</label>
+                    <input type="date" class="form-control" formControlName="birthdate">
+                    <div *ngIf="profileForm.get('birthdate')?.invalid && profileForm.get('birthdate')?.touched" class="text-danger">
+                        <small *ngIf="profileForm.get('birthdate')?.hasError('required')">La fecha de nacimiento es obligatoria.</small>
+                        <small *ngIf="profileForm.get('birthdate')?.hasError('ageRangeLimitator')">Debes tener entre 18 y 100 años.</small>
+                    </div>
+
+                    <!-- Email -->
+                    <label>Email:</label>
+                    <input type="email" class="form-control" formControlName="email">
+                    <div *ngIf="profileForm.get('email')?.invalid && profileForm.get('email')?.touched" class="text-danger">
+                        <small *ngIf="profileForm.get('email')?.hasError('required')">El email es obligatorio.</small>
+                        <small *ngIf="profileForm.get('email')?.hasError('email')">Debe ser un email válido.</small>
+                        <small *ngIf="profileForm.get('email')?.hasError('emailDomainValidator')">El dominio del email no es válido.</small>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" (click)="saveProfile()">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL PARA CAMBIAR CONTRASEÑA -->
+<div class="modal" id="changePasswordModal" tabindex="-1" aria-labelledby="changePasswordLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="changePasswordLabel">Cambiar Contraseña</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="changePasswordForm">
+            
+            <!-- Contraseña Actual -->
+          <div class="mb-3">
+            <label class="form-label">Contraseña Actual:</label>
+            <div class="input-group">
+              <input [type]="showCurrentPassword ? 'text' : 'password'" class="form-control" formControlName="currentPassword">
+              <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility('current')">
+                <img *ngIf="showCurrentPassword; else showIcon" src="/eyeHide-icon.png" alt="Ocultar Contraseña" width="20">
+                <ng-template #showIcon>
+                  <img src="/eye-icon.png" alt="Mostrar Contraseña" width="20">
+                </ng-template>
+              </button>
+            </div>
+            <div *ngIf="changePasswordForm.get('currentPassword')?.invalid && changePasswordForm.get('currentPassword')?.touched" class="text-danger">
+              La contraseña actual es obligatoria.
+            </div>
+          </div>
+
+          <!-- Nueva Contraseña -->
+          <div class="mb-3">
+            <label class="form-label">Nueva Contraseña:</label>
+            <div class="input-group">
+              <input [type]="showNewPassword ? 'text' : 'password'" class="form-control" formControlName="newPassword">
+              <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility('new')">
+                <img *ngIf="showNewPassword; else showIcon" src="/eyeHide-icon.png" alt="Ocultar Contraseña" width="20">
+                <ng-template #showIcon>
+                  <img src="/eye-icon.png" alt="Mostrar Contraseña" width="20">
+                </ng-template>
+              </button>
+            </div>
+            <div *ngIf="changePasswordForm.get('newPassword')?.invalid && changePasswordForm.get('newPassword')?.touched" class="text-danger">
+              La nueva contraseña debe tener al menos 8 caracteres.
+            </div>
+          </div>
+
+          <!-- Confirmar Nueva Contraseña -->
+          <div class="mb-3">
+            <label class="form-label">Confirmar Nueva Contraseña:</label>
+            <div class="input-group">
+              <input [type]="showConfirmPassword ? 'text' : 'password'" class="form-control" formControlName="confirmPassword">
+              <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility('confirm')">
+                <img *ngIf="showConfirmPassword; else showIcon" src="/eyeHide-icon.png" alt="Ocultar Contraseña" width="20">
+                <ng-template #showIcon>
+                  <img src="/eye-icon.png" alt="Mostrar Contraseña" width="20">
+                </ng-template>
+              </button>
+            </div>
+            <div *ngIf="changePasswordForm.hasError('samePasswordValidator')" class="text-danger">
+              Las contraseñas no coinciden.
+            </div>
+          </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" (click)="changePassword()">Actualizar Contraseña</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastContainer" class="toast-container position-fixed top-0 end-0 p-3"></div>
+

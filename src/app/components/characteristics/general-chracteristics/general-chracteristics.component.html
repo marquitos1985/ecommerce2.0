@@ -1,0 +1,27 @@
+
+<form action="" [formGroup]="generalCharacteristicsFormGroup">
+
+    <p> Origen </p>
+        <select id="color" formControlName="country" required> 
+            <option *ngFor="let country of countryList" [value]="country">{{ country }}</option>
+        </select>
+    <p> Color </p>
+        <select id="color" formControlName="color" required> 
+            <option *ngFor="let color of colorList" [value]="color">{{ color }}</option>
+        </select>
+    <p> Alto </p>
+    <input type="number" id="height" formControlName="height" min="0">cm
+    <p> Ancho </p>
+    <input type="number" id="width" formControlName="width" min="0">cm
+    <p> Profundidad </p>
+    <input type="number" id="depth" formControlName="depth" min="0">cm
+    <p> Peso </p>
+    <input type="number" id="weight" formControlName="weight" min="0">
+    <select id="weightUnit" formControlName="weightUnit" required> 
+        <option *ngFor="let weightUnit of weightUnitList" [value]="weightUnit">{{ weightUnit }}</option>
+    </select>
+
+
+
+
+</form>

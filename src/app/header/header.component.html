@@ -1,0 +1,69 @@
+<header class="header">
+  <nav class="nav">
+    <div class="nav-links">
+      <div class="left-links">
+        <div class="home" routerLink="/home" routerLinkActive="active">
+          <img
+            src="/logoOriginal.jpg"
+            alt="register"
+            width="100px"
+            height="40px"
+          />
+        </div>
+        <div
+          class="link"
+          routerLink="/register"
+          *ngIf="!isLoggedIn()"
+          routerLinkActive="active"
+        >
+          <img src="/register.svg" alt="register" width="25px" height="25px" />
+        </div>
+        <div
+          *ngIf="isLoggedIn()"
+          class="link"
+          routerLinkActive="active"
+          routerLink="/cart"
+        >
+          <div class="cart-link">
+            <div class="qty" *ngIf="totalQty > 0">{{ totalQty }}</div>
+            <img src="/cart.svg" alt="cart" width="25px" height="25px" />
+          </div>
+        </div>
+        <div class="link" *ngIf="getAdmin()">
+          <Button
+            class="productos"
+            routerLink="/createProduct"
+            routerLinkActive="active"
+          >
+            Agregar Productos
+          </Button>
+        </div>
+      </div>
+      <div class="end-icons">
+        <div class="user-name">
+          <ng-container *ngIf="isLoggedIn(); else notLoggedIn">
+            Bienvenido, {{ getUserName() }}
+          </ng-container>
+          <ng-template #notLoggedIn>
+            Inicia sesión para comenzar a comprar
+          </ng-template>
+        </div>
+        <div *ngIf="isLoggedIn()" class="profile-icon link" (click)="goToProfile()">
+          <img src="/profile.png" alt="Perfil" width="25px" height="25px" />
+        </div>
+
+        <div
+          class="link"
+          routerLink="/login"
+          *ngIf="!isLoggedIn()"
+          routerLinkActive="active"
+        >
+          <img src="/login.svg" alt="login" width="25px" height="25px" />
+        </div>
+        <div class="link logout" (click)="logout()" *ngIf="isLoggedIn()">
+          <img src="/logout.svg" alt="login" width="25px" height="25px" />
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

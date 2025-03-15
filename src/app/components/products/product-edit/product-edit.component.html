@@ -1,0 +1,153 @@
+
+<div class="form-container">
+  <button class="buttonBack" (click)="goBack()">
+    <img src="/arrow-left.svg" alt="volver" width="25px" />
+  </button>
+  <h2 style="color: white; font-size: 30px; text-transform: uppercase">
+    Editar Producto
+  </h2>
+  
+  <p>ID: {{product.id}}</p>
+  <img src="{{ editProduct.get('urlImage')?.value }}" alt />
+  <form [formGroup]="editProduct" (ngSubmit)="onSubmit()">
+    <p>Categoría</p>
+    <select id="category" formControlName="category">
+      <option *ngFor="let category of categoryList" [value]="category" routerLinkActive="router-link-active">
+        {{ category }}
+      </option>
+    </select>
+
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('category')?.dirty ||
+        editProduct.get('category')?.touched)
+      ">
+      <div *ngIf="editProduct.get('category')?.errors?.['required']">
+        Categoría requerida...
+      </div>
+    </div>
+
+    <p>Marca</p>
+    <select id="brand" formControlName="brand">
+      <option *ngFor="let brand of brandList" [value]="brand">
+        {{ brand }}
+      </option>
+    </select>
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('brand')?.dirty || editProduct.get('brand')?.touched)
+      ">
+      <div *ngIf="editProduct.get('brand')?.errors?.['required']">
+        Marca requerida...
+      </div>
+    </div>
+
+    <p>URL Imágen</p>
+    <textarea formControlName="urlImage" class="form-control" rows="10"></textarea>
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('urlImage')?.dirty ||
+        editProduct.get('urlImage')?.touched)
+      ">
+      <div *ngIf="editProduct.get('urlImage')?.errors?.['required']">
+        Url de imágen requerido...
+      </div>
+    </div>
+
+    <p>Descripción</p>
+     <textarea formControlName="description" class="form-control" rows="15"></textarea>
+    
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('description')?.dirty ||
+        editProduct.get('description')?.touched)
+      ">
+      <div *ngIf="editProduct.get('description')?.errors?.['required']">
+        Descripción requerida...
+      </div>
+    </div>
+
+    <p>Precio</p>
+    <input type="number" formControlName="price" class="form-control" />
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('price')?.dirty || editProduct.get('price')?.touched)
+      ">
+      <div *ngIf="editProduct.get('price')?.errors?.['required']">
+        Precio requerido...
+      </div>
+      <div *ngIf="editProduct.get('price')?.errors?.['min']">
+        El valor ingresado es inválido...
+      </div>
+    </div>
+
+    <p>Stock</p>
+    <input type="number" formControlName="stock" class="form-control" />
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('stock')?.dirty || editProduct.get('stock')?.touched)
+      ">
+      <div *ngIf="editProduct.get('stock')?.errors?.['required']">
+        Stock requerido...
+      </div>
+      <div *ngIf="editProduct.get('stock')?.errors?.['min']">
+        El valor ingresado es inválido...
+      </div>
+    </div>
+
+    <p>Modelo</p>
+    <input type="text" formControlName="model" class="form-control" />
+    <div style="color: red" *ngIf="
+        !editProduct.valid &&
+        (editProduct.get('model')?.dirty || editProduct.get('model')?.touched)
+      ">
+      <div *ngIf="editProduct.get('model')?.errors?.['required']">
+        Modelo requerido...
+      </div>
+    </div>
+
+    <app-general-chracteristics (generalCharacteristicsFormValid)="set_GeneralCharacteristicsFormValid($event)" [resetFormGroup]="resetFormGeneralAndCharacteristics"  ></app-general-chracteristics>
+  
+     <app-air-conditioning-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Aire Acondicionado'"></app-air-conditioning-characteristics>
+    <app-fan-characteristics *ngIf="editProduct.get('category')?.value == 'Ventiladores'"></app-fan-characteristics>
+    <app-tv-characteristics *ngIf="editProduct.get('category')?.value == 'Televisores'"></app-tv-characteristics>
+    <app-heapphones-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Auriculares'"></app-heapphones-characteristics>
+    <app-refrigerator-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Heladeras'"></app-refrigerator-characteristics>
+    <app-washing-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Lavarropas'"></app-washing-characteristics>
+    <app-notebooks-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Notebooks'"></app-notebooks-characteristics>
+    <app-microwave-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Microondas'"></app-microwave-characteristics>
+    <app-smartphones-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Celulares'"></app-smartphones-characteristics>
+    <app-tablet-characteristics *ngIf="editProduct.get('category')?.value == 'Tablets'"></app-tablet-characteristics>
+    <app-printer-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Impresoras'"></app-printer-characteristics>
+    <app-keyboard-characteristics
+      *ngIf="editProduct.get('category')?.value == 'Teclados'"></app-keyboard-characteristics>
+    <app-mouse-characteristics *ngIf="editProduct.get('category')?.value == 'Mouses'"></app-mouse-characteristics>
+    <div class="flex">
+      <button class="inner-button" type="submit" [disabled]="!((this.editProduct.valid && this._generalCharacteristicsFormValid && this.characteristicsFormValid) || (this.editProduct.valid && this._generalCharacteristicsFormValid && this.generalCharacteristicsOnly))">
+        Guardar cambios
+      </button>
+      
+      <button class="inner-button" type="button" (click)="resetForm()">
+        Limpiar Campos
+      </button>
+      <button class="inner-button" type="button" (click)="deleteProduct(product.id)">
+        Eliminar producto
+      </button>
+    </div>
+  </form>
+
+
+  
+
+
+
+</div>
+
