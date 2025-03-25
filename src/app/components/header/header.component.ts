@@ -25,6 +25,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
+    
     this.name = this.authService.getUserName();
 
     // Suscribirse a los cambios de cantidad y stock
@@ -88,7 +89,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   getAdmin(): boolean {
     if (typeof window !== 'undefined') {
-      const id = sessionStorage.getItem('userId');
+      const id = sessionStorage.getItem('id');
       if (id === this.adminId) {
         return true;
       }

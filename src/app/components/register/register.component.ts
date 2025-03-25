@@ -23,6 +23,8 @@ export class RegisterComponent {
   bsasCityList: string[] = Object.values(BsasCity);
   showNewPassword: boolean = false;
   showConfirmPassword: boolean = false;  
+  private token: string = "";
+
   constructor(
     private fb: FormBuilder,
     private registerService: RegisterService,
@@ -105,11 +107,12 @@ export class RegisterComponent {
         role
       };
 
-      this.registerService.checkEmailExists(email).subscribe(
+      /* this.registerService.checkEmailExists(email).subscribe(
         (exists) => {
           if (exists) {
             alert('Este correo electrónico ya está registrado.');
           } else {
+            
             this.registerService.registerUser(nuevoUsuario).subscribe(
               (response) => {
                 this.authService
@@ -129,6 +132,28 @@ export class RegisterComponent {
                 console.error('Error al registrar el usuario:', error);
               }
             );
+          }
+        },
+        (error) => {
+          console.error('Error al verificar el correo:', error);
+        }
+      ); */
+      this.registerService.checkEmailExists(email).subscribe(
+        (exists) => {
+          if (exists) {
+            alert('Este correo electrónico ya está registrado.');
+          } else {
+            
+            /* this.registerService.registerUser(nuevoUsuario).subscribe(
+              (response) => {
+                this.token = response['token'];
+                sessionStorage.setItem('token', this.token);
+                this.router.navigate(['/']);
+              },
+              (error) => {
+                console.error('Error al registrar el usuario:', error);
+              }
+            ); */
           }
         },
         (error) => {

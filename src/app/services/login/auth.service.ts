@@ -1,20 +1,25 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { Router } from '@angular/router';
 import { Role } from '../../models/users/role';
+import { LoginComponent } from '../../components/login/login.component';
+import { LoginCredentials } from '../../models/users/login-credentials';
+import { response } from 'express';
+import { error } from 'console';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:3001';
+  //private apiUrl = 'http://localhost:3001';
+  private apiUrl = 'http://localhost:8080/inventario-app/auth/login';
   
 
   constructor(private http: HttpClient, private router: Router) {}
 
-  login(email: string, password: string): Observable<boolean> {
+  /* login(email: string, password: string): Observable<boolean> {
     return this.http
       .get<{ id: number; email: string; password: string; name: string, role: Role }[]>(
         `${this.apiUrl}/users?email=${email}&password=${password}`
@@ -46,6 +51,16 @@ export class AuthService {
           );
         })
       );
+  } */
+  login(loginCredentials: LoginCredentials){
+    const httpOptions = {
+      headers: new HttpHeaders({
+        "Content-Type":"application/json"
+      })
+    };
+
+    return this.http.post<any>(this.apiUrl, loginCredentials, httpOptions);
+
   }
   
   getUserName(): string | null {
@@ -57,7 +72,7 @@ export class AuthService {
 
   getUserId(): string | null {
     if (typeof window !== 'undefined') {
-      return sessionStorage.getItem('userId');
+      return sessionStorage.getItem('id');
     }
     return null;
   }
@@ -72,7 +87,7 @@ export class AuthService {
 
   isLoggedIn(): boolean {
     if (typeof window !== 'undefined') {
-      return !!sessionStorage.getItem('auth_token');
+      return !!sessionStorage.getItem('token');
     }
     return false;
   }
@@ -83,4 +98,5 @@ export class AuthService {
     }
     return false;
   }
+
 }

@@ -21,7 +21,8 @@ import { ScreenTechnology } from '../../models/products/characteristics/screen-t
   providedIn: 'root',
 })
 export class ProductService {
-  private productsApiUrl = 'http://localhost:3010/products';
+  //private productsApiUrl = 'http://localhost:3010/products';
+  private productsApiUrl = 'http://localhost:8080/inventario-app/products/getProducts';
 
  
   private airTypesList: string[] = Object.values(AirType).sort();
