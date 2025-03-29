@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
 import { AuthService } from '../../services/login/auth.service';
 import { LoginCredentials } from '../../models/users/login-credentials';
 import { UserService } from '../../services/user/user.service';
 import { error } from 'console';
+import { Router } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
+    selector: 'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.component.css'],
+    standalone: false
 })
 export class LoginComponent {
   loginForm: FormGroup;
@@ -21,6 +23,7 @@ export class LoginComponent {
     private authService: AuthService,
     private router: Router,
     private userService: UserService,
+    private cookieService: CookieService
   ) {
     this.loginForm = this.fb.group({
       email: ['', Validators.required],
@@ -52,7 +55,8 @@ export class LoginComponent {
         this.authService.login(loginCredentials).subscribe({
           next: (response) =>{
             this.token = response['token'];
-            sessionStorage.setItem('token', this.token);
+            this.cookieService.set('token', this.token);
+            //sessionStorage.setItem('token', this.token);
             /* sessionStorage.setItem('email', response['email']);
             sessionStorage.setItem('userId', response['id']);
             sessionStorage.setItem('name', response['name']);
@@ -60,10 +64,16 @@ export class LoginComponent {
             
             this.userService.getUserByEmail(loginCredentials.getEmail()).subscribe({
               next: response =>{
-                sessionStorage.setItem('email', response['email']);
+                console.log(response);
+                /* sessionStorage.setItem('email', response['email']);
                 sessionStorage.setItem('userId', response['id']);
                 sessionStorage.setItem('name', response['name']);
-                sessionStorage.setItem('role', response['role']);
+                sessionStorage.setItem('role', response['role']); */
+                this.cookieService.set('email', response['email']);
+                this.cookieService.set('id', response['id']);
+                this.cookieService.set('name', response['name']);
+                this.cookieService.set('lastname', response['lastname']);
+                this.cookieService.set('role', response['role']);
               }, error: error =>{
                 console.log("No se pudieron obtener los datos del usuario...");
               }

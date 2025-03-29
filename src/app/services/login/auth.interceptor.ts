@@ -1,14 +1,9 @@
-import {
-  HttpInterceptor,
-  HttpRequest,
-  HttpHandler,
-  HttpEvent,
-  HttpErrorResponse,
-} from '@angular/common/http';
+
 import { catchError, Observable, throwError } from 'rxjs';
-import { Router } from '@angular/router';
 import { Injectable } from '@angular/core';
-import { consumerAfterComputation } from '@angular/core/primitives/signals';
+import {  Router } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
+import { HttpErrorResponse, HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 
 
 /* @Injectable()
@@ -36,23 +31,26 @@ export class AuthInterceptor implements HttpInterceptor {
 export class AuthInterceptor implements HttpInterceptor{
   
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private cookieService: CookieService) { 
+    //console.log("Interceptor!!!")
+  }
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    
+    //console.log("Interceptor");
     
       //const token = sessionStorage.getItem("token");
       let token: string | null = null;
 
-      console.log("Interceptor");
+      /* console.log("Interceptor");
       console.log(typeof window);
-     if (typeof window !== 'undefined') {
+      console.log(this.cookieService.get('token')); */
+     /* if (typeof window !== 'undefined') {
       token = sessionStorage.getItem('token');
-    }
-      //token = sessionStorage.getItem('token');
+    } */
+      token = this.cookieService.get('token');
       let request = req;
       if(token){
-        console.log("Token: " + token);
+        //console.log("Token: " + token);
         request = req.clone({
           setHeaders: {
             Authorization: `Bearer ${token}`
@@ -68,9 +66,14 @@ export class AuthInterceptor implements HttpInterceptor{
       return next.handle(request).pipe(//Handle intercepta el request. Si hay token envia el req con el token sino el original - Pipe permite realizar el catchError y devolver el throwError
         catchError((err: HttpErrorResponse) =>{
           if(err.status === 401){//unauthorized
+            console.log("unauthorized");
+            this.cookieService.delete('email');
             this.router.navigateByUrl("/login");
           } else if(err.status === 403){//forbidden
+            console.log("forbidden");
+            
             this.router.navigateByUrl("/login");
+            this.cookieService.delete('email');
           }
 
           return throwError(err);

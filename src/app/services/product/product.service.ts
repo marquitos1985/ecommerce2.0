@@ -16,6 +16,8 @@ import { CoolingSystem } from '../../models/products/characteristics/cooling-sys
 import { PrinterType } from '../../models/products/characteristics/printer-type';
 import { HeadphoneType } from '../../models/products/characteristics/headphone-type';
 import { ScreenTechnology } from '../../models/products/characteristics/screen-technology';
+import { response } from 'express';
+import { error } from 'console';
 
 @Injectable({
   providedIn: 'root',
@@ -66,14 +68,26 @@ export class ProductService {
         return;
       }
   
-      this.http.patch(`${this.productsApiUrl}/${productId}`, { stock: updatedStock }).subscribe(
+      /* this.http.patch(`${this.productsApiUrl}/${productId}`, { stock: updatedStock }).subscribe(
         () => console.log(`Stock actualizado para el producto ${productId}`),
         (error) => console.error(`Error al actualizar el stock para ${productId}`, error)
-      );
+      ); */
+      this.updateStockById(productId, quantitySold).subscribe({
+        next: response =>{
+          console.log("Stock actualizado...");
+        },
+        error: error =>{
+          console.log("No se pudo actualizar el stock...");
+        }
+      });
     });
+
+    
   }
   
-
+  private updateStockById(id: string, discount: number): Observable<ProductInterface2>{
+    return this.http.put<ProductInterface2>(this.productsApiUrl + "/updateStock/" + id, discount);
+  }
   
  
   getCharacteristicsList(type: string): string[] {

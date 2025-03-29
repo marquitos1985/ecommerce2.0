@@ -10,9 +10,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-mouse-characteristics',
-  templateUrl: './mouse-characteristics.component.html',
-  styleUrl: './mouse-characteristics.component.css',
+    selector: 'app-mouse-characteristics',
+    templateUrl: './mouse-characteristics.component.html',
+    styleUrl: './mouse-characteristics.component.css',
+    standalone: false
 })
 export class MouseCharacteristicsComponent {
   @Output() 

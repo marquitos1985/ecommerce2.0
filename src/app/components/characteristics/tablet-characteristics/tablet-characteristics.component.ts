@@ -16,9 +16,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-tablet-characteristics',
-  templateUrl: './tablet-characteristics.component.html',
-  styleUrl: './tablet-characteristics.component.css',
+    selector: 'app-tablet-characteristics',
+    templateUrl: './tablet-characteristics.component.html',
+    styleUrl: './tablet-characteristics.component.css',
+    standalone: false
 })
 export class TabletCharacteristicsComponent {
   

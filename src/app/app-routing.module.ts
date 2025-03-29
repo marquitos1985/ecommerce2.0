@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+//import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
@@ -12,6 +12,7 @@ import { AdminGuard } from './models/users/guards/admin.guard';
 import { ProductEditComponent } from './components/products/product-edit/product-edit.component';
 import { CreateProductComponent } from './components/products/create-product/create-product.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
+import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },

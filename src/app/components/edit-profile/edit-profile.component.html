@@ -57,12 +57,12 @@
                   <input type="text" class="form-control" formControlName="streetNumber">
 
                   <label>Ciudad:</label>
-                  <select name="" id="" formControlName="city" class="form-control" >
+                  <select  formControlName="city" class="form-control" >
                     <option *ngFor="let city of bsasCityList" [value]="city">{{ city }}</option>
                   </select>
 
                   <label>Provincia:</label>
-                  <select name="" id="" formControlName="province"  class="form-control">
+                  <select  formControlName="province"  class="form-control">
                     <option *ngFor="let province of provincesList" [value]="province">
                       {{ province }}
                     </option>

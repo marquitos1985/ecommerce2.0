@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 import { Router } from '@angular/router';
@@ -8,6 +7,8 @@ import { LoginComponent } from '../../components/login/login.component';
 import { LoginCredentials } from '../../models/users/login-credentials';
 import { response } from 'express';
 import { error } from 'console';
+import { CookieService } from 'ngx-cookie-service';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root',
@@ -17,7 +18,7 @@ export class AuthService {
   private apiUrl = 'http://localhost:8080/inventario-app/auth/login';
   
 
-  constructor(private http: HttpClient, private router: Router) {}
+  constructor(private http: HttpClient, private router: Router, private cookieService: CookieService) {}
 
   /* login(email: string, password: string): Observable<boolean> {
     return this.http
@@ -65,14 +66,16 @@ export class AuthService {
   
   getUserName(): string | null {
     if (typeof window !== 'undefined') {
-      return sessionStorage.getItem('name');
+      //return sessionStorage.getItem('name');
+      return this.cookieService.get('name');
     }
     return null;
   }
 
   getUserId(): string | null {
     if (typeof window !== 'undefined') {
-      return sessionStorage.getItem('id');
+      //return sessionStorage.getItem('id');
+      return this.cookieService.get('id');
     }
     return null;
   }
@@ -80,21 +83,28 @@ export class AuthService {
   logout(): void {
     
       
-        sessionStorage.clear();
+        //sessionStorage.clear();
+        /* this.cookieService.delete('email');
+        this.cookieService.delete('userId');
+        this.cookieService.delete('name');
+        this.cookieService.delete('lastname');
+        this.cookieService.delete('role');
+        this.cookieService.delete('token'); */
+        this.cookieService.deleteAll();
         window.location.reload();
       
   }
 
   isLoggedIn(): boolean {
     if (typeof window !== 'undefined') {
-      return !!sessionStorage.getItem('token');
+      return !!this.cookieService.get('token');
     }
     return false;
   }
 
   isAdmin(): boolean {
     if (typeof window !== 'undefined') {
-      return sessionStorage.getItem('role') === "ADMIN";
+      return this.cookieService.get('role') === "ADMIN";
     }
     return false;
   }

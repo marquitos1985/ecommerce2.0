@@ -1,18 +1,19 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ProductService } from '../../../../services/product/product.service';
 import { CarritoService } from '../../../../services/cart.service';
-import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { Subscription } from 'rxjs';
 import { AuthService } from '../../../../services/login/auth.service';
 import { ProductInterface2 } from '../../../../interfaces/product/product-interface2';
 import { response } from 'express';
 import Swal from 'sweetalert2';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-product-details',
-  templateUrl: './product-details.component.html',
-  styleUrl: './product-details.component.css',
+    selector: 'app-product-details',
+    templateUrl: './product-details.component.html',
+    styleUrl: './product-details.component.css',
+    standalone: false
 })
 export class ProductDetailsComponent implements OnInit, OnDestroy {
   productToVievDetails: ProductInterface2 | null = null;

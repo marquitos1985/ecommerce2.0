@@ -10,9 +10,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-printer-characteristics',
-  templateUrl: './printer-characteristics.component.html',
-  styleUrl: './printer-characteristics.component.css',
+    selector: 'app-printer-characteristics',
+    templateUrl: './printer-characteristics.component.html',
+    styleUrl: './printer-characteristics.component.css',
+    standalone: false
 })
 export class PrinterCharacteristicsComponent {
   

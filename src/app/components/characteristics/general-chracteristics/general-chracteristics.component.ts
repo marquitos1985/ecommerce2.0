@@ -19,9 +19,10 @@ import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
-  selector: 'app-general-chracteristics',
-  templateUrl: './general-chracteristics.component.html',
-  styleUrl: './general-chracteristics.component.css',
+    selector: 'app-general-chracteristics',
+    templateUrl: './general-chracteristics.component.html',
+    styleUrl: './general-chracteristics.component.css',
+    standalone: false
 })
 export class GeneralChracteristicsComponent implements OnInit, OnChanges {
   @Output()

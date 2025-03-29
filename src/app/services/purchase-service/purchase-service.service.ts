@@ -7,15 +7,17 @@ import { map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class PurchaseService {
-  private apiUrl = 'http://localhost:3002/purchases';
+  //private apiUrl = 'http://localhost:3002/purchases';
+  private apiUrl = 'http://localhost:8080/inventario-app/purchases';
 
   constructor(private http: HttpClient) {}
 
   agregarCompra(compra: Purchase): Observable<Purchase> {
-    return this.http.post<Purchase>(this.apiUrl, compra);
+    return this.http.post<Purchase>(this.apiUrl + "/add", compra);
   }
   obtenerComprasPorCliente(clienteId: string): Observable<Purchase[]> {
-    const url = `${this.apiUrl}?clienteId=${clienteId}`;
+    //const url = `${this.apiUrl}?clienteId=${clienteId}`;
+    const url = this.apiUrl + "/userId/" + clienteId;
     return this.http.get<Purchase[]>(url);
   }
   obtenerUltimoId(): Observable<number> {

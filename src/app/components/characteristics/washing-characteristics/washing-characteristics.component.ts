@@ -11,9 +11,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-washing-characteristics',
-  templateUrl: './washing-characteristics.component.html',
-  styleUrl: './washing-characteristics.component.css',
+    selector: 'app-washing-characteristics',
+    templateUrl: './washing-characteristics.component.html',
+    styleUrl: './washing-characteristics.component.css',
+    standalone: false
 })
 export class WashingCharacteristicsComponent {
   

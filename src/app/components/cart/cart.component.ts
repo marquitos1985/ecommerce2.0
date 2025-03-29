@@ -5,9 +5,10 @@ import { Location } from '@angular/common';
 import { ProductInterface2 } from '../../interfaces/product/product-interface2';
 
 @Component({
-  selector: 'app-cart',
-  templateUrl: './cart.component.html',
-  styleUrls: ['./cart.component.css'],
+    selector: 'app-cart',
+    templateUrl: './cart.component.html',
+    styleUrls: ['./cart.component.css'],
+    standalone: false
 })
 export class CartComponent implements OnInit, OnDestroy {
   carrito: ProductInterface2[] = [];

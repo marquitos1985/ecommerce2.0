@@ -8,13 +8,14 @@ import { GeneralCharacteristics } from '../../../interfaces/product/characterist
 import { EventEmitter } from '@angular/core';
 import { ProductService } from '../../../services/product/product.service';
 import { ProductInterface2 } from '../../../interfaces/product/product-interface2';
-import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-air-conditioning-characteristics',
-  templateUrl: './air-conditioning-characteristics.component.html',
-  styleUrl: './air-conditioning-characteristics.component.css',
+    selector: 'app-air-conditioning-characteristics',
+    templateUrl: './air-conditioning-characteristics.component.html',
+    styleUrl: './air-conditioning-characteristics.component.css',
+    standalone: false
 })
 export class AirConditioningCharacteristicsComponent implements OnInit {
 

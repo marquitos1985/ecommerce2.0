@@ -2,7 +2,6 @@ import { ChangeDetectorRef, Component, EventEmitter, Input, OnInit, Output } fro
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ProductService } from '../../../services/product/product.service';
 import { Category } from '../../../models/products/categories/category';
-import { ActivatedRoute, Route, Router } from '@angular/router';
 import { Brand } from '../../../models/products/brands/brand';
 import Swal from 'sweetalert2';
 import { ProductcCharacteristicsService } from '../../../services/product/product-characteristics.service';
@@ -10,11 +9,13 @@ import { Observable } from 'rxjs';
 import { ProductInterface2 } from '../../../interfaces/product/product-interface2';
 import { GeneralCharacteristics } from '../../../interfaces/product/characteristics/general-characteristics';
 import { Location } from '@angular/common';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-product-edit',
-  templateUrl: './product-edit.component.html',
-  styleUrl: './product-edit.component.css'
+    selector: 'app-product-edit',
+    templateUrl: './product-edit.component.html',
+    styleUrl: './product-edit.component.css',
+    standalone: false
 })
 export class ProductEditComponent implements OnInit{
 

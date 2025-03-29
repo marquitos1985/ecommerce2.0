@@ -13,7 +13,6 @@ import { Province } from '../../models/province';
 import { BsasCity } from '../../models/bsas-city';
 import { CardType } from '../../models/cardType';
 import { CardIssuer } from '../../models/card-issuer';
-import { Router } from '@angular/router';
 import { ProductService } from '../../services/product/product.service';
 import Swal from 'sweetalert2';
 import { CardsService } from '../../services/cards.service';
@@ -22,11 +21,14 @@ import { ProductInterface2 } from '../../interfaces/product/product-interface2';
 import { DiscountCoupon } from '../../interfaces/product/discount-coupon';
 import { DiscountCouponService } from '../../services/discount-coupon/discount-coupon.service';
 import { CarritoService } from '../../services/cart.service';
+import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-purchase',
-  templateUrl: './buy-form.component.html',
-  styleUrls: ['./buy-form.component.css'],
+    selector: 'app-purchase',
+    templateUrl: './buy-form.component.html',
+    styleUrls: ['./buy-form.component.css'],
+    standalone: false
 })
 export class BuyFormComponent implements OnInit {
   cartItems: ProductInterface2[] = [];
@@ -196,10 +198,7 @@ export class BuyFormComponent implements OnInit {
           this.userDataForm.get('cvv')?.valid &&
           this.userDataForm.get('cardIssuer')?.valid){
 
-          this.cardExists()
-          .then(response =>{
-            this.verifyCard = response;
-          });
+          
           
           if(!this.userDataForm.get('province')?.valid ||
           !this.userDataForm.get('city')?.valid  ||
@@ -208,7 +207,46 @@ export class BuyFormComponent implements OnInit {
             this.addressExists = false;
             this.calculatedShipping = false;
           }
+
+          /* this.cardExists()
+          .then(response =>{
+            this.verifyCard = response;
+          }); */
+
+          let card: Card = {
+            type: '',
+            cardHolder: '',
+            cardNumber: '',
+            expirationDate: '',
+            cvv: '',
+            issuer: '',
+          };
+          card.type = this.userDataForm.get('cardType')?.value;
+          card.cardHolder = this.userDataForm.get('cardHolder')?.value;
+          card.cardNumber = this.userDataForm.get('cardNumber')?.value;
+          card.expirationDate = this.userDataForm.get('expirationDate')?.value;
+          card.cvv = this.userDataForm.get('cvv')?.value;
+          card.issuer = this.userDataForm.get('cardIssuer')?.value;
+      
+      this.cardService.getByCardNumber(card).subscribe({
+        next: response =>{
+          let card: Card = response;
+          console.log("Response: " + response);
+          if (card != null){
+            this.verifyCard = true; 
+            } else {
+              this.verifyCard = false;
+          }
           
+        },
+        error: error =>{
+          console.log(error);
+          this.verifyCard = false;
+          
+        }
+      })
+
+      
 
       }
     });
@@ -414,9 +452,9 @@ export class BuyFormComponent implements OnInit {
       },
     }).then((result) => {
       if (result.isConfirmed) {
-        this.purchaseService.obtenerUltimoId().subscribe((ultimoId) => {
+        //this.purchaseService.obtenerUltimoId().subscribe((ultimoId) => {
           const nuevaCompra: Purchase = {
-            purchaseId: ultimoId, // Usamos el ID obtenido
+            purchaseId: 1, // Usamos el ID obtenido
             clienteId: this.authService.getUserId(),
             productos: productos.map(({ id, quantity, price, brand, model }) => ({
               id,
@@ -460,7 +498,7 @@ export class BuyFormComponent implements OnInit {
               console.error('Error al registrar la compra:', error);
             }
           );
-        });
+        //});
       } else {
         Swal.fire({
           title: 'Compra cancelada',
@@ -483,7 +521,7 @@ export class BuyFormComponent implements OnInit {
     );
   }
 
-   async cardExists(): Promise<boolean> {
+   /* async cardExists(): Promise<boolean> {
     let out: boolean = false;
     let card: Card = {
       type: '',
@@ -504,7 +542,49 @@ export class BuyFormComponent implements OnInit {
     return await this.cardService.existsCard(card);
 
 
-  }
+  } */
+
+    /* public async cardExists():Promise<boolean>{
+      let out: boolean = false;
+      let card: Card = {
+        type: '',
+        cardHolder: '',
+        cardNumber: '',
+        expirationDate: '',
+        cvv: '',
+        issuer: '',
+      };
+  
+      card.type = this.userDataForm.get('cardType')?.value;
+      card.cardHolder = this.userDataForm.get('cardHolder')?.value;
+      card.cardNumber = this.userDataForm.get('cardNumber')?.value;
+      card.expirationDate = this.userDataForm.get('expirationDate')?.value;
+      card.cvv = this.userDataForm.get('cvv')?.value;
+      card.issuer = this.userDataForm.get('cardIssuer')?.value;
+      
+      await this.cardService.getByCardNumber(card).subscribe({
+        next: response =>{
+          let card: Card = response;
+          console.log("Response: " + response);
+          if (card != null){
+            out = true; 
+            } else {
+            out = false;
+          }
+          
+        },
+        error: error =>{
+          console.log(error);
+          out = false;
+          
+        }
+      })
+
+      console.log("Out: " + out);
+          return out;
+  
+  
+    } */
 
 
 

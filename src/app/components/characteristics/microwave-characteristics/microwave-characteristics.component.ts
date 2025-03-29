@@ -11,9 +11,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-microwave-characteristics',
-  templateUrl: './microwave-characteristics.component.html',
-  styleUrl: './microwave-characteristics.component.css',
+    selector: 'app-microwave-characteristics',
+    templateUrl: './microwave-characteristics.component.html',
+    styleUrl: './microwave-characteristics.component.css',
+    standalone: false
 })
 export class MicrowaveCharacteristicsComponent {
   @Output() 

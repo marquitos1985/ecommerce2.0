@@ -2,13 +2,14 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AuthService } from '../../services/login/auth.service';
 import { CarritoService } from '../../services/cart.service';
 import { Subscription } from 'rxjs';
-import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { error } from 'console';
+import { Router } from '@angular/router';
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css'],
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.css'],
+    standalone: false
 })
 export class HeaderComponent implements OnInit, OnDestroy {
   name: string | null = null;

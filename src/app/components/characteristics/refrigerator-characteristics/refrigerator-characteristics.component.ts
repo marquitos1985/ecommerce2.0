@@ -10,9 +10,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-refrigerator-characteristics',
-  templateUrl: './refrigerator-characteristics.component.html',
-  styleUrl: './refrigerator-characteristics.component.css'
+    selector: 'app-refrigerator-characteristics',
+    templateUrl: './refrigerator-characteristics.component.html',
+    styleUrl: './refrigerator-characteristics.component.css',
+    standalone: false
 })
 export class RefrigeratorCharacteristicsComponent {
 

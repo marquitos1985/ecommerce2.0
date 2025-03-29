@@ -13,9 +13,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-tv-characteristics',
-  templateUrl: './tv-characteristics.component.html',
-  styleUrl: './tv-characteristics.component.css',
+    selector: 'app-tv-characteristics',
+    templateUrl: './tv-characteristics.component.html',
+    styleUrl: './tv-characteristics.component.css',
+    standalone: false
 })
 export class TvCharacteristicsComponent {
   

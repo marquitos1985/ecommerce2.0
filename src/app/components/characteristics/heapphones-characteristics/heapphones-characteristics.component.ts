@@ -7,13 +7,14 @@ import { GeneralCharacteristics } from '../../../interfaces/product/characterist
 import { Observable } from 'rxjs';
 import { ProductInterface2 } from '../../../interfaces/product/product-interface2';
 import { ProductService } from '../../../services/product/product.service';
-import { ActivatedRoute } from '@angular/router';
 import { Conectivity } from '../../../models/products/characteristics/conectivity';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-heapphones-characteristics',
-  templateUrl: './heapphones-characteristics.component.html',
-  styleUrl: './heapphones-characteristics.component.css',
+    selector: 'app-heapphones-characteristics',
+    templateUrl: './heapphones-characteristics.component.html',
+    styleUrl: './heapphones-characteristics.component.css',
+    standalone: false
 })
 export class HeapphonesCharacteristicsComponent {
   @Output() 

@@ -9,6 +9,7 @@ import { Card } from '../interfaces/cards/card';
 import { Observable } from 'rxjs';
 import { ProductInterface2 } from '../interfaces/product/product-interface2';
 import { DiscountCoupon } from '../interfaces/product/discount-coupon';
+import { UserService } from './user/user.service';
 
 @Injectable({
   providedIn: 'root',
@@ -24,7 +25,8 @@ export class BuyService {
     private authService: AuthService,
     private registerService: RegisterService,
     private distanceMatrixService: DistanceMatrixService,
-    private cardsService: CardsService
+    private cardsService: CardsService,
+    private userService: UserService
   ) {
     this.user = null;
     this.subTotalPrice = 0;
@@ -35,7 +37,8 @@ export class BuyService {
     return this.cartService.getCartItems();
   }
   public getUser(userId: string) {
-    return this.registerService.getUserById(userId);
+    //return this.registerService.getUserById(userId);
+    return this.userService.getUserById(userId);
   }
 
 

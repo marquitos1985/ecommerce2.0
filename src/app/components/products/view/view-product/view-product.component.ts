@@ -25,9 +25,10 @@ import Swal from 'sweetalert2';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-view-product',
-  templateUrl: './view-product.component.html',
-  styleUrl: './view-product.component.css',
+    selector: 'app-view-product',
+    templateUrl: './view-product.component.html',
+    styleUrl: './view-product.component.css',
+    standalone: false
 })
 export class ViewProductComponent implements OnInit, OnDestroy {
   formControlCategory: FormControl;

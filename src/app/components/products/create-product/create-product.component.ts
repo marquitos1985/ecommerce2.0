@@ -7,13 +7,14 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ProductcCharacteristicsService } from '../../../services/product/product-characteristics.service';
 import { GeneralCharacteristics } from '../../../interfaces/product/characteristics/general-characteristics';
 import Swal from 'sweetalert2';
-import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-create-product',
-  templateUrl: './create-product.component.html',
-  styleUrl: './create-product.component.css'
+    selector: 'app-create-product',
+    templateUrl: './create-product.component.html',
+    styleUrl: './create-product.component.css',
+    standalone: false
 })
 export class CreateProductComponent implements OnInit{
 

@@ -7,16 +7,21 @@ import { PurchaseService } from '../../services/purchase-service/purchase-servic
 import { Purchase } from '../../models/purchases/purchase';
 import { ChangeDetectorRef } from '@angular/core';
 import { CustomValidators } from '../../common/custom-validators';
-import { Router } from '@angular/router';
 import { ProductService } from '../../services/product/product.service';
 import Swal from 'sweetalert2';
 import { BsasCity } from '../../models/bsas-city';
 import { Province } from '../../models/province';
+import { Router } from '@angular/router';
+import { UserService } from '../../services/user/user.service';
+import { response } from 'express';
+import { error } from 'console';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
-  selector: 'app-edit-profile',
-  templateUrl: './edit-profile.component.html',
-  styleUrls: ['./edit-profile.component.css']
+    selector: 'app-edit-profile',
+    templateUrl: './edit-profile.component.html',
+    styleUrls: ['./edit-profile.component.css'],
+    standalone: false
 })
 export class EditProfileComponent implements OnInit {
   
@@ -51,7 +56,9 @@ export class EditProfileComponent implements OnInit {
     private fb: FormBuilder,
     private cd: ChangeDetectorRef,
     private router: Router,
-    private productService: ProductService
+    private productService: ProductService,
+    private userService: UserService,
+    private cookieService: CookieService
     
   ) {
     
@@ -79,11 +86,21 @@ export class EditProfileComponent implements OnInit {
       return;
     }
     
-    this.registerService.getUserById(userId).subscribe({
+    /* this.registerService.getUserById(userId).subscribe({
       next: (response) => {
         this.user = response;
         this.profileForm.patchValue(this.user); 
         //console.log('Datos del usuario cargados:', this.user);
+      },
+      error: (error) => {
+        console.error(`Error al obtener usuario con ID ${userId}:`, error);
+      }
+    }); */
+    this.userService.getUserById(userId).subscribe({
+      next: (response) => {
+        this.user = response;
+        this.profileForm.patchValue(this.user); 
+        
       },
       error: (error) => {
         console.error(`Error al obtener usuario con ID ${userId}:`, error);
@@ -93,7 +110,7 @@ export class EditProfileComponent implements OnInit {
     this.purchaseService.obtenerComprasPorCliente(userId).subscribe({
       next: (response) => {
         this.purchases = response;
-        //console.log('Compras del usuario:', this.purchases);
+        
       },
       error: (error) => {
         console.error(`Error al obtener compras del usuario con ID ${userId}:`, error);
@@ -116,7 +133,7 @@ export class EditProfileComponent implements OnInit {
   
       console.log("Guardando cambios...", updatedUser);
   
-      this.registerService.updateUser(updatedUser).subscribe({
+      this.userService.updateUser(updatedUser).subscribe({
         next: (response) => {
           this.user = { ...updatedUser }; 
           this.profileForm.patchValue(updatedUser); 
@@ -139,7 +156,7 @@ export class EditProfileComponent implements OnInit {
   
       console.log("Guardando cambios...", updatedUser);
   
-      this.registerService.updateUser(updatedUser).subscribe({
+      this.userService.updateUser(updatedUser).subscribe({
         next: (response) => {
           this.user = { ...updatedUser };
           this.profileForm.patchValue(updatedUser);
@@ -157,10 +174,79 @@ export class EditProfileComponent implements OnInit {
 
 
   changePassword() {
+
     if (this.changePasswordForm.invalid) {
       this.showToast("Por favor, complete todos los campos correctamente.", "error");
       return;
     }
+    const { currentPassword, newPassword } = this.changePasswordForm.value;
+
+    if (newPassword === currentPassword) {
+      this.showToast("La nueva contraseña no puede ser igual a la anterior.", "error");
+      return;
+    }
+
+    this.userService.verifyPassword(this.user, currentPassword).subscribe({
+      next: response =>{
+        console.log(response);
+        if(response == true){
+          
+          const updatedUser = { ...this.user, password: newPassword };
+      
+          this.userService.changePass(this.cookieService.get('id'), newPassword as string).subscribe({
+            next: () => {
+              //this.user.password = newPassword;
+              this.showToast("Contraseña actualizada correctamente.", "success");
+              this.closeModal('changePasswordModal');
+            },
+            error: () => {
+              this.showToast("Error al actualizar la contraseña.", "error");
+            }
+          });
+        }else{
+          this.showToast("La contraseña actual es incorrecta.", "error");
+          return;
+        }
+
+
+
+
+      },
+      error: error =>{
+        console.log(error);
+      }
+    });
+
+    /* if (currentPassword !== this.user.password) {
+      this.showToast("La contraseña actual es incorrecta.", "error");
+      return;
+    } */
+
+    /* if (newPassword === currentPassword) {
+      this.showToast("La nueva contraseña no puede ser igual a la anterior.", "error");
+      return;
+    } 
+
+    const updatedUser = { ...this.user, password: newPassword };
+
+    this.userService.updateUser(updatedUser).subscribe({
+      next: () => {
+        this.user.password = newPassword;
+        this.showToast("Contraseña actualizada correctamente.", "success");
+        this.closeModal('changePasswordModal');
+      },
+      error: () => {
+        this.showToast("Error al actualizar la contraseña.", "error");
+      }
+    }); */
+
+
+
+    /* if (this.changePasswordForm.invalid) {
+      this.showToast("Por favor, complete todos los campos correctamente.", "error");
+      return;
+    }
+
     const { currentPassword, newPassword } = this.changePasswordForm.value;
     if (currentPassword !== this.user.password) {
       this.showToast("La contraseña actual es incorrecta.", "error");
@@ -171,7 +257,7 @@ export class EditProfileComponent implements OnInit {
       return;
     }
     const updatedUser = { ...this.user, password: newPassword };
-    this.registerService.updateUser(updatedUser).subscribe({
+    this.userService.updateUser(updatedUser).subscribe({
       next: () => {
         this.user.password = newPassword;
         this.showToast("Contraseña actualizada correctamente.", "success");
@@ -180,7 +266,8 @@ export class EditProfileComponent implements OnInit {
       error: () => {
         this.showToast("Error al actualizar la contraseña.", "error");
       }
-    });
+    }); */
+
   }
 
   showToast(message: string, type: 'success' | 'error') {
@@ -203,7 +290,8 @@ export class EditProfileComponent implements OnInit {
   }
   
   closeModal(modalName: string) {
-    const modal = document.getElementById(modalName) as any;
+    //const modal = document.getElementById(modalName) as any;
+    const modal = document.getElementById(modalName);
     if (modal) {
       const modalInstance = bootstrap.Modal.getInstance(modal);
       if (modalInstance) {

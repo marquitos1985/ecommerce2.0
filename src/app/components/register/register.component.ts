@@ -4,18 +4,19 @@ import {
   RegisterService,
   User,
 } from '../../services/register-service/register.service';
-import { Router } from '@angular/router';
 import { AuthService } from '../../services/login/auth.service';
 import { CustomValidators } from '../../common/custom-validators';
 import { BsasCity } from '../../models/bsas-city';
 import { Province } from '../../models/province';
 import { Usuario } from '../../models/users/user';
 import { Role } from '../../models/users/role';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css'],
+    selector: 'app-register',
+    templateUrl: './register.component.html',
+    styleUrls: ['./register.component.css'],
+    standalone: false
 })
 export class RegisterComponent {
   registerForm: FormGroup;

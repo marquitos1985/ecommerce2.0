@@ -4,10 +4,9 @@ import {
   provideClientHydration,
 } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
-import { provideHttpClient, withFetch } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule, provideHttpClient, withFetch, withInterceptors, withInterceptorsFromDi } from '@angular/common/http';
 import { AirConditioningCharacteristicsComponent } from './components/characteristics/air-conditioning-characteristics/air-conditioning-characteristics.component';
 import { TvCharacteristicsComponent } from './components/characteristics/tv-characteristics/tv-characteristics.component';
 import { FanCharacteristicsComponent } from './components/characteristics/fan-characteristics/fan-characteristics.component';
@@ -23,8 +22,6 @@ import { TabletCharacteristicsComponent } from './components/characteristics/tab
 import { PrinterCharacteristicsComponent } from './components/characteristics/printer-characteristics/printer-characteristics.component';
 import { KeyboardCharacteristicsComponent } from './components/characteristics/keyboard-characteristics/keyboard-characteristics.component';
 import { MouseCharacteristicsComponent } from './components/characteristics/mouse-characteristics/mouse-characteristics.component';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { AuthInterceptor } from './services/login/auth.interceptor';
 import { CartComponent } from './components/cart/cart.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -34,9 +31,13 @@ import { BuyFormComponent } from './components/buy-form/buy-form.component';
 import { ProductEditComponent } from './components/products/product-edit/product-edit.component';
 import { CreateProductComponent } from './components/products/create-product/create-product.component';
 import { GeneralChracteristicsComponent } from './components/characteristics/general-chracteristics/general-chracteristics.component';
-import {NgxPaginationModule} from 'ngx-pagination';
+import { NgxPaginationModule } from 'ngx-pagination';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AppComponent } from './app.component';
+import { CookieService } from 'ngx-cookie-service';
+import { AuthInterceptor } from './services/login/auth.interceptor';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,16 +66,19 @@ import { FooterComponent } from './components/footer/footer.component';
     ProductEditComponent,
     CreateProductComponent,
     GeneralChracteristicsComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    
   ],
 
-  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule,BrowserModule, NgxPaginationModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule, NgxPaginationModule, HttpClientModule],
 
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+    //provideHttpClient(withInterceptorsFromDi()),
     provideClientHydration(),
-    provideHttpClient(withFetch()),
+    //provideHttpClient(withFetch()),
     provideAnimationsAsync(),
+    CookieService
   ],
   bootstrap: [AppComponent],
 })

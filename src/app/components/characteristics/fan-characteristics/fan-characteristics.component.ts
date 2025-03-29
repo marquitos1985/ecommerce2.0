@@ -10,9 +10,10 @@ import { ProductService } from '../../../services/product/product.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-fan-characteristics',
-  templateUrl: './fan-characteristics.component.html',
-  styleUrl: './fan-characteristics.component.css',
+    selector: 'app-fan-characteristics',
+    templateUrl: './fan-characteristics.component.html',
+    styleUrl: './fan-characteristics.component.css',
+    standalone: false
 })
 export class FanCharacteristicsComponent implements OnInit{
   @Output() 
