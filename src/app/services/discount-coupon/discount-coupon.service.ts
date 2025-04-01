@@ -9,7 +9,8 @@ import { ProductInterface2 } from '../../interfaces/product/product-interface2';
 })
 export class DiscountCouponService {
 
-  private discountCouponsApi = 'http://localhost:3004/discountCoupons';
+  //private discountCouponsApi = 'http://localhost:3004/discountCoupons';
+  private discountCouponsApi = 'http://localhost:8080/inventario-app/discountCoupon';
 
   constructor(private http: HttpClient) { }
 
@@ -24,11 +25,22 @@ export class DiscountCouponService {
       const { id, ...discountCouponWithoutId } = discountCoupon;
       return this.http.put<DiscountCoupon>(this.discountCouponsApi + "/" + discountCoupon.id, discountCouponWithoutId, httpOptions);
     }
+    updateStockCoupon(id: string, newStock: number): Observable<DiscountCoupon>{
+      const httpOptions = {
+        headers: new HttpHeaders({'content-Type': 'application/json'}),
+      };
+      return this.http.put<DiscountCoupon>(this.discountCouponsApi + "/updateStock/" + id, newStock, httpOptions);
+
+    }
 
 
 //Retorna el cupon q tengan el codigo y sea valido en fecha, sbno undefined
-   getDiscountCouponByCode(discountCouponList: DiscountCoupon[], code: string){
+   /* getDiscountCouponByCode(discountCouponList: DiscountCoupon[], code: string){
     return discountCouponList.find(coupon => (coupon.code == code && new Date(coupon.endDate).getTime() >= Date.now()));
+  } */
+
+  getDiscountCouponByCode(code: string): Observable<DiscountCoupon>{
+    return this.http.get<DiscountCoupon>(this.discountCouponsApi + "/code/" + code);
   }
 
   applyDiscount(cartItems: ProductInterface2[], discountCoupon: DiscountCoupon){// aplica el descuento, el el envio gratis, retorna el subtotal del carrito con el descuento

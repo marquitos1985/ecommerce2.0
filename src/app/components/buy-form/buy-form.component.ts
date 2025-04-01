@@ -23,6 +23,8 @@ import { DiscountCouponService } from '../../services/discount-coupon/discount-c
 import { CarritoService } from '../../services/cart.service';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import { response } from 'express';
+import { error } from 'console';
 
 @Component({
     selector: 'app-purchase',
@@ -454,7 +456,8 @@ export class BuyFormComponent implements OnInit {
       if (result.isConfirmed) {
         //this.purchaseService.obtenerUltimoId().subscribe((ultimoId) => {
           const nuevaCompra: Purchase = {
-            purchaseId: 1, // Usamos el ID obtenido
+            //purchaseId: 1, // Usamos el ID obtenido
+            purchaseId: 1,
             clienteId: this.authService.getUserId(),
             productos: productos.map(({ id, quantity, price, brand, model }) => ({
               id,
@@ -470,15 +473,24 @@ export class BuyFormComponent implements OnInit {
     
           this.purchaseService.agregarCompra(nuevaCompra).subscribe(
             (response) => {
-
+              console.log("this.discountCoupon.code " + this.discountCoupon.code);
               if(this.discountCoupon.code != "" && !this.discountCoupon.infinitStock){
                 this.discountCoupon.stock--;
-                this.discountCouponService.updateDiscountCoupon(this.discountCoupon).subscribe({
+                console.log("this.discountCoupon.stock new: " + this.discountCoupon.stock);
+                /* this.discountCouponService.updateDiscountCoupon(this.discountCoupon).subscribe({
                   next: response =>{
                     console.log("Stock modificado");
                   },
                   error: error =>{
                     console.log("No se pudo modificar el stock");
+                  }
+                }); */
+                this.discountCouponService.updateStockCoupon(this.discountCoupon.id, this.discountCoupon.stock).subscribe({
+                  next: response =>{
+                    console.log("Stock de cupón modificado");
+                  },
+                  error: error =>{
+                    console.log("No se pudo modificar el stock del cupón");
                   }
                 });
               }
@@ -589,7 +601,7 @@ export class BuyFormComponent implements OnInit {
 
 
 
-  applyDiscountCoupon(){
+  /* applyDiscountCoupon(){
     this.discountCouponService.getAll().subscribe({
       next: response =>{
         let allDiscountCoupons = response;
@@ -625,7 +637,39 @@ export class BuyFormComponent implements OnInit {
         console.log("Error al obtener todos los cupones de descuento");
       }
     });
-  }
+  } */
+
+    applyDiscountCoupon(){
+
+      this.discountCouponService.getDiscountCouponByCode(this.userDataForm.get("discountCoupon")?.value).subscribe({
+        next: response =>{
+          let findedDiscountCoupon = response;
+
+          if(findedDiscountCoupon){
+            this.discountCoupon = findedDiscountCoupon;
+          }else{
+            this.discountCoupon = this.initDiscountCoupon();
+          };
+
+          if(this.discountCoupon.code != ""){
+        
+            this.subTotalPrice = this.buyService.getSubtotal(this.discountCoupon);
+            if(this.discountCoupon.freeShiping){
+              this.shippingPrice = 0;
+            }
+            
+            
+          }
+          this.getTotalBuy();
+  
+        },
+        error: error =>{
+          console.log("Error al obtener cupón por código");
+        }
+      });
+
+      
+    }
 
   private initDiscountCoupon(){
     let coupon: DiscountCoupon = {

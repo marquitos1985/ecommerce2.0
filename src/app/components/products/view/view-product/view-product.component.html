@@ -306,7 +306,8 @@
 
       </div>
     </aside>
-      <div *ngIf="_productListSubFiltered.length> 0; else noProducts">
+      <!-- <div *ngIf="_productListSubFiltered.length> 0; else noProducts"> -->
+        <div *ngIf="_productListSubFiltered.length> 0">
       <div class="cards">
       <div *ngFor="let product of _productListSubFiltered  | paginate: { itemsPerPage: 8, currentPage: currentPage }">
           <div [routerLink]="['/productDetails', product.id]" class="card">
@@ -362,13 +363,20 @@
       </div>
     </div>
     
-      <ng-template #noProducts>
+      <!-- <ng-template #noProducts>
         <div class="no-products">
           <div class="alert alert-info" role="alert">
             SIN PRODUCTOS
           </div>
         </div>
-      </ng-template>
+      </ng-template> -->
+      
+        <div *ngIf="noProducts" class="no-products">
+          <div class="alert alert-info" role="alert">
+            SIN PRODUCTOS
+          </div>
+        </div>
+     
       
   </div>
 </form>

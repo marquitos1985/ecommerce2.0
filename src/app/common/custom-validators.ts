@@ -66,7 +66,7 @@ export class CustomValidators {
 
 
 
-       static couponExists(discountCouponService: DiscountCouponService): AsyncValidatorFn{
+       /* static couponExists(discountCouponService: DiscountCouponService): AsyncValidatorFn{
         return (control: AbstractControl): Promise<ValidationErrors | null> =>{
             
             let discountCoupon = control.value;
@@ -115,6 +115,55 @@ export class CustomValidators {
                 return Promise.resolve({["emailExists"]:{value: control.value}});
             });
         }
-    }
+    } */
+
+        static couponExists(discountCouponService: DiscountCouponService): AsyncValidatorFn{
+          return (control: AbstractControl): Promise<ValidationErrors | null> =>{
+              
+              let discountCoupon = control.value;
+              //let findedDiscountCoupon: DiscountCoupon | undefined;
+              if(discountCoupon == "" || discountCoupon == undefined){
+                
+                return Promise.resolve({["couponExists"]:{value: control.value}});
+              }
+              
+              
+              return discountCouponService.getDiscountCouponByCode(discountCoupon).toPromise()
+              .then(response =>{
+                
+                let findedDiscountCoupon = response;
+                
+                console.log(findedDiscountCoupon);
+              
+                  //existe el cupon
+                  if(findedDiscountCoupon){
+                    //Tiene stock infinito
+                    if(findedDiscountCoupon.infinitStock){
+                      return {["couponExists"]:{value: control.value}};
+  
+                    //Si no tiene stock infinito
+                    }else{
+                      //si el stock es mayor a 0
+                      if(findedDiscountCoupon.stock > 0){
+                        return {["couponExists"]:{value: control.value}};
+  
+                      //Si el stock es cero
+                      }else{
+                        return null;
+                      }
+                    }
+                      
+                      
+                  }else{
+                      return null;
+                      
+                  }
+              })
+              .catch(error =>{
+                console.log(error);
+                  return Promise.resolve({["emailExists"]:{value: control.value}});
+              });
+          }
+      }
       
 }
