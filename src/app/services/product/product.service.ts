@@ -4,7 +4,7 @@ import { Brand } from '../../models/products/brands/brand';
 import { Category } from '../../models/products/categories/category';
 import { ProductInterface } from '../../interfaces/product/product-interface';
 import { Observable } from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ProductInterface2 } from '../../interfaces/product/product-interface2';
 import { ProductcCharacteristicsService } from './product-characteristics.service';
 import { FanType } from '../../models/products/characteristics/fan-type';
@@ -25,6 +25,7 @@ import { error } from 'console';
 export class ProductService {
   //private productsApiUrl = 'http://localhost:3010/products';
   private productsApiUrl = 'http://localhost:8080/inventario-app/products/getProducts';
+  private adminProductsApi = 'http://localhost:8080/inventario-app/products/adminProducts';
 
  
   private airTypesList: string[] = Object.values(AirType).sort();
@@ -132,9 +133,20 @@ export class ProductService {
     }
   
   
-    addProduct(product: ProductInterface2): Observable<ProductInterface2> {
+    /* addProduct(product: ProductInterface2): Observable<ProductInterface2> {
       return this.asyncService.addProduct(product, this.productsApiUrl);
-    }
+    } */
+
+      addProduct(product: ProductInterface2): Observable<ProductInterface2> {
+
+        const httpOptions = {
+          headers: new HttpHeaders({'content-Type': 'application/json'}),
+        };
+    
+        const { id, ...productWithoutId } = product;
+    
+        return this.http.post<ProductInterface2>(this.adminProductsApi + "/add", productWithoutId, httpOptions);
+      }
   
     _getProductById(productId: string): Observable<ProductInterface2> {
       return this.asyncService.getProductById(productId, this.productsApiUrl);
@@ -199,13 +211,23 @@ export class ProductService {
       return product;
     }
 
-    public _deleteProduct(product: ProductInterface2): Observable<ProductInterface2>{
+    /* public _deleteProduct(product: ProductInterface2): Observable<ProductInterface2>{
       return this.asyncService._deleteProduct(product.id, this.productsApiUrl);
-    }
+    } */
+      public _deleteProduct(product: ProductInterface2): Observable<ProductInterface2>{
+        return this.http.delete<ProductInterface2>(this.adminProductsApi + "/delete/" + product.id);
+      }
 
-    public _updateProduct(product: ProductInterface2): Observable<ProductInterface2>{
+    /* public _updateProduct(product: ProductInterface2): Observable<ProductInterface2>{
       return this.asyncService._updateProduct(product.id, product, this.productsApiUrl);
-    }
+    } */
+      public _updateProduct(product: ProductInterface2): Observable<ProductInterface2>{
+        const httpOptions = {
+          headers: new HttpHeaders({'content-Type': 'application/json'}),
+        };
+        const { id, ...productWithoutId } = product;
+        return this.http.put<ProductInterface2>(this.adminProductsApi + "/update/" + product.id, productWithoutId, httpOptions);
+      }
 
 
 }

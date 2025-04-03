@@ -11,6 +11,9 @@ import { Province } from '../../models/province';
 import { Usuario } from '../../models/users/user';
 import { Role } from '../../models/users/role';
 import { Router } from '@angular/router';
+import { response } from 'express';
+import { error } from 'console';
+import { LoginCredentials } from '../../models/users/login-credentials';
 
 @Component({
     selector: 'app-register',
@@ -139,28 +142,30 @@ export class RegisterComponent {
           console.error('Error al verificar el correo:', error);
         }
       ); */
-      this.registerService.checkEmailExists(email).subscribe(
-        (exists) => {
-          if (exists) {
-            alert('Este correo electrónico ya está registrado.');
-          } else {
-            
-            /* this.registerService.registerUser(nuevoUsuario).subscribe(
-              (response) => {
-                this.token = response['token'];
-                sessionStorage.setItem('token', this.token);
-                this.router.navigate(['/']);
-              },
-              (error) => {
-                console.error('Error al registrar el usuario:', error);
-              }
-            ); */
-          }
+      this.registerService.registerUser(nuevoUsuario).subscribe({
+        next: response =>{
+          console.log(response);
+          console.log("Usuario registrado con exito...");
+
+          this.authService
+                  .login( new LoginCredentials(nuevoUsuario.email, nuevoUsuario.password))
+                  .subscribe({
+                    next: (success) => {
+                      if (success) {
+                        this.router.navigate(['/']);
+                      }
+                    },
+                    error: (error) => {
+                      console.error(error);
+                    },
+                  });
         },
-        (error) => {
-          console.error('Error al verificar el correo:', error);
+        error: error =>{
+          console.log("Error al registrar usuario ");
+          console.log(error);
+          console.log(error.message);
         }
-      );
+      });
     }
   }
 }

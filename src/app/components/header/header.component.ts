@@ -5,6 +5,9 @@ import { Subscription } from 'rxjs';
 import Swal from 'sweetalert2';
 import { error } from 'console';
 import { Router } from '@angular/router';
+import { Role } from '../../models/users/role';
+import { strict } from 'assert';
+import { CookieService } from 'ngx-cookie-service';
 @Component({
     selector: 'app-header',
     templateUrl: './header.component.html',
@@ -22,7 +25,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
   constructor(
     private authService: AuthService,
     private carritoService: CarritoService,
-    private router: Router
+    private router: Router,
+    private cookieService: CookieService
   ) {}
 
   ngOnInit(): void {
@@ -88,7 +92,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
     
   }
 
-  getAdmin(): boolean {
+  /* getAdmin(): boolean {
     if (typeof window !== 'undefined') {
       const id = sessionStorage.getItem('id');
       if (id === this.adminId) {
@@ -96,7 +100,19 @@ export class HeaderComponent implements OnInit, OnDestroy {
       }
     }
     return false;
-  }
+  } */
+    getAdmin(): boolean {
+      if (typeof window !== 'undefined') {
+        const role = this.cookieService.get('role');
+        const admin =  Role.ADMIN;
+          if (role !== null && role === admin) {
+            return true;
+          }
+        
+        
+      }
+      return false;
+    }
 
   getUserName() {
     return this.authService.getUserName();

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { UserService } from '../user/user.service';
 
 export interface User {
   id?: string;
@@ -22,9 +23,11 @@ export interface User {
   providedIn: 'root',
 })
 export class RegisterService {
-  private apiUrl = 'http://localhost:3001/users';
+  //private apiUrl = 'http://localhost:3001/users';
 
-  constructor(private http: HttpClient) {}
+  private apiUrl = "http://localhost:8080/inventario-app/auth/register"; 
+
+  constructor(private http: HttpClient, private userService: UserService) {}
 
   getUsers(): Observable<User[]> {
     return this.http.get<User[]>(this.apiUrl);
@@ -49,9 +52,13 @@ export class RegisterService {
     return this.http.get<User>(`${this.apiUrl}/${id}`);
   }
 
-  checkEmailExists(email: string): Observable<boolean> {
+  /* checkEmailExists(email: string): Observable<boolean> {
     return this.http
       .get<User[]>(`${this.apiUrl}?email=${email}`)
       .pipe(map((users) => users.length > 0));
-  }
+  } */
+
+      checkEmailExists(email: string): Observable<boolean> {
+        return this.userService.getUserByEmail(email);
+      }
 }
