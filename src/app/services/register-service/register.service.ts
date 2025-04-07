@@ -25,7 +25,10 @@ export interface User {
 export class RegisterService {
   //private apiUrl = 'http://localhost:3001/users';
 
-  private apiUrl = "http://localhost:8080/inventario-app/auth/register"; 
+  //private apiUrl = "http://localhost:8080/inventario-app/auth/register"; 
+  private apiUrl = "https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/auth/register"; 
+
+  
 
   constructor(private http: HttpClient, private userService: UserService) {}
 

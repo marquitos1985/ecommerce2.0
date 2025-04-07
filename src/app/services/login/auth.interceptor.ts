@@ -70,7 +70,7 @@ export class AuthInterceptor implements HttpInterceptor{
             this.cookieService.delete('email');
             this.router.navigateByUrl("/login");
           } else if(err.status === 403){//forbidden
-            console.log("forbidden");
+            //console.log("forbidden");
             
             this.router.navigateByUrl("/login");
             this.cookieService.delete('email');

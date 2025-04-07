@@ -98,8 +98,11 @@
 
 <form action="" [formGroup]="formGrupSubfilters">
   <div style="display: flex; justify-content: flex-start">
-    <aside *ngIf="_productListFilteredByCategory.length != 0" class="aside">
-        <div *ngIf="_productListFilteredByCategory.length != 0">
+    <!-- <aside *ngIf="_productListFilteredByCategory.length != 0" class="aside"> -->
+      <aside *ngIf="_productListFilteredByCategory.length != 0 && !loading" class="aside">
+        
+          <div *ngIf="_productListSubFiltered.length != 0">
+
         <div class="filters">
           <p>Marca</p>
           <select id="brand" formControlName="brand">
@@ -307,7 +310,10 @@
       </div>
     </aside>
       <!-- <div *ngIf="_productListSubFiltered.length> 0; else noProducts"> -->
-        <div *ngIf="_productListSubFiltered.length> 0">
+        
+        <!-- <div *ngIf="_productListSubFiltered.length> 0"> -->
+          <div *ngIf="_productListSubFiltered.length> 0 && !loading">
+
       <div class="cards">
       <div *ngFor="let product of _productListSubFiltered  | paginate: { itemsPerPage: 8, currentPage: currentPage }">
           <div [routerLink]="['/productDetails', product.id]" class="card">
@@ -371,6 +377,12 @@
         </div>
       </ng-template> -->
       
+      <div *ngIf="loading" class="no-products">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+        
+      </div>
         <div *ngIf="noProducts" class="no-products">
           <div class="alert alert-info" role="alert">
             SIN PRODUCTOS

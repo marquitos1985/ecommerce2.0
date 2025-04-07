@@ -10,7 +10,8 @@ import { ProductInterface2 } from '../../interfaces/product/product-interface2';
 export class DiscountCouponService {
 
   //private discountCouponsApi = 'http://localhost:3004/discountCoupons';
-  private discountCouponsApi = 'http://localhost:8080/inventario-app/discountCoupon';
+  //private discountCouponsApi = 'http://localhost:8080/inventario-app/discountCoupon';
+  private discountCouponsApi = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/discountCoupon';
 
   constructor(private http: HttpClient) { }
 

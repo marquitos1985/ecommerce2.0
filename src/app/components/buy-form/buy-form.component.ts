@@ -487,6 +487,8 @@ export class BuyFormComponent implements OnInit {
                 }); */
                 this.discountCouponService.updateStockCoupon(this.discountCoupon.id, this.discountCoupon.stock).subscribe({
                   next: response =>{
+                    console.log("Response discount coupon stock ");
+                    console.log(response);
                     console.log("Stock de cupón modificado");
                   },
                   error: error =>{

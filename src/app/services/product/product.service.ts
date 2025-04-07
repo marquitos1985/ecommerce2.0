@@ -24,8 +24,11 @@ import { error } from 'console';
 })
 export class ProductService {
   //private productsApiUrl = 'http://localhost:3010/products';
-  private productsApiUrl = 'http://localhost:8080/inventario-app/products/getProducts';
-  private adminProductsApi = 'http://localhost:8080/inventario-app/products/adminProducts';
+  //private productsApiUrl = 'http://localhost:8080/inventario-app/products/getProducts';
+  private productsApiUrl = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/products/getProducts';
+  //private adminProductsApi = 'http://localhost:8080/inventario-app/products/adminProducts';
+  private adminProductsApi = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/products/adminProducts';
+  
 
  
   private airTypesList: string[] = Object.values(AirType).sort();

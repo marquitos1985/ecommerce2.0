@@ -65,6 +65,9 @@ export class ViewProductComponent implements OnInit, OnDestroy {
   _productListFilteredByCategory: ProductInterface2[] = [];
   _productListSubFiltered: ProductInterface2[] = [];
 
+  // AGREGADO
+  loading = false;
+
   constructor(
     private productService: ProductService,
     private authService: AuthService,
@@ -128,6 +131,10 @@ export class ViewProductComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
+    
+    // AGREGADO
+    this.loading = true;
+
     this.noProducts = false; // setea en falso el cartel de sin productos
 
     this.getTotalProduclist().subscribe({
@@ -143,17 +150,29 @@ export class ViewProductComponent implements OnInit, OnDestroy {
 
         //Asignar lista a mostrar
         this._productListSubFiltered = this._productListFilteredByCategory; // está sin subfiltros aplicados pero es lo q tiene q mostrar inicialmente
+
+        if(this.totalProductList.length > 0 ){
+          this.loading = false;
+    
+        }
       },
       error: (error) => {
         console.log('Error al obtener todos los productos...' + error);
       },
     });
 
+    
+
     //suscribe a los cambios de valor de la categoría
     this.valueChangesSubscription =
       this.formControlCategory.valueChanges.subscribe((form) => {
         // setea en falso el cartel de sin productos
         this.noProducts = false;
+
+        // AGREGADO
+        this.loading = true;
+
+
         this.currentPage = 1;
         this.getTotalProduclist().subscribe({
           next: (response) => {
@@ -180,17 +199,28 @@ export class ViewProductComponent implements OnInit, OnDestroy {
 
             //Asignar lista a mostrar
             this._productListSubFiltered = this._productListFilteredByCategory; // está sin subfiltros aplicados pero es lo q tiene q mostrar inicialmente
+
+            //AGREGADO
+            if(this._productListSubFiltered.length > 0){
+              this.loading = false;
+            }
           },
           error: (error) => {
             console.log('Error al obtener todos los productos...' + error);
           },
         });
+
+        
       });
 
     this.valueChangesformGrupSubfiltersSubscription =
       this.formGrupSubfilters.valueChanges.subscribe((form) => {
         //Obtiene la lista subfiltrada a partir de la lista por categoria seleccionada
         this.currentPage = 1;
+
+        // AGREGADO
+        this.loading = true;
+
         this._productListSubFiltered = this.getListFilteredBySubFilters(
           this._productListFilteredByCategory,
           this.formGrupSubfilters,
@@ -199,6 +229,13 @@ export class ViewProductComponent implements OnInit, OnDestroy {
         //si la lista está vacia habilita el cartel de sin productos
         if (this._productListSubFiltered.length == 0) {
           this.noProducts = true;
+          //AGREGADO
+          this.loading = false;
+          
+        }
+        //AGREGADO
+        if(this._productListSubFiltered.length > 0){
+          this.loading = false;
         }
       });
   }

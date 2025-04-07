@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {  FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {
   RegisterService,
@@ -14,6 +14,8 @@ import { Router } from '@angular/router';
 import { response } from 'express';
 import { error } from 'console';
 import { LoginCredentials } from '../../models/users/login-credentials';
+import { CookieService } from 'ngx-cookie-service';
+import { UserService } from '../../services/user/user.service';
 
 @Component({
     selector: 'app-register',
@@ -21,19 +23,23 @@ import { LoginCredentials } from '../../models/users/login-credentials';
     styleUrls: ['./register.component.css'],
     standalone: false
 })
-export class RegisterComponent {
+export class RegisterComponent implements OnInit{
   registerForm: FormGroup;
   provincesList: string[] = Object.values(Province);
   bsasCityList: string[] = Object.values(BsasCity);
   showNewPassword: boolean = false;
   showConfirmPassword: boolean = false;  
   private token: string = "";
+  private emailExists: boolean = false;
+  emailExistsMessage: string = "";
 
   constructor(
     private fb: FormBuilder,
     private registerService: RegisterService,
     private router: Router,
-    private authService: AuthService
+    private authService: AuthService,
+    private cookieService: CookieService,
+    private userService: UserService
   ) {
     this.registerForm = this.fb.group({
       name: ['', [Validators.required, CustomValidators.lettersOnly()]],
@@ -63,6 +69,14 @@ export class RegisterComponent {
     } ,
     { validators: CustomValidators.samePasswordValidator }
   );
+  }
+
+  ngOnInit(): void {
+      this.registerForm.valueChanges.subscribe(form =>{
+        this.emailExistsMessage = "";
+      });
+
+      
   }
   togglePasswordVisibility(field: 'new' | 'confirm') {
     if (field === 'new') {
@@ -146,24 +160,41 @@ export class RegisterComponent {
         next: response =>{
           console.log(response);
           console.log("Usuario registrado con exito...");
+          let loginCredentials = new LoginCredentials(nuevoUsuario.email, nuevoUsuario.password);
 
-          this.authService
-                  .login( new LoginCredentials(nuevoUsuario.email, nuevoUsuario.password))
-                  .subscribe({
-                    next: (success) => {
-                      if (success) {
-                        this.router.navigate(['/']);
-                      }
+          this.authService.login(loginCredentials).subscribe({
+                    next: response => {
+                      this.token = response['token'];
+                      this.cookieService.set('token', this.token);
+
+                      this.userService.getUserByEmail(loginCredentials.getEmail()).subscribe({
+                        next: response =>{
+                          console.log("Login" + response);
+                          this.cookieService.set('email', response['email']);
+                          this.cookieService.set('id', response['id']);
+                          this.cookieService.set('name', response['name']);
+                          this.cookieService.set('lastname', response['lastname']);
+                          this.cookieService.set('role', response['role']);
+                        }, error: error =>{
+                          console.log("No se pudieron obtener los datos del usuario...");
+                        }
+                      });
+
+                      this.router.navigate(['/']);
+                      
                     },
                     error: (error) => {
                       console.error(error);
                     },
                   });
+                  
         },
         error: error =>{
+          this.emailExistsMessage = "Email ya existente..."
           console.log("Error al registrar usuario ");
           console.log(error);
           console.log(error.message);
+          
         }
       });
     }

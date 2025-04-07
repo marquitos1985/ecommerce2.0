@@ -169,5 +169,11 @@
     <button class="button" type="submit" [disabled]="registerForm.invalid">
       Registrarme
     </button>
+
+    <div class="error-message" *ngIf="registerForm.valid">
+      {{emailExistsMessage}}
+      
+    </div>
   </div>
+
 </form>

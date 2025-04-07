@@ -12,6 +12,7 @@ export class NoAuthGuard implements CanActivate {
     if (!this.authService.isLoggedIn()) {
       return true;
     }
+    this.authService.logout();
     this.router.navigate(['/']);
     return false;
   }

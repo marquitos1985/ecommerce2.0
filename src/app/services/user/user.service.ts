@@ -8,7 +8,10 @@ import { User } from '../register-service/register.service';
 })
 export class UserService {
 
-  private apiUrl = 'http://localhost:8080/inventario-app/users';
+  //private apiUrl = 'http://localhost:8080/inventario-app/users';
+
+  private apiUrl = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/users';
+  
 
   constructor(private http: HttpClient) { }
 

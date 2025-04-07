@@ -64,7 +64,7 @@ export class LoginComponent {
             
             this.userService.getUserByEmail(loginCredentials.getEmail()).subscribe({
               next: response =>{
-                console.log(response);
+                console.log("Login" + response);
                 /* sessionStorage.setItem('email', response['email']);
                 sessionStorage.setItem('userId', response['id']);
                 sessionStorage.setItem('name', response['name']);
@@ -81,7 +81,10 @@ export class LoginComponent {
             
             this.router.navigate(['/']);
           },
-          error: (error) =>{
+        
+          error: error =>{
+            //console.log("Error login");
+            console.log(error);
             this.errorMessage = '*Email o constraseña incorrecto';
           }
         });

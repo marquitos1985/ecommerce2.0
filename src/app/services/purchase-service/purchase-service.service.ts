@@ -8,7 +8,10 @@ import { map } from 'rxjs/operators';
 })
 export class PurchaseService {
   //private apiUrl = 'http://localhost:3002/purchases';
-  private apiUrl = 'http://localhost:8080/inventario-app/purchases';
+  //private apiUrl = 'http://localhost:8080/inventario-app/purchases';
+  private apiUrl = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/purchases';
+
+  
 
   constructor(private http: HttpClient) {}
 

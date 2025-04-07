@@ -1,7 +1,7 @@
 <button class="button" (click)="goBack()">
   <img src="/arrow-left.svg" alt="volver" width="25px" />
 </button>
-<div>
+<div *ngIf="!loading">
   <div>
     <img
       src="{{ productToVievDetails?.urlImage }}"
@@ -63,4 +63,10 @@
     </div>
 
   </div>
+  
 </div>
+
+<div *ngIf="loading" class="no-products">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>

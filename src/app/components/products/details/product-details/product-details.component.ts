@@ -18,6 +18,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class ProductDetailsComponent implements OnInit, OnDestroy {
   productToVievDetails: ProductInterface2 | null = null;
   private cartSubscription: Subscription = new Subscription();
+  loading = false;
 
   constructor(
     private productService: ProductService,
@@ -31,11 +32,13 @@ export class ProductDetailsComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     
     let idProducto = this.route.snapshot.paramMap.get('id');
+    this.loading = true;
     if (idProducto) {
       this.productService
         ._getProductById(idProducto).subscribe({
           next: response =>{
             this.productToVievDetails = response;
+            this.loading = false;
           },
           error: error =>{
              console.log('Error al obtener producto', error)

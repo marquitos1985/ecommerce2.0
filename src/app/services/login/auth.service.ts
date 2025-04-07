@@ -15,7 +15,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class AuthService {
   //private apiUrl = 'http://localhost:3001';
-  private apiUrl = 'http://localhost:8080/inventario-app/auth/login';
+  //private apiUrl = 'http://localhost:8080/inventario-app/auth/login';
+  private apiUrl = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/auth/login';
+
+  
   
 
   constructor(private http: HttpClient, private router: Router, private cookieService: CookieService) {}

@@ -11,7 +11,9 @@ import { Observable } from 'rxjs';
 export class CardsService {
   //private cardsApiUrl = 'http://localhost:3000/cards';
 
-  private cardsApiUrl = 'http://localhost:8080/inventario-app/cards';
+  //private cardsApiUrl = 'http://localhost:8080/inventario-app/cards';
+  private cardsApiUrl = 'https://booming-argon-447410-c0.rj.r.appspot.com/inventario-app/cards';
+  
   constructor(private http: HttpClient) {}
 
   private getAllCardsPromise(urlApi: string): Promise<Card[] | undefined> {
