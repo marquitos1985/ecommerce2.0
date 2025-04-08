@@ -11,7 +11,8 @@
  
   <form [formGroup]="createProductFormGroup" (ngSubmit)="onSubmit()">
 
-    <img src="{{ createProductFormGroup.get('urlImage')?.value }}" alt="" />
+    <img *ngIf="createProductFormGroup && createProductFormGroup.get('urlImage')?.value"
+     src="{{ createProductFormGroup.get('urlImage')?.value }}" alt="" />
     <p>Categoría</p>
     <select id="category" formControlName="category">
       <option
